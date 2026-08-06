@@ -1,0 +1,191 @@
+import brandData from "../../../.data/brands.json";
+import catalogueData from "../../../.data/catalogue.json";
+import type {
+  Brand,
+  Category,
+  Product,
+  ProductQuery,
+  ProductSort,
+} from "./types";
+
+const CATEGORY_RULES: Array<[string, RegExp]> = [
+  ["Laptops", /macbook|thinkpad|laptop|gaming a(?:16|18)/i],
+  ["Desktop PCs", /desktop pc/i],
+  ["Phones", /iphone|poco|xiaomi (?:17t|redmi)|samsung galaxy a\d/i],
+  ["Tablets & Wearables", /ipad|tablet|surface pro|watch|smart ring/i],
+  [
+    "Gaming",
+    /gaming|playstation|ps5|xbox|nintendo|switch|motogp|ufc|wolverine|assassin/i,
+  ],
+  [
+    "TV & Audio",
+    /tv|qled|oled|ambilight|airpods|soundbar|subwoofer|headset|speakers/i,
+  ],
+  ["Home & Smart", /vacuum|airwrap|creami|fan|tuya|smart|intercom/i],
+  ["Computing & Accessories", /./i],
+];
+
+const NAVIGATION_CATEGORIES = [
+  "Laptops",
+  "Desktop PCs",
+  "Phones",
+  "Tablets & Wearables",
+  "Gaming",
+  "TV & Audio",
+  "Home & Smart",
+  "Computing & Accessories",
+] as const;
+
+const knownBrandNames = brandData.brands.map((brand) => brand.name);
+const extraBrandNames = [
+  "Acer",
+  "AOC",
+  "Apple",
+  "Bose",
+  "Canon",
+  "Crucial",
+  "DJI",
+  "Dyson",
+  "Fujifilm",
+  "Gigabyte",
+  "HP",
+  "JBL",
+  "Lenovo",
+  "Microsoft",
+  "Nintendo",
+  "Philips",
+  "Razer",
+  "Samsung",
+  "Xiaomi",
+];
+const brandNames = [...new Set([...knownBrandNames, ...extraBrandNames])].sort(
+  (first, second) => second.length - first.length,
+);
+
+function toSlug(value: string) {
+  return value
+    .toLocaleLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+}
+
+function publicAssetPath(path: string) {
+  return path.replace(/^\/?\.data\//, "/assets/");
+}
+
+function inferBrand(name: string) {
+  return (
+    brandNames.find((brand) =>
+      name.toLocaleLowerCase().startsWith(brand.toLocaleLowerCase()),
+    ) ?? "Other"
+  );
+}
+
+function inferCategory(name: string) {
+  return (
+    CATEGORY_RULES.find(([, pattern]) => pattern.test(name))?.[0] ??
+    "Computing & Accessories"
+  );
+}
+
+function inferSpecification(name: string) {
+  const parts = name.split(/\s+(?=\d)|\s+[-–]\s+/).slice(1);
+  return parts.length > 0 ? parts.join(" · ") : null;
+}
+
+const products: Product[] = catalogueData.products.map((item) => {
+  const category = inferCategory(item.name);
+
+  return {
+    id: item.id,
+    slug: toSlug(item.slug || item.name),
+    name: item.name,
+    brand: inferBrand(item.name),
+    category,
+    categorySlug: toSlug(category),
+    price: item.price,
+    currency: "EUR",
+    image: publicAssetPath(item.image),
+    specification: inferSpecification(item.name),
+  };
+});
+
+const brands: Brand[] = brandData.brands.map((brand) => ({
+  name: brand.name,
+  slug: toSlug(brand.query),
+  image: publicAssetPath(brand.image),
+}));
+
+function compareProducts(sort: ProductSort) {
+  switch (sort) {
+    case "price-asc":
+      return (first: Product, second: Product) => first.price - second.price;
+    case "price-desc":
+      return (first: Product, second: Product) => second.price - first.price;
+    case "name-asc":
+      return (first: Product, second: Product) =>
+        first.name.localeCompare(second.name);
+    default:
+      return (first: Product, second: Product) =>
+        first.name.localeCompare(second.name);
+  }
+}
+
+export function getProducts(query: ProductQuery = {}) {
+  const search = query.search?.trim().toLocaleLowerCase();
+  const category = query.category ? toSlug(query.category) : undefined;
+  const brand = query.brand ? toSlug(query.brand) : undefined;
+
+  return products
+    .filter((product) => {
+      const matchesSearch =
+        !search ||
+        [product.name, product.brand, product.category, product.specification]
+          .filter((value): value is string => value !== null)
+          .some((value) => value.toLocaleLowerCase().includes(search));
+      const matchesCategory = !category || product.categorySlug === category;
+      const matchesBrand = !brand || toSlug(product.brand) === brand;
+
+      return matchesSearch && matchesCategory && matchesBrand;
+    })
+    .sort(compareProducts(query.sort ?? "featured"));
+}
+
+export function getProductBySlug(slug: string) {
+  return products.find((product) => product.slug === toSlug(slug));
+}
+
+export function getCategories() {
+  return NAVIGATION_CATEGORIES.map((name) => ({
+    name,
+    slug: toSlug(name),
+    count: products.filter((product) => product.category === name).length,
+  })).filter((category) => category.count > 0) as Category[];
+}
+
+export function getCategoryBySlug(slug: string) {
+  return getCategories().find((category) => category.slug === toSlug(slug));
+}
+
+export function getBrands() {
+  return brands;
+}
+
+export function getRelatedProducts(product: Product, limit = 4) {
+  return products
+    .filter((candidate) => candidate.id !== product.id)
+    .sort((first, second) => {
+      const firstScore =
+        Number(first.category === product.category) +
+        Number(first.brand === product.brand);
+      const secondScore =
+        Number(second.category === product.category) +
+        Number(second.brand === product.brand);
+      return secondScore - firstScore || first.name.localeCompare(second.name);
+    })
+    .slice(0, limit);
+}
+
+export { publicAssetPath, toSlug };

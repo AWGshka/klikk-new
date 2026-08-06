@@ -7,147 +7,123 @@
   },
   "sectionArtwork": {
     "name": "Brand list section heading",
-    "image": ".data/brand-assets/section-art/2025-10-03-2f6-brand_list_title_image.png",
-    "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2025-10-03/2f6-brand_list_title_image.png"
+    "image": ".data/brand-assets/section-art/brand-heading-024.png"
   },
   "brands": [
     {
       "name": "Apple",
       "query": "apple",
-      "image": ".data/brand-assets/logos/2023-08-24-c00-apple.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/c00-apple.png"
+      "image": ".data/brand-assets/logos/brand-019.png"
     },
     {
       "name": "Roborock",
       "query": "roborock",
-      "image": ".data/brand-assets/logos/2023-08-24-38a-roborock.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/38a-roborock.png"
+      "image": ".data/brand-assets/logos/brand-008.png"
     },
     {
       "name": "Samsung",
       "query": "samsung",
-      "image": ".data/brand-assets/logos/2023-08-24-525-samsung.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/525-samsung.png"
+      "image": ".data/brand-assets/logos/brand-011.png"
     },
     {
       "name": "Xiaomi",
       "query": "xiaomi",
-      "image": ".data/brand-assets/logos/2023-08-24-1b3-xiaomi.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/1b3-xiaomi.png"
+      "image": ".data/brand-assets/logos/brand-002.png"
     },
     {
       "name": "iiyama",
       "query": "iiyama",
-      "image": ".data/brand-assets/logos/2025-05-13-8a0-iiyama.png",
-      "sourceImage": " https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2025-05-13/8a0-iiyama.png"
+      "image": ".data/brand-assets/logos/brand-023.png"
     },
     {
       "name": "Gigabyte",
       "query": "gigabyte",
-      "image": ".data/brand-assets/logos/2023-08-24-813-gigabyte.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/813-gigabyte.png"
+      "image": ".data/brand-assets/logos/brand-013.png"
     },
     {
       "name": "Lenovo",
       "query": "lenovo",
-      "image": ".data/brand-assets/logos/2023-08-24-fb7-lenovo.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/fb7-lenovo.png"
+      "image": ".data/brand-assets/logos/brand-022.png"
     },
     {
       "name": "Razer",
       "query": "razer",
-      "image": ".data/brand-assets/logos/2023-08-24-442-razer.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/442-razer.png"
+      "image": ".data/brand-assets/logos/brand-010.png"
     },
     {
       "name": "Microsoft",
       "query": "microsoft",
-      "image": ".data/brand-assets/logos/2023-08-24-2bd-microsoft.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/2bd-microsoft.png"
+      "image": ".data/brand-assets/logos/brand-004.png"
     },
     {
       "name": "realme",
       "query": "realme",
-      "image": ".data/brand-assets/logos/2023-08-24-dd4-realme.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/dd4-realme.png"
+      "image": ".data/brand-assets/logos/brand-021.png"
     },
     {
       "name": "OnePlus",
       "query": "oneplus",
-      "image": ".data/brand-assets/logos/2023-08-24-a39-oneplus.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/a39-oneplus.png"
+      "image": ".data/brand-assets/logos/brand-016.png"
     },
     {
       "name": "OPPO",
       "query": "oppo",
-      "image": ".data/brand-assets/logos/2023-08-24-d48-oppo.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/d48-oppo.png"
+      "image": ".data/brand-assets/logos/brand-020.png"
     },
     {
       "name": "Google Pixel",
       "query": "google-pixel",
-      "image": ".data/brand-assets/logos/2023-08-24-038-google-pixel.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/038-google-pixel.png"
+      "image": ".data/brand-assets/logos/brand-001.png"
     },
     {
       "name": "Philips",
       "query": "philips",
-      "image": ".data/brand-assets/logos/2023-08-24-3b1-philips.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/3b1-philips.png"
+      "image": ".data/brand-assets/logos/brand-009.png"
     },
     {
       "name": "Dyson",
       "query": "dyson",
-      "image": ".data/brand-assets/logos/2023-08-24-9e2-dyson.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/9e2-dyson.png"
+      "image": ".data/brand-assets/logos/brand-015.png"
     },
     {
       "name": "Spigen",
       "query": "spigen",
-      "image": ".data/brand-assets/logos/2023-08-24-337-spigen.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/337-spigen.png"
+      "image": ".data/brand-assets/logos/brand-005.png"
     },
     {
       "name": "3mk",
       "query": "3mk",
-      "image": ".data/brand-assets/logos/2023-08-24-344-3mk.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/344-3mk.png"
+      "image": ".data/brand-assets/logos/brand-006.png"
     },
     {
       "name": "Nintendo",
       "query": "nintendo",
-      "image": ".data/brand-assets/logos/2023-08-24-28d-nintendo.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/28d-nintendo.png"
+      "image": ".data/brand-assets/logos/brand-003.png"
     },
     {
       "name": "Acer",
       "query": "acer",
-      "image": ".data/brand-assets/logos/2023-08-24-a72-acer.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/a72-acer.png"
+      "image": ".data/brand-assets/logos/brand-017.png"
     },
     {
       "name": "HP",
       "query": "hp",
-      "image": ".data/brand-assets/logos/2023-08-24-987-hp.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/987-hp.png"
+      "image": ".data/brand-assets/logos/brand-014.png"
     },
     {
       "name": "Anker",
       "query": "anker",
-      "image": ".data/brand-assets/logos/2023-08-24-b81-anker.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/b81-anker.png"
+      "image": ".data/brand-assets/logos/brand-018.png"
     },
     {
       "name": "Green Cell",
       "query": "green-cell",
-      "image": ".data/brand-assets/logos/2023-08-24-5d9-green-cell.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/5d9-green-cell.png"
+      "image": ".data/brand-assets/logos/brand-012.png"
     },
     {
       "name": "DJI",
       "query": "dji",
-      "image": ".data/brand-assets/logos/2023-08-24-361-dji.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/361-dji.png"
+      "image": ".data/brand-assets/logos/brand-007.png"
     }
   ]
 }

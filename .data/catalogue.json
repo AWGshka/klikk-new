@@ -12,8 +12,7 @@
       "name": "A4 Copy Paper Ream x500",
       "price": 4.95,
       "currency": "EUR",
-      "image": ".data/products/3945-a4-copy-paper-ream-x500-1504176870-152.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/3945/a4-copy-paper-ream-x500-1504176870-152.png"
+      "image": ".data/products/product-3945.png"
     },
     {
       "id": "23328",
@@ -21,8 +20,7 @@
       "name": "Apple 20W USB-C Power Adapter",
       "price": 25,
       "currency": "EUR",
-      "image": ".data/products/23328-apple-20w-usb-type-c-power-adapter-1606998718-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/23328/apple-20w-usb-type-c-power-adapter-1606998718-1.png"
+      "image": ".data/products/product-23328.png"
     },
     {
       "id": "27479",
@@ -30,8 +28,7 @@
       "name": "JBL Quantum 100X Multi-Platform Gaming Headset Black & Green (Designed for XBOX)",
       "price": 29.95,
       "currency": "EUR",
-      "image": ".data/products/27479-jbl-quantum-100x-multi-platform-gaming-headset-black-green-designed-for-xbox-1673349524-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/27479/jbl-quantum-100x-multi-platform-gaming-headset-black-green-designed-for-xbox-1673349524-1.png"
+      "image": ".data/products/product-27479.png"
     },
     {
       "id": "27481",
@@ -39,8 +36,7 @@
       "name": "JBL Quantum 910 Multi-Platform Noise Cancelling Wireless Gaming Headset Black",
       "price": 249,
       "currency": "EUR",
-      "image": ".data/products/27481-jbl-quantum-910-multi-platform-noise-cancelling-wireless-gaming-headset-black-1673351818-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/27481/jbl-quantum-910-multi-platform-noise-cancelling-wireless-gaming-headset-black-1673351818-1.png"
+      "image": ".data/products/product-27481.png"
     },
     {
       "id": "28657",
@@ -48,8 +44,7 @@
       "name": "JBL Quantum 910P Multi-Platform Noise Cancelling Wireless Gaming Headset White & Blue (Designed for PlayStation)",
       "price": 299,
       "currency": "EUR",
-      "image": ".data/products/28657-jbl-quantum-910p-multi-platform-noise-cancelling-wireless-gaming-headset-white-blue-designed-for-playstation-1684597043-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/28657/jbl-quantum-910p-multi-platform-noise-cancelling-wireless-gaming-headset-white-blue-designed-for-playstation-1684597043-1.png"
+      "image": ".data/products/product-28657.png"
     },
     {
       "id": "32294",
@@ -57,8 +52,7 @@
       "name": "Apple iPhone 16 128GB Ultramarine (Blue)",
       "price": 799,
       "currency": "EUR",
-      "image": ".data/products/32294-appleiphone16128gbultramarineblue-1725968703-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/32294/appleiphone16128gbultramarineblue-1725968703-1.png"
+      "image": ".data/products/product-32294.png"
     },
     {
       "id": "32295",
@@ -66,8 +60,7 @@
       "name": "Apple iPhone 16 128GB Teal",
       "price": 799,
       "currency": "EUR",
-      "image": ".data/products/32295-appleiphone16128gbteal-1725968837-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/32295/appleiphone16128gbteal-1725968837-1.png"
+      "image": ".data/products/product-32295.png"
     },
     {
       "id": "33038",
@@ -75,8 +68,7 @@
       "name": "Rock 5 Desktop PC (customisable)",
       "price": 1140.44,
       "currency": "EUR",
-      "image": ".data/products/33038-rock5desktoppccustomisable-1733491058-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/33038/rock5desktoppccustomisable-1733491058-1.png"
+      "image": ".data/products/product-33038.png"
     },
     {
       "id": "33039",
@@ -84,8 +76,7 @@
       "name": "Rock 7 Desktop PC (customisable)",
       "price": 1199,
       "currency": "EUR",
-      "image": ".data/products/33039-rock7desktoppccustomisable-1733491193-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/33039/rock7desktoppccustomisable-1733491193-1.png"
+      "image": ".data/products/product-33039.png"
     },
     {
       "id": "33041",
@@ -93,8 +84,7 @@
       "name": "Rock 7 Ultra Desktop PC (customisable)",
       "price": 1675.6,
       "currency": "EUR",
-      "image": ".data/products/33041-rock7ultradesktoppccustomisable-1742560724-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/33041/rock7ultradesktoppccustomisable-1742560724-1.png"
+      "image": ".data/products/product-33041.png"
     },
     {
       "id": "34298",
@@ -102,8 +92,7 @@
       "name": "Xiaomi X10 Robot Vacuum Cleaner with Automatic Dust Emptying Dock - White",
       "price": 389,
       "currency": "EUR",
-      "image": ".data/products/34298-xiaomix10robotvacuumcleanerwhite-1743704578-5.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/34298/xiaomix10robotvacuumcleanerwhite-1743704578-5.png"
+      "image": ".data/products/product-34298.png"
     },
     {
       "id": "34682",
@@ -111,8 +100,7 @@
       "name": "Dyson Airwrap i.d. Multi-styler and dryer Curly & Coily - Violet / Topaz",
       "price": 349,
       "currency": "EUR",
-      "image": ".data/products/34682-newdysonairwrapidmultistyleranddryerstraightwavyviolettopaz-1751015806-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/34682/newdysonairwrapidmultistyleranddryerstraightwavyviolettopaz-1751015806-1.png"
+      "image": ".data/products/product-34682.png"
     },
     {
       "id": "34773",
@@ -120,8 +108,7 @@
       "name": "Razer Basilisk V3 Pro Wireless Chroma Gaming Mouse White",
       "price": 179.99,
       "currency": "EUR",
-      "image": ".data/products/34773-razerbasiliskv3prowirelesschromagamingmousewhite-1750409039-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/34773/razerbasiliskv3prowirelesschromagamingmousewhite-1750409039-1.png"
+      "image": ".data/products/product-34773.png"
     },
     {
       "id": "35528",
@@ -129,8 +116,7 @@
       "name": "Apple iPhone 17 Pro Max 256GB Cosmic Orange",
       "price": 1499,
       "currency": "EUR",
-      "image": ".data/products/35528-appleiphone17promax256gbcosmicorange-1757456752-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/35528/appleiphone17promax256gbcosmicorange-1757456752-1.png"
+      "image": ".data/products/product-35528.png"
     },
     {
       "id": "35529",
@@ -138,8 +124,7 @@
       "name": "Apple iPhone 17 Pro Max 256GB Deep Blue",
       "price": 1499,
       "currency": "EUR",
-      "image": ".data/products/35529-appleiphone17promax256gbdeepblue-1757456289-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/35529/appleiphone17promax256gbdeepblue-1757456289-1.png"
+      "image": ".data/products/product-35529.png"
     },
     {
       "id": "37977",
@@ -147,8 +132,7 @@
       "name": "Razer Leviathan V2 Speakers",
       "price": 279,
       "currency": "EUR",
-      "image": ".data/products/37977-razerleviathanv2speakers-1769772362-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/37977/razerleviathanv2speakers-1769772362-1.png"
+      "image": ".data/products/product-37977.png"
     },
     {
       "id": "37980",
@@ -156,8 +140,7 @@
       "name": "Canon Zoemini 2 Instant Camera Printer Pearl White",
       "price": 129,
       "currency": "EUR",
-      "image": ".data/products/37980-canonzoemini2instantcameraprinterpearlwhite-1769783791-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/37980/canonzoemini2instantcameraprinterpearlwhite-1769783791-1.png"
+      "image": ".data/products/product-37980.png"
     },
     {
       "id": "37981",
@@ -165,8 +148,7 @@
       "name": "Canon Zoemini 2 Instant Camera Printer Navy Blue",
       "price": 129,
       "currency": "EUR",
-      "image": ".data/products/37981-canonzoemini2instantcameraprinternavyblue-1769783934-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/37981/canonzoemini2instantcameraprinternavyblue-1769783934-1.png"
+      "image": ".data/products/product-37981.png"
     },
     {
       "id": "38067",
@@ -174,8 +156,7 @@
       "name": "Razer Orochi V2 White Mouse",
       "price": 84.99,
       "currency": "EUR",
-      "image": ".data/products/38067-razerorochiv2whitemouse-1773061065-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/38067/razerorochiv2whitemouse-1773061065-1.png"
+      "image": ".data/products/product-38067.png"
     },
     {
       "id": "38096",
@@ -183,8 +164,7 @@
       "name": "Yesido IO33 Smart Ring Silver Size 11",
       "price": 14.9,
       "currency": "EUR",
-      "image": ".data/products/38096-yesidoio33smartringsilversize11-1771333593-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/38096/yesidoio33smartringsilversize11-1771333593-1.png"
+      "image": ".data/products/product-38096.png"
     },
     {
       "id": "38489",
@@ -192,8 +172,7 @@
       "name": "HP 220X (W2202X) Yellow Toner Cartridge - Original",
       "price": 235,
       "currency": "EUR",
-      "image": ".data/products/38489-hp220xw2202xyellow-1773392653-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/38489/hp220xw2202xyellow-1773392653-1.png"
+      "image": ".data/products/product-38489.png"
     },
     {
       "id": "38676",
@@ -201,8 +180,7 @@
       "name": "Kyocera PA4500x Mono SFP (TK-3400) Printer",
       "price": 659,
       "currency": "EUR",
-      "image": ".data/products/38676-kyocerapa4500xmonosfptk3400printer-1779089524-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/38676/kyocerapa4500xmonosfptk3400printer-1779089524-1.png"
+      "image": ".data/products/product-38676.png"
     },
     {
       "id": "38685",
@@ -210,8 +188,7 @@
       "name": "HP 220X (W2203X) Magenta Toner Cartridge - Original",
       "price": 235,
       "currency": "EUR",
-      "image": ".data/products/38685-hp220xw2203xmagenta-1779096867-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/38685/hp220xw2203xmagenta-1779096867-1.png"
+      "image": ".data/products/product-38685.png"
     },
     {
       "id": "38693",
@@ -219,8 +196,7 @@
       "name": "Canon PG-540L Black (Twin Pack)",
       "price": 49,
       "currency": "EUR",
-      "image": ".data/products/38693-canonpg540lblacktwinpack-1774354713-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/38693/canonpg540lblacktwinpack-1774354713-1.png"
+      "image": ".data/products/product-38693.png"
     },
     {
       "id": "38770",
@@ -228,8 +204,7 @@
       "name": "Apple MacBook Pro 16 inch M5 Max 18/32-core 36GB 2TB Space Black",
       "price": 5199,
       "currency": "EUR",
-      "image": ".data/products/38770-applemacbookpro16inchm5max1832core36gb2tbspaceblack-1776671115-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/38770/applemacbookpro16inchm5max1832core36gb2tbspaceblack-1776671115-1.png"
+      "image": ".data/products/product-38770.png"
     },
     {
       "id": "38771",
@@ -237,8 +212,7 @@
       "name": "Apple MacBook Pro 16 inch M5 Max 18/32-core 36GB 2TB Silver",
       "price": 5199,
       "currency": "EUR",
-      "image": ".data/products/38771-applemacbookpro16inchm5max1832core36gb2tbsilver-1776671274-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/38771/applemacbookpro16inchm5max1832core36gb2tbsilver-1776671274-1.png"
+      "image": ".data/products/product-38771.png"
     },
     {
       "id": "38772",
@@ -246,8 +220,7 @@
       "name": "Apple MacBook Pro 16 inch M5 Max 18/40-core 48GB 2TB Space Black",
       "price": 5799,
       "currency": "EUR",
-      "image": ".data/products/38772-applemacbookpro16inchm5max1840core48gb2tbspaceblack-1776671541-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/38772/applemacbookpro16inchm5max1840core48gb2tbspaceblack-1776671541-1.png"
+      "image": ".data/products/product-38772.png"
     },
     {
       "id": "38791",
@@ -255,8 +228,7 @@
       "name": "Apple iPad Air 13 inch (M4) Wi-Fi 128GB Starlight",
       "price": 1039,
       "currency": "EUR",
-      "image": ".data/products/38791-appleipadair13inchm4wifi128gbstarlight-1776680037-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/38791/appleipadair13inchm4wifi128gbstarlight-1776680037-1.png"
+      "image": ".data/products/product-38791.png"
     },
     {
       "id": "38792",
@@ -264,8 +236,7 @@
       "name": "Apple iPad Air 13 inch (M4) Wi-Fi 128GB Blue",
       "price": 1039,
       "currency": "EUR",
-      "image": ".data/products/38792-appleipadair13inchm4wifi128gbblue-1776680271-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/38792/appleipadair13inchm4wifi128gbblue-1776680271-1.png"
+      "image": ".data/products/product-38792.png"
     },
     {
       "id": "38793",
@@ -273,8 +244,7 @@
       "name": "Apple iPad Air 13 inch (M4) Wi-Fi 128GB Purple",
       "price": 1039,
       "currency": "EUR",
-      "image": ".data/products/38793-appleipadair13inchm4wifi128gbpurple-1776680439-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/38793/appleipadair13inchm4wifi128gbpurple-1776680439-1.png"
+      "image": ".data/products/product-38793.png"
     },
     {
       "id": "39007",
@@ -282,8 +252,7 @@
       "name": "Rhinoshield CrashGuard NX Bumper Case for Apple Watch SE3 40mm Black",
       "price": 17.99,
       "currency": "EUR",
-      "image": ".data/products/39007-rhinoshieldcrashguardnxbumpercaseforapplewatchse340mmblack-1776429265-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39007/rhinoshieldcrashguardnxbumpercaseforapplewatchse340mmblack-1776429265-1.png"
+      "image": ".data/products/product-39007.png"
     },
     {
       "id": "39008",
@@ -291,8 +260,7 @@
       "name": "Rhinoshield CrashGuard NX Bumper Case for Apple Watch SE3 40mm Blush Pink",
       "price": 17.99,
       "currency": "EUR",
-      "image": ".data/products/39008-rhinoshieldcrashguardnxbumpercaseforapplewatchse340mmblushpink-1776429306-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39008/rhinoshieldcrashguardnxbumpercaseforapplewatchse340mmblushpink-1776429306-1.png"
+      "image": ".data/products/product-39008.png"
     },
     {
       "id": "39009",
@@ -300,8 +268,7 @@
       "name": "Rhinoshield CrashGuard NX Bumper Case for Apple Watch SE3 40mm Ash Grey",
       "price": 17.99,
       "currency": "EUR",
-      "image": ".data/products/39009-rhinoshieldcrashguardnxbumpercaseforapplewatchse340mmashgrey-1776429381-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39009/rhinoshieldcrashguardnxbumpercaseforapplewatchse340mmashgrey-1776429381-1.png"
+      "image": ".data/products/product-39009.png"
     },
     {
       "id": "39065",
@@ -309,8 +276,7 @@
       "name": "Nintendo Switch OLED Console Zelda Limited Edition",
       "price": 349,
       "currency": "EUR",
-      "image": ".data/products/39065-nintendoswitcholedconsolezeldalimitededition-1776935932-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39065/nintendoswitcholedconsolezeldalimitededition-1776935932-1.png"
+      "image": ".data/products/product-39065.png"
     },
     {
       "id": "39086",
@@ -318,8 +284,7 @@
       "name": "Apple AirPods Max 2 Blue",
       "price": 599,
       "currency": "EUR",
-      "image": ".data/products/39086-appleairpodsmax2blue-1777449104-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39086/appleairpodsmax2blue-1777449104-1.png"
+      "image": ".data/products/product-39086.png"
     },
     {
       "id": "39088",
@@ -327,8 +292,7 @@
       "name": "Apple AirPods Max 2 Purple",
       "price": 599,
       "currency": "EUR",
-      "image": ".data/products/39088-appleairpodsmax2purple-1777449196-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39088/appleairpodsmax2purple-1777449196-1.png"
+      "image": ".data/products/product-39088.png"
     },
     {
       "id": "39089",
@@ -336,8 +300,7 @@
       "name": "MotoGP 26 (Nintendo Switch 2)",
       "price": 55,
       "currency": "EUR",
-      "image": ".data/products/39089-motogp26nintendoswitch2-1777449948-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39089/motogp26nintendoswitch2-1777449948-1.png"
+      "image": ".data/products/product-39089.png"
     },
     {
       "id": "39105",
@@ -345,8 +308,7 @@
       "name": "Crucial X9 1TB USB 3.2 Gen 2 External SSD",
       "price": 169,
       "currency": "EUR",
-      "image": ".data/products/39105-crucialx91tbusb32gen2externalssd-1777465664-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39105/crucialx91tbusb32gen2externalssd-1777465664-1.png"
+      "image": ".data/products/product-39105.png"
     },
     {
       "id": "39106",
@@ -354,8 +316,7 @@
       "name": "Crucial X9 2TB USB 3.2 Gen 2 External SSD",
       "price": 279,
       "currency": "EUR",
-      "image": ".data/products/39106-crucialx92tbusb32gen2externalssd-1777465700-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39106/crucialx92tbusb32gen2externalssd-1777465700-1.png"
+      "image": ".data/products/product-39106.png"
     },
     {
       "id": "39111",
@@ -363,8 +324,7 @@
       "name": "007 First Light (PS5)",
       "price": 70,
       "currency": "EUR",
-      "image": ".data/products/39111-ps5007firstlight-1777472393-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39111/ps5007firstlight-1777472393-1.png"
+      "image": ".data/products/product-39111.png"
     },
     {
       "id": "39184",
@@ -372,8 +332,7 @@
       "name": "DJI Neo 2 Fly More Combo",
       "price": 399,
       "currency": "EUR",
-      "image": ".data/products/39184-djineo2flymorecombo-1777987442-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39184/djineo2flymorecombo-1777987442-1.png"
+      "image": ".data/products/product-39184.png"
     },
     {
       "id": "39283",
@@ -381,8 +340,7 @@
       "name": "Ubiquiti UniFi Etherlighting 2.5mm Cable 0.3m White",
       "price": 6.9,
       "currency": "EUR",
-      "image": ".data/products/39283-ubiquitiunifietherlighting25mmcable03mwhite-1778752094-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39283/ubiquitiunifietherlighting25mmcable03mwhite-1778752094-1.png"
+      "image": ".data/products/product-39283.png"
     },
     {
       "id": "39289",
@@ -390,8 +348,7 @@
       "name": "Dobe Silicone Case for Nintendo Switch 2 Black",
       "price": 14.5,
       "currency": "EUR",
-      "image": ".data/products/39289-dobesiliconecasefornintendoswitch2black-1778757733-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39289/dobesiliconecasefornintendoswitch2black-1778757733-1.png"
+      "image": ".data/products/product-39289.png"
     },
     {
       "id": "39374",
@@ -399,8 +356,7 @@
       "name": "Ubiquiti UniFi Etherlighting 2.5mm Cable 0.15m White",
       "price": 4.9,
       "currency": "EUR",
-      "image": ".data/products/39374-ubiquitiunifietherlighting25mmcable015mwhite-1779274733-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39374/ubiquitiunifietherlighting25mmcable015mwhite-1779274733-1.png"
+      "image": ".data/products/product-39374.png"
     },
     {
       "id": "39413",
@@ -408,8 +364,7 @@
       "name": "Huzaro Combat 3.1 Gaming Chair Pixel",
       "price": 149,
       "currency": "EUR",
-      "image": ".data/products/39413-huzarocombat31gamingchairpixel-1779449365-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39413/huzarocombat31gamingchairpixel-1779449365-1.png"
+      "image": ".data/products/product-39413.png"
     },
     {
       "id": "39414",
@@ -417,8 +372,7 @@
       "name": "Huzaro Combat 7.6 RGB Gaming Chair w Fan Black",
       "price": 279,
       "currency": "EUR",
-      "image": ".data/products/39414-huzarocombat76rgbgamingchairwfanblack-1779449632-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39414/huzarocombat76rgbgamingchairwfanblack-1779449632-1.png"
+      "image": ".data/products/product-39414.png"
     },
     {
       "id": "39415",
@@ -426,8 +380,7 @@
       "name": "Huzaro Ranger 1.0 Kids Spiderman Chair",
       "price": 139,
       "currency": "EUR",
-      "image": ".data/products/39415-huzaroranger10kidsspidermanchair-1779450256-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39415/huzaroranger10kidsspidermanchair-1779450256-1.png"
+      "image": ".data/products/product-39415.png"
     },
     {
       "id": "39469",
@@ -435,8 +388,7 @@
       "name": "BWOO iPhone 17 Screen Protector",
       "price": 11.9,
       "currency": "EUR",
-      "image": ".data/products/39469-bwooiphone17screenprotector-1779804222-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39469/bwooiphone17screenprotector-1779804222-1.png"
+      "image": ".data/products/product-39469.png"
     },
     {
       "id": "39590",
@@ -444,8 +396,7 @@
       "name": "Wolverine (PS5)",
       "price": 69.95,
       "currency": "EUR",
-      "image": ".data/products/39590-ps5wolverine-1780580217-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39590/ps5wolverine-1780580217-1.png"
+      "image": ".data/products/product-39590.png"
     },
     {
       "id": "39592",
@@ -453,8 +404,7 @@
       "name": "Seagate IronWolf 4TB SATA III NAS HDD",
       "price": 229,
       "currency": "EUR",
-      "image": ".data/products/39592-seagateironwolf4tbsataiiinashdd-1780581435-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39592/seagateironwolf4tbsataiiinashdd-1780581435-1.png"
+      "image": ".data/products/product-39592.png"
     },
     {
       "id": "39593",
@@ -462,8 +412,7 @@
       "name": "Seagate IronWolf 8TB SATA III NAS HDD",
       "price": 379,
       "currency": "EUR",
-      "image": ".data/products/39593-seagateironwolf8tbsataiiinashdd-1780581578-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39593/seagateironwolf8tbsataiiinashdd-1780581578-1.png"
+      "image": ".data/products/product-39593.png"
     },
     {
       "id": "39609",
@@ -471,8 +420,7 @@
       "name": "Synology DS223 2-bay NAS Enclosure",
       "price": 309,
       "currency": "EUR",
-      "image": ".data/products/39609-synologyds2232baynasenclosure-1780660316-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39609/synologyds2232baynasenclosure-1780660316-1.png"
+      "image": ".data/products/product-39609.png"
     },
     {
       "id": "39610",
@@ -480,8 +428,7 @@
       "name": "Synology DS225+ 2-bay NAS Enclosure",
       "price": 399,
       "currency": "EUR",
-      "image": ".data/products/39610-synologyds2252baynasenclosure-1780664056-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39610/synologyds2252baynasenclosure-1780664056-1.png"
+      "image": ".data/products/product-39610.png"
     },
     {
       "id": "39611",
@@ -489,8 +436,7 @@
       "name": "Synology DS423 4-bay NAS Enclosure",
       "price": 459,
       "currency": "EUR",
-      "image": ".data/products/39611-synologyds4234baynasenclosure-1780664951-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39611/synologyds4234baynasenclosure-1780664951-1.png"
+      "image": ".data/products/product-39611.png"
     },
     {
       "id": "39617",
@@ -498,8 +444,7 @@
       "name": "Insta360 X5 Invisible Dive Case",
       "price": 119,
       "currency": "EUR",
-      "image": ".data/products/39617-insta360x5invisibledivecase-1780903247-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39617/insta360x5invisibledivecase-1780903247-1.png"
+      "image": ".data/products/product-39617.png"
     },
     {
       "id": "39624",
@@ -507,8 +452,7 @@
       "name": "Samsung Galaxy Watch Ultra (2025) LTE 47mm Titanium Blue w/ Blue Band",
       "price": 449,
       "currency": "EUR",
-      "image": ".data/products/39624-samsunggalaxywatchultra2025lte47mmtitaniumbluewblueband-1780907876-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39624/samsunggalaxywatchultra2025lte47mmtitaniumbluewblueband-1780907876-1.png"
+      "image": ".data/products/product-39624.png"
     },
     {
       "id": "39635",
@@ -516,8 +460,7 @@
       "name": "Gigabyte GS27Q X-EK 27 inch QHD 250Hz 1ms IPS LED Gaming Monitor",
       "price": 229,
       "currency": "EUR",
-      "image": ".data/products/39635-gigabytegs27qxek27inchqhd250hz1msipsledgamingmonitor-1780912251-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39635/gigabytegs27qxek27inchqhd250hz1msipsledgamingmonitor-1780912251-1.png"
+      "image": ".data/products/product-39635.png"
     },
     {
       "id": "39636",
@@ -525,8 +468,7 @@
       "name": "Gigabyte GS27U 27 inch UHD 160Hz 1ms IPS LED Gaming Monitor",
       "price": 259,
       "currency": "EUR",
-      "image": ".data/products/39636-gigabytegs27u27inchuhd160hz1msipsledgamingmonitor-1780912637-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39636/gigabytegs27u27inchuhd160hz1msipsledgamingmonitor-1780912637-1.png"
+      "image": ".data/products/product-39636.png"
     },
     {
       "id": "39637",
@@ -534,8 +476,7 @@
       "name": "Gigabyte GS32QA EU 32 inch QHD 180Hz 1ms IPS LED Gaming Monitor",
       "price": 219,
       "currency": "EUR",
-      "image": ".data/products/39637-gigabytegs32qaeu32inchqhd180hz1msipsledgamingmonitor-1780913011-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39637/gigabytegs32qaeu32inchqhd180hz1msipsledgamingmonitor-1780913011-1.png"
+      "image": ".data/products/product-39637.png"
     },
     {
       "id": "39716",
@@ -543,8 +484,7 @@
       "name": "Gigabyte Gaming A18 Pro 18 inch QHD+ 165Hz U7-240H 32GB 1TB RTX5070Ti W11",
       "price": 2479,
       "currency": "EUR",
-      "image": ".data/products/39716-gigabytegaminga18pro18inchqhd165hzu7240h32gb1tbrtx5070tiw11-1781760075-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39716/gigabytegaminga18pro18inchqhd165hzu7240h32gb1tbrtx5070tiw11-1781760075-1.png"
+      "image": ".data/products/product-39716.png"
     },
     {
       "id": "39717",
@@ -552,8 +492,7 @@
       "name": "Ubiquiti Intercom Viewer Table Stand",
       "price": 39.9,
       "currency": "EUR",
-      "image": ".data/products/39717-ubiquitiintercomviewertablestand-1781761297-4.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39717/ubiquitiintercomviewertablestand-1781761297-4.png"
+      "image": ".data/products/product-39717.png"
     },
     {
       "id": "39719",
@@ -561,8 +500,7 @@
       "name": "Tuya Smart DB Sound Meter, Temp & Humidity",
       "price": 80,
       "currency": "EUR",
-      "image": ".data/products/39719-tuyasmartdbsoundmetertemphumidity-1781766203-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39719/tuyasmartdbsoundmetertemphumidity-1781766203-1.png"
+      "image": ".data/products/product-39719.png"
     },
     {
       "id": "39720",
@@ -570,8 +508,7 @@
       "name": "Smart Life/Tuya WiFi SOS Wrist Button with Instant Alerts",
       "price": 30,
       "currency": "EUR",
-      "image": ".data/products/39720-smartlifetuyawifisoswristbuttonwithinstantalerts-1781767256-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39720/smartlifetuyawifisoswristbuttonwithinstantalerts-1781767256-1.png"
+      "image": ".data/products/product-39720.png"
     },
     {
       "id": "39722",
@@ -579,8 +516,7 @@
       "name": "Ninja Creami Swirl 13-in-1 0.481L Ice Cream Maker Grey",
       "price": 419,
       "currency": "EUR",
-      "image": ".data/products/39722-ninjacreamiswirl13in10481licecreammakergrey-1781771500-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39722/ninjacreamiswirl13in10481licecreammakergrey-1781771500-1.png"
+      "image": ".data/products/product-39722.png"
     },
     {
       "id": "39723",
@@ -588,8 +524,7 @@
       "name": "UK Plug to PC IEC C13 Power Cable 3m Black",
       "price": 7.9,
       "currency": "EUR",
-      "image": ".data/products/39723-ukplugtopciecc13powercable3mblack-1781772446-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39723/ukplugtopciecc13powercable3mblack-1781772446-1.png"
+      "image": ".data/products/product-39723.png"
     },
     {
       "id": "39736",
@@ -597,8 +532,7 @@
       "name": "UK Plug to PC IEC C13 Power Cable 5m Black",
       "price": 10.9,
       "currency": "EUR",
-      "image": ".data/products/39736-ukplugtopciecc13powercable5mblack-1781787294-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39736/ukplugtopciecc13powercable5mblack-1781787294-1.png"
+      "image": ".data/products/product-39736.png"
     },
     {
       "id": "39737",
@@ -606,8 +540,7 @@
       "name": "UK Plug to PC IEC C13 Power Cable 10m Black",
       "price": 15.9,
       "currency": "EUR",
-      "image": ".data/products/39737-ukplugtopciecc13powercable10mblack-1781787372-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39737/ukplugtopciecc13powercable10mblack-1781787372-1.png"
+      "image": ".data/products/product-39737.png"
     },
     {
       "id": "39739",
@@ -615,8 +548,7 @@
       "name": "EA Sports UFC 6 (PS5)",
       "price": 79,
       "currency": "EUR",
-      "image": ".data/products/39739-easportsufc6ps5-1781789327-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39739/easportsufc6ps5-1781789327-1.png"
+      "image": ".data/products/product-39739.png"
     },
     {
       "id": "39747",
@@ -624,8 +556,7 @@
       "name": "Lenovo ThinkPad E14 G7 14 inch FHD U7-255H 16GB 512GB W11P Laptop 3yw",
       "price": 1499,
       "currency": "EUR",
-      "image": ".data/products/39747-lenovothinkpade14g714inchfhdu7255h16gb512gbw11plaptop3yw-1781860857-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39747/lenovothinkpade14g714inchfhdu7255h16gb512gbw11plaptop3yw-1781860857-1.png"
+      "image": ".data/products/product-39747.png"
     },
     {
       "id": "39748",
@@ -633,8 +564,7 @@
       "name": "Lenovo ThinkPad E16 G3 16 inch FHD U5-225H 16GB 512GB W11P Laptop 3yw",
       "price": 1299,
       "currency": "EUR",
-      "image": ".data/products/39748-lenovothinkpade16g316inchfhdu5225h16gb512gbw11plaptop3yw-1781862503-5.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39748/lenovothinkpade16g316inchfhdu5225h16gb512gbw11plaptop3yw-1781862503-5.png"
+      "image": ".data/products/product-39748.png"
     },
     {
       "id": "39749",
@@ -642,8 +572,7 @@
       "name": "Lenovo ThinkPad E16 G3 16 inch FHD U7-255H 16GB 512GB W11P Laptop 3yw",
       "price": 1499,
       "currency": "EUR",
-      "image": ".data/products/39749-lenovothinkpade16g316inchfhdu7255h16gb512gbw11plaptop3yw-1781872187-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39749/lenovothinkpade16g316inchfhdu7255h16gb512gbw11plaptop3yw-1781872187-1.png"
+      "image": ".data/products/product-39749.png"
     },
     {
       "id": "39751",
@@ -651,8 +580,7 @@
       "name": "Microsoft Surface Pro 11 13 inch U7 16GB 512GB W11P Platinum",
       "price": 2099,
       "currency": "EUR",
-      "image": ".data/products/39751-microsoftsurfacepro1113inchu716gb512gbw11pplatinum-1781875374-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39751/microsoftsurfacepro1113inchu716gb512gbw11pplatinum-1781875374-1.png"
+      "image": ".data/products/product-39751.png"
     },
     {
       "id": "39757",
@@ -660,8 +588,7 @@
       "name": "DJI Flip (RC-N3)",
       "price": 439,
       "currency": "EUR",
-      "image": ".data/products/39757-djifliprcn3-1782115995-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39757/djifliprcn3-1782115995-1.png"
+      "image": ".data/products/product-39757.png"
     },
     {
       "id": "39771",
@@ -669,8 +596,7 @@
       "name": "Lenovo Yoga Tab Plus 12.7 inch 16GB 256GB Wi-Fi with Pen + Keyboard Blue - Clearance",
       "price": 649,
       "currency": "EUR",
-      "image": ".data/products/39771-lenovoyogatabplus127inch16gb256gbwifiwithpenkeyboardblue-1782208095-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39771/lenovoyogatabplus127inch16gb256gbwifiwithpenkeyboardblue-1782208095-1.png"
+      "image": ".data/products/product-39771.png"
     },
     {
       "id": "39780",
@@ -678,8 +604,7 @@
       "name": "Xiaomi Watch 2 Pro LTE Cellular Smartwatch Black with Black Rubber Strap - Clearance",
       "price": 149,
       "currency": "EUR",
-      "image": ".data/products/39780-xiaomiwatch2proltecellularsmartwatchblackwithblackrubberstrap-1782209334-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39780/xiaomiwatch2proltecellularsmartwatchblackwithblackrubberstrap-1782209334-1.png"
+      "image": ".data/products/product-39780.png"
     },
     {
       "id": "39793",
@@ -687,8 +612,7 @@
       "name": "Hoover HF500 Cordless Vacuum Cleaner - Red & Black - Clearance",
       "price": 249,
       "currency": "EUR",
-      "image": ".data/products/39793-hooverhf500cordlessvacuumcleanerredblack-1782211166-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39793/hooverhf500cordlessvacuumcleanerredblack-1782211166-1.png"
+      "image": ".data/products/product-39793.png"
     },
     {
       "id": "39802",
@@ -696,8 +620,7 @@
       "name": "be quiet! Light Wings LX 140mm PWM Fan High Speed 3-pk White",
       "price": 59.9,
       "currency": "EUR",
-      "image": ".data/products/39802-bequietlightwingslx140mmpwmfanhighspeed3pkwhite-1782283690-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39802/bequietlightwingslx140mmpwmfanhighspeed3pkwhite-1782283690-1.png"
+      "image": ".data/products/product-39802.png"
     },
     {
       "id": "39803",
@@ -705,8 +628,7 @@
       "name": "be quiet! Silent Wings Pro 4 120mm PWM Fan Black",
       "price": 39.9,
       "currency": "EUR",
-      "image": ".data/products/39803-bequietsilentwingspro4120mmpwmfanblack-1782284349-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39803/bequietsilentwingspro4120mmpwmfanblack-1782284349-1.png"
+      "image": ".data/products/product-39803.png"
     },
     {
       "id": "39804",
@@ -714,8 +636,7 @@
       "name": "be quiet! Silent Wings Pro 4 120mm PWM Fan White",
       "price": 39.9,
       "currency": "EUR",
-      "image": ".data/products/39804-bequietsilentwingspro4120mmpwmfanwhite-1782286294-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39804/bequietsilentwingspro4120mmpwmfanwhite-1782286294-1.png"
+      "image": ".data/products/product-39804.png"
     },
     {
       "id": "39812",
@@ -723,8 +644,7 @@
       "name": "Samsung Galaxy Tab S10 FE+ 13 inch 8GB 128GB Wi-Fi Silver",
       "price": 699,
       "currency": "EUR",
-      "image": ".data/products/39812-samsunggalaxytabs10fe13inch8gb128gbwifisilver-1782295977-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39812/samsunggalaxytabs10fe13inch8gb128gbwifisilver-1782295977-1.png"
+      "image": ".data/products/product-39812.png"
     },
     {
       "id": "39828",
@@ -732,8 +652,7 @@
       "name": "Acer Predator Galea 570 PHR550 ANC BT+RF Wireless Gaming Headset",
       "price": 129,
       "currency": "EUR",
-      "image": ".data/products/39828-acerpredatorgalea570phr550ancbtrfwirelessgamingheadset-1782459187-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39828/acerpredatorgalea570phr550ancbtrfwirelessgamingheadset-1782459187-1.png"
+      "image": ".data/products/product-39828.png"
     },
     {
       "id": "39829",
@@ -741,8 +660,7 @@
       "name": "Acer Predator Galea 370 PHW350 USB Gaming Headset",
       "price": 89,
       "currency": "EUR",
-      "image": ".data/products/39829-acerpredatorgalea370phw350usbgamingheadset-1782460743-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39829/acerpredatorgalea370phw350usbgamingheadset-1782460743-1.png"
+      "image": ".data/products/product-39829.png"
     },
     {
       "id": "39830",
@@ -750,8 +668,7 @@
       "name": "Acer Predator Galea 315 3.5mm Gaming Headset",
       "price": 69,
       "currency": "EUR",
-      "image": ".data/products/39830-acerpredatorgalea31535mmgamingheadset-1782464325-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39830/acerpredatorgalea31535mmgamingheadset-1782464325-1.png"
+      "image": ".data/products/product-39830.png"
     },
     {
       "id": "39831",
@@ -759,8 +676,7 @@
       "name": "Acer Nitro NHW310 7.1 Surround USB Gaming Headset",
       "price": 45,
       "currency": "EUR",
-      "image": ".data/products/39831-acernitronhw31071surroundusbgamingheadset-1782464667-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39831/acernitronhw31071surroundusbgamingheadset-1782464667-1.png"
+      "image": ".data/products/product-39831.png"
     },
     {
       "id": "39849",
@@ -768,8 +684,7 @@
       "name": "Assassin's Creed Black Flag Resynced (PS5)",
       "price": 65,
       "currency": "EUR",
-      "image": ".data/products/39849-assassinscreedblackflagresyncedps5-1782892174-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39849/assassinscreedblackflagresyncedps5-1782892174-1.png"
+      "image": ".data/products/product-39849.png"
     },
     {
       "id": "39864",
@@ -777,8 +692,7 @@
       "name": "Nintendo Switch 2 Console + Pokemon Pokopia Bundle",
       "price": 569,
       "currency": "EUR",
-      "image": ".data/products/39864-nintendoswitch2consolepokemonpokopiabundle-1784095392-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39864/nintendoswitch2consolepokemonpokopiabundle-1784095392-1.png"
+      "image": ".data/products/product-39864.png"
     },
     {
       "id": "39866",
@@ -786,8 +700,7 @@
       "name": "Gigabyte Gaming A16 16 inch 165Hz R7-260 16GB 1TB RTX5070 W11 Black",
       "price": 1569,
       "currency": "EUR",
-      "image": ".data/products/39866-gigabytegaminga1616inch165hzr726016gb1tbrtx5070w11black-1784100780-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39866/gigabytegaminga1616inch165hzr726016gb1tbrtx5070w11black-1784100780-1.png"
+      "image": ".data/products/product-39866.png"
     },
     {
       "id": "39888",
@@ -795,8 +708,7 @@
       "name": "Bose Lifestyle Ultra Soundbar White",
       "price": 999,
       "currency": "EUR",
-      "image": ".data/products/39888-boselifestyleultrasoundbarwhite-1784182223-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39888/boselifestyleultrasoundbarwhite-1784182223-1.png"
+      "image": ".data/products/product-39888.png"
     },
     {
       "id": "39943",
@@ -804,8 +716,7 @@
       "name": "Razer BlackWidow V4 Tenkeyless HyperSpeed (Orange Switch) - UK Layout",
       "price": 169,
       "currency": "EUR",
-      "image": ".data/products/39943-razerblackwidowv4tenkeylesshyperspeedorangeswitchuklayout-1784870380-3.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39943/razerblackwidowv4tenkeylesshyperspeedorangeswitchuklayout-1784870380-3.png"
+      "image": ".data/products/product-39943.png"
     },
     {
       "id": "39957",
@@ -813,8 +724,7 @@
       "name": "DJI Mic 3 (1 TX + 1 RX)",
       "price": 199,
       "currency": "EUR",
-      "image": ".data/products/39957-djimic31tx1rx-1784881575-6.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39957/djimic31tx1rx-1784881575-6.png"
+      "image": ".data/products/product-39957.png"
     },
     {
       "id": "39958",
@@ -822,8 +732,7 @@
       "name": "AOC 24B31H 23.8 inch FHD LED IPS Monitor",
       "price": 109,
       "currency": "EUR",
-      "image": ".data/products/39958-aoc24b31h238inchfhdledipsmonitor-1784881908-5.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39958/aoc24b31h238inchfhdledipsmonitor-1784881908-5.png"
+      "image": ".data/products/product-39958.png"
     },
     {
       "id": "39959",
@@ -831,8 +740,7 @@
       "name": "Philips 24E2N 23.8 inch FHD IPS LED Monitor",
       "price": 105,
       "currency": "EUR",
-      "image": ".data/products/39959-philips24e2n238inchfhdipsledmonitor-1784882604-4.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39959/philips24e2n238inchfhdipsledmonitor-1784882604-4.png"
+      "image": ".data/products/product-39959.png"
     },
     {
       "id": "39960",
@@ -840,8 +748,7 @@
       "name": "Philips 24M2N 23.8 inch FHD IPS LED 144Hz Monitor",
       "price": 125,
       "currency": "EUR",
-      "image": ".data/products/39960-philips24m2n238inchfhdipsled144hzmonitor-1784884955-4.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39960/philips24m2n238inchfhdipsled144hzmonitor-1784884955-4.png"
+      "image": ".data/products/product-39960.png"
     },
     {
       "id": "39997",
@@ -849,8 +756,7 @@
       "name": "Meaco Fan Sefte 10″ 3 in 1 Pedestal & Table Fan with Remote Control",
       "price": 189.9,
       "currency": "EUR",
-      "image": ".data/products/39997-meacofansefte103in1pedestaltablefanwithremotecontrol-1785156496-7.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39997/meacofansefte103in1pedestaltablefanwithremotecontrol-1785156496-7.png"
+      "image": ".data/products/product-39997.png"
     },
     {
       "id": "39999",
@@ -858,8 +764,7 @@
       "name": "Ubiquiti PoE OVer 2-wire Retrofit Extender",
       "price": 145,
       "currency": "EUR",
-      "image": ".data/products/39999-ubiquitipoeover2wireretrofitextender-1785158387-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39999/ubiquitipoeover2wireretrofitextender-1785158387-1.png"
+      "image": ".data/products/product-39999.png"
     },
     {
       "id": "40003",
@@ -867,8 +772,7 @@
       "name": "Xiaomi Mi Wi-Fi Range Extender Pro R03 CE",
       "price": 19.9,
       "currency": "EUR",
-      "image": ".data/products/40003-xiaomimiwifirangeextenderpror03ce-1785304772-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40003/xiaomimiwifirangeextenderpror03ce-1785304772-1.png"
+      "image": ".data/products/product-40003.png"
     },
     {
       "id": "40005",
@@ -876,8 +780,7 @@
       "name": "Ubiquiti UniFi Lite 16-port PoE Switch 45W",
       "price": 259,
       "currency": "EUR",
-      "image": ".data/products/40005-ubiquitiunifilite16portpoeswitch45w-1785306309-2.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40005/ubiquitiunifilite16portpoeswitch45w-1785306309-2.png"
+      "image": ".data/products/product-40005.png"
     },
     {
       "id": "40006",
@@ -885,8 +788,7 @@
       "name": "Ubiquiti 5-port Gigabit Switch",
       "price": 129,
       "currency": "EUR",
-      "image": ".data/products/40006-ubiquiti5portgigabitswitch-1785307413-3.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40006/ubiquiti5portgigabitswitch-1785307413-3.png"
+      "image": ".data/products/product-40006.png"
     },
     {
       "id": "40109",
@@ -894,8 +796,7 @@
       "name": "Xiaomi Poco X8 Pro Max DS 12GB 256GB White",
       "price": 449,
       "currency": "EUR",
-      "image": ".data/products/40109-xiaomipocox8promaxds12gb256gbwhite-1785755841-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40109/xiaomipocox8promaxds12gb256gbwhite-1785755841-1.png"
+      "image": ".data/products/product-40109.png"
     },
     {
       "id": "40110",
@@ -903,8 +804,7 @@
       "name": "Xiaomi 17T Pro DS 12GB 512GB Deep Blue",
       "price": 649,
       "currency": "EUR",
-      "image": ".data/products/40110-xiaomi17tprods12gb512gbdeepblue-1785759802-4.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40110/xiaomi17tprods12gb512gbdeepblue-1785759802-4.png"
+      "image": ".data/products/product-40110.png"
     },
     {
       "id": "40111",
@@ -912,8 +812,7 @@
       "name": "Xiaomi 17T Pro DS 12GB 1TB Deep Blue",
       "price": 999,
       "currency": "EUR",
-      "image": ".data/products/40111-xiaomi17tprods12gb1tbdeepblue-1785759672-5.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40111/xiaomi17tprods12gb1tbdeepblue-1785759672-5.png"
+      "image": ".data/products/product-40111.png"
     },
     {
       "id": "40116",
@@ -921,8 +820,7 @@
       "name": "Philips 65 inch Titan 4K QLED Ambilight Smart TV",
       "price": 799,
       "currency": "EUR",
-      "image": ".data/products/40116-philips65inchtitan4kqledambilightsmarttv-1785822653-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40116/philips65inchtitan4kqledambilightsmarttv-1785822653-1.png"
+      "image": ".data/products/product-40116.png"
     },
     {
       "id": "40118",
@@ -930,8 +828,7 @@
       "name": "Philips 55 inch 4K OLED Ambilight Smart TV",
       "price": 1299,
       "currency": "EUR",
-      "image": ".data/products/40118-philips55inch4koledambilightsmarttv-1785824417-3.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40118/philips55inch4koledambilightsmarttv-1785824417-3.png"
+      "image": ".data/products/product-40118.png"
     },
     {
       "id": "40119",
@@ -939,8 +836,7 @@
       "name": "Philips 32 inch QLED Full HD with Amibilight Smart TV",
       "price": 299,
       "currency": "EUR",
-      "image": ".data/products/40119-philips32inchqledfullhdwithamibilightsmarttv-1785826355-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40119/philips32inchqledfullhdwithamibilightsmarttv-1785826355-1.png"
+      "image": ".data/products/product-40119.png"
     },
     {
       "id": "40120",
@@ -948,8 +844,7 @@
       "name": "Fujifilm Instax Mini 13 Camera Candy Pink",
       "price": 104,
       "currency": "EUR",
-      "image": ".data/products/40120-fujifilminstaxmini13cameracandypink-1785827536-2.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40120/fujifilminstaxmini13cameracandypink-1785827536-2.png"
+      "image": ".data/products/product-40120.png"
     },
     {
       "id": "40121",
@@ -957,8 +852,7 @@
       "name": "Fujifilm Instax Mini 13 Camera Frost Blue",
       "price": 104,
       "currency": "EUR",
-      "image": ".data/products/40121-fujifilminstaxmini13camerafrostblue-1785827778-2.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40121/fujifilminstaxmini13camerafrostblue-1785827778-2.png"
+      "image": ".data/products/product-40121.png"
     },
     {
       "id": "40122",
@@ -966,8 +860,7 @@
       "name": "Fujifilm Instax Mini 13 Camera Clay White",
       "price": 104,
       "currency": "EUR",
-      "image": ".data/products/40122-fujifilminstaxmini13cameraclaywhite-1785828091-2.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40122/fujifilminstaxmini13cameraclaywhite-1785828091-2.png"
+      "image": ".data/products/product-40122.png"
     },
     {
       "id": "40123",
@@ -975,8 +868,7 @@
       "name": "Fujifilm Instax Mini 13 Camera Lagoon Green",
       "price": 104,
       "currency": "EUR",
-      "image": ".data/products/40123-fujifilminstaxmini13cameralagoongreen-1785828232-2.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40123/fujifilminstaxmini13cameralagoongreen-1785828232-2.png"
+      "image": ".data/products/product-40123.png"
     },
     {
       "id": "40124",
@@ -984,8 +876,7 @@
       "name": "Fujifilm Instax Mini 13 Camera Dreamy Purple",
       "price": 104,
       "currency": "EUR",
-      "image": ".data/products/40124-fujifilminstaxmini13cameradreamypurple-1785828476-2.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40124/fujifilminstaxmini13cameradreamypurple-1785828476-2.png"
+      "image": ".data/products/product-40124.png"
     },
     {
       "id": "40128",
@@ -993,8 +884,7 @@
       "name": "Bose Lifestyle Ultra Subwoofer Black",
       "price": 899,
       "currency": "EUR",
-      "image": ".data/products/40128-boselifestyleultrasubwooferblack-1785831365-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40128/boselifestyleultrasubwooferblack-1785831365-1.png"
+      "image": ".data/products/product-40128.png"
     },
     {
       "id": "40129",
@@ -1002,8 +892,7 @@
       "name": "Bose Lifestyle Ultra Subwoofer White",
       "price": 899,
       "currency": "EUR",
-      "image": ".data/products/40129-boselifestyleultrasubwooferwhite-1785831630-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40129/boselifestyleultrasubwooferwhite-1785831630-1.png"
+      "image": ".data/products/product-40129.png"
     },
     {
       "id": "40132",
@@ -1011,8 +900,7 @@
       "name": "HP 142A (W1142A) Black Compatible",
       "price": 35,
       "currency": "EUR",
-      "image": ".data/products/40132-hp142aw1142ablackcompatible-1785834183-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40132/hp142aw1142ablackcompatible-1785834183-1.png"
+      "image": ".data/products/product-40132.png"
     },
     {
       "id": "40144",
@@ -1020,8 +908,7 @@
       "name": "Anti Shock 1.5mm Case for Samsung Galaxy A27 5G Clear",
       "price": 12.9,
       "currency": "EUR",
-      "image": ".data/products/40144-antishock15mmcaseforsamsunggalaxya275gclear-1785841654-4.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40144/antishock15mmcaseforsamsunggalaxya275gclear-1785841654-4.png"
+      "image": ".data/products/product-40144.png"
     },
     {
       "id": "40145",
@@ -1029,8 +916,7 @@
       "name": "Defender Slide Case for Xiaomi Redmi Note 15 5G Black",
       "price": 12.9,
       "currency": "EUR",
-      "image": ".data/products/40145-defenderslidecaseforxiaomiredminote155gblack-1785842579-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40145/defenderslidecaseforxiaomiredminote155gblack-1785842579-1.png"
+      "image": ".data/products/product-40145.png"
     },
     {
       "id": "40146",
@@ -1038,8 +924,7 @@
       "name": "Tempered Glass for Samsung Galaxy A27 5G",
       "price": 9.9,
       "currency": "EUR",
-      "image": ".data/products/40146-temperedglassforsamsunggalaxya275g-1785843417-3.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40146/temperedglassforsamsunggalaxya275g-1785843417-3.png"
+      "image": ".data/products/product-40146.png"
     },
     {
       "id": "40147",
@@ -1047,1331 +932,1110 @@
       "name": "Tempered Glass Privacy for Samsung Galaxy A36 5G / A56 5G / A27 5G",
       "price": 9.9,
       "currency": "EUR",
-      "image": ".data/products/40147-temperedglassprivacyforsamsunggalaxya365ga565ga275g-1785844725-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40147/temperedglassprivacyforsamsunggalaxya365ga565ga275g-1785844725-1.png"
+      "image": ".data/products/product-40147.png"
     }
   ],
   "categories": [
     {
       "id": "1234",
       "name": "Apple Systems",
-      "image": ".data/categories/1234-apple-1659077573-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1234/apple-1659077573-1.png"
+      "image": ".data/categories/category-166.png"
     },
     {
       "id": "1005",
       "name": "Laptops",
-      "image": ".data/categories/1005-laptops-1646663890-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1005/laptops-1646663890-1.png"
+      "image": ".data/categories/category-004.png"
     },
     {
       "id": "1014",
       "name": "Desktop PCs",
-      "image": ".data/categories/1014-desktop-pcs-1646663949-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1014/desktop-pcs-1646663949-1.png"
+      "image": ".data/categories/category-010.png"
     },
     {
       "id": "1017",
       "name": "Bags & Cases - Laptop",
-      "image": ".data/categories/1017-laptop-bags-cases-1646663920-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1017/laptop-bags-cases-1646663920-1.png"
+      "image": ".data/categories/category-013.png"
     },
     {
       "id": "1018",
       "name": "Coolers & Stands - Laptop",
-      "image": ".data/categories/1018-laptop-coolers-stands-1646663911-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1018/laptop-coolers-stands-1646663911-1.png"
+      "image": ".data/categories/category-014.png"
     },
     {
       "id": "1275",
       "name": "HyperDrive Docks & Adapters",
-      "image": ".data/categories/1275-hyperdrive-docks-adapters-1658996586-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1275/hyperdrive-docks-adapters-1658996586-1.png"
+      "image": ".data/categories/category-174.png"
     },
     {
       "id": "1019",
       "name": "Power Adapters - Laptop",
-      "image": ".data/categories/1019-laptop-power-adapters-1646663901-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1019/laptop-power-adapters-1646663901-1.png"
+      "image": ".data/categories/category-015.png"
     },
     {
       "id": "1020",
       "name": "Docking Stations",
-      "image": ".data/categories/1020-docking-stations-1646668915-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1020/docking-stations-1646668915-1.png"
+      "image": ".data/categories/category-016.png"
     },
     {
       "id": "1360",
       "name": "Apple MacBooks",
-      "image": ".data/categories/1360-apple-macbooks-1677763775-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1360/apple-macbooks-1677763775-1.png"
+      "image": ".data/categories/category-199.png"
     },
     {
       "id": "1002",
       "name": "Apple iMac",
-      "image": ".data/categories/1002-apple-imac-1646663987-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1002/apple-imac-1646663987-1.png"
+      "image": ".data/categories/category-002.png"
     },
     {
       "id": "1003",
       "name": "Apple Mac Mini",
-      "image": ".data/categories/1003-apple-mac-mini-1646663974-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1003/apple-mac-mini-1646663974-1.png"
+      "image": ".data/categories/category-003.png"
     },
     {
       "id": "1235",
       "name": "Apple Mac Studio",
-      "image": ".data/categories/1235-apple-mac-studio-1659015831-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1235/apple-mac-studio-1659015831-1.png"
+      "image": ".data/categories/category-167.png"
     },
     {
       "id": "1236",
       "name": "Apple Studio Display",
-      "image": ".data/categories/1236-apple-studio-display-1647441262-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1236/apple-studio-display-1647441262-1.png"
+      "image": ".data/categories/category-168.png"
     },
     {
       "id": "1001",
       "name": "Apple MacBook Air",
-      "image": ".data/categories/1001-apple-macbook-air-1659015985-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1001/apple-macbook-air-1659015985-1.png"
+      "image": ".data/categories/category-001.png"
     },
     {
       "id": "1280",
       "name": "Apple MacBook Pro",
-      "image": ".data/categories/1280-apple-macbook-pro-1659016102-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1280/apple-macbook-pro-1659016102-1.png"
+      "image": ".data/categories/category-178.png"
     },
     {
       "id": "1470",
       "name": "Apple MacBook Neo",
-      "image": ".data/categories/1470-apple-macbook-neo-1779717440-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1470/apple-macbook-neo-1779717440-1.png"
+      "image": ".data/categories/category-219.png"
     },
     {
       "id": "1362",
       "name": "Chargers & Power Adapters - MacBook",
-      "image": ".data/categories/1362-macbook-chargers-power-adapters-1677765421-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1362/macbook-chargers-power-adapters-1677765421-1.png"
+      "image": ".data/categories/category-200.png"
     },
     {
       "id": "1007",
       "name": "Acer Laptops",
-      "image": ".data/categories/1007-acer-laptops-1646663875-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1007/acer-laptops-1646663875-1.png"
+      "image": ".data/categories/category-005.png"
     },
     {
       "id": "1008",
       "name": "ASUS Laptops",
-      "image": ".data/categories/1008-asus-laptops-1646663867-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1008/asus-laptops-1646663867-1.png"
+      "image": ".data/categories/category-006.png"
     },
     {
       "id": "1009",
       "name": "Gigabyte Laptops",
-      "image": ".data/categories/1009-gigabyte-laptops-1646663856-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1009/gigabyte-laptops-1646663856-1.png"
+      "image": ".data/categories/category-007.png"
     },
     {
       "id": "1010",
       "name": "HP Laptops",
-      "image": ".data/categories/1010-hp-laptops-1646663846-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1010/hp-laptops-1646663846-1.png"
+      "image": ".data/categories/category-008.png"
     },
     {
       "id": "1011",
       "name": "Lenovo Laptops",
-      "image": ".data/categories/1011-lenovo-laptops-1646663839-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1011/lenovo-laptops-1646663839-1.png"
+      "image": ".data/categories/category-009.png"
     },
     {
       "id": "1465",
       "name": "Dell Laptops",
-      "image": ".data/categories/1465-dell-laptops-1762521905-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1465/dell-laptops-1762521905-1.png"
+      "image": ".data/categories/category-218.png"
     },
     {
       "id": "1015",
       "name": "Branded PCs",
-      "image": ".data/categories/1015-branded-pcs-1646663806-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1015/branded-pcs-1646663806-1.png"
+      "image": ".data/categories/category-011.png"
     },
     {
       "id": "1016",
       "name": "Custom built PCs",
-      "image": ".data/categories/1016-custom-built-pcs-1646663798-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1016/custom-built-pcs-1646663798-1.png"
+      "image": ".data/categories/category-012.png"
     },
     {
       "id": "1022",
       "name": "Apple iPhones",
-      "image": ".data/categories/1022-apple-iphones-1659017251-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1022/apple-iphones-1659017251-1.png"
+      "image": ".data/categories/category-017.png"
     },
     {
       "id": "1023",
       "name": "Smartphones",
-      "image": ".data/categories/1023-smartphones-1677842123-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1023/smartphones-1677842123-1.png"
+      "image": ".data/categories/category-018.png"
     },
     {
       "id": "1024",
       "name": "Apple iPads",
-      "image": ".data/categories/1024-apple-ipads-1659018171-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1024/apple-ipads-1659018171-1.png"
+      "image": ".data/categories/category-019.png"
     },
     {
       "id": "1368",
       "name": "Tablets",
-      "image": ".data/categories/1368-tablets-1677840571-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1368/tablets-1677840571-1.png"
+      "image": ".data/categories/category-204.png"
     },
     {
       "id": "1031",
       "name": "Apple Watch",
-      "image": ".data/categories/1031-apple-watch-1646663715-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1031/apple-watch-1646663715-1.png"
+      "image": ".data/categories/category-024.png"
     },
     {
       "id": "1032",
       "name": "Smartwear",
-      "image": ".data/categories/1032-smartwear-1646663697-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1032/smartwear-1646663697-1.png"
+      "image": ".data/categories/category-025.png"
     },
     {
       "id": "1036",
       "name": "Amazon Kindle",
-      "image": ".data/categories/1036-amazon-kindle-1646663767-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1036/amazon-kindle-1646663767-1.png"
+      "image": ".data/categories/category-028.png"
     },
     {
       "id": "1037",
       "name": "Accessories & Cases",
-      "image": ".data/categories/1037-accessories-1646663744-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1037/accessories-1646663744-1.png"
+      "image": ".data/categories/category-029.png"
     },
     {
       "id": "1048",
       "name": "Home Telephone Sets",
-      "image": ".data/categories/1048-home-telephone-sets-1646663705-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1048/home-telephone-sets-1646663705-1.png"
+      "image": ".data/categories/category-031.png"
     },
     {
       "id": "1456",
       "name": "Apple iPhone 17 Series",
-      "image": ".data/categories/1456-apple-iphone-17-series-1757446311-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1456/apple-iphone-17-series-1757446311-1.png"
+      "image": ".data/categories/category-216.png"
     },
     {
       "id": "1426",
       "name": "Apple iPhone 16 Series",
-      "image": ".data/categories/1426-apple-iphone-16-series-1725975609-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1426/apple-iphone-16-series-1725975609-1.png"
+      "image": ".data/categories/category-213.png"
     },
     {
       "id": "1347",
       "name": "Screen Protection - iPhone",
-      "image": ".data/categories/1347-iphone-screen-protection-1674653772-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1347/iphone-screen-protection-1674653772-1.png"
+      "image": ".data/categories/category-194.png"
     },
     {
       "id": "1364",
       "name": "Lens Protection - iPhone",
-      "image": ".data/categories/1364-iphone-lens-protection-1677768120-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1364/iphone-lens-protection-1677768120-1.png"
+      "image": ".data/categories/category-201.png"
     },
     {
       "id": "1283",
       "name": "Cases & Accessories - iPhone",
-      "image": ".data/categories/1283-apple-original-cases-1659079592-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1283/apple-original-cases-1659079592-1.png"
+      "image": ".data/categories/category-181.png"
     },
     {
       "id": "1281",
       "name": "Apple AirPods",
-      "image": ".data/categories/1281-apple-airpods-1659078407-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1281/apple-airpods-1659078407-1.png"
+      "image": ".data/categories/category-179.png"
     },
     {
       "id": "1282",
       "name": "Apple AirTag",
-      "image": ".data/categories/1282-apple-airtag-1659078721-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1282/apple-airtag-1659078721-1.png"
+      "image": ".data/categories/category-180.png"
     },
     {
       "id": "1215",
       "name": "OnePlus Smartphones",
-      "image": ".data/categories/1215-oneplus-smartphones-1677769750-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1215/oneplus-smartphones-1677769750-1.png"
+      "image": ".data/categories/category-154.png"
     },
     {
       "id": "1216",
       "name": "Google Smartphones",
-      "image": ".data/categories/1216-google-smartphones-1677773652-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1216/google-smartphones-1677773652-1.png"
+      "image": ".data/categories/category-155.png"
     },
     {
       "id": "1213",
       "name": "Samsung Smartphones",
-      "image": ".data/categories/1213-samsung-smartphones-1677773595-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1213/samsung-smartphones-1677773595-1.png"
+      "image": ".data/categories/category-152.png"
     },
     {
       "id": "1214",
       "name": "Xiaomi Smartphones",
-      "image": ".data/categories/1214-xiaomi-smartphones-1677769884-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1214/xiaomi-smartphones-1677769884-1.png"
+      "image": ".data/categories/category-153.png"
     },
     {
       "id": "1217",
       "name": "Rugged Smartphones",
-      "image": ".data/categories/1217-rugged-smartphones-1677769824-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1217/rugged-smartphones-1677769824-1.png"
+      "image": ".data/categories/category-156.png"
     },
     {
       "id": "1193",
       "name": "Apple iPad Pro 11",
-      "image": ".data/categories/1193-apple-ipad-pro-11-1659018157-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1193/apple-ipad-pro-11-1659018157-1.png"
+      "image": ".data/categories/category-149.png"
     },
     {
       "id": "1025",
       "name": "Apple iPad",
-      "image": ".data/categories/1025-apple-ipad-1659018192-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1025/apple-ipad-1659018192-1.png"
+      "image": ".data/categories/category-020.png"
     },
     {
       "id": "1026",
       "name": "Apple iPad Air",
-      "image": ".data/categories/1026-apple-ipad-air-1659018201-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1026/apple-ipad-air-1659018201-1.png"
+      "image": ".data/categories/category-021.png"
     },
     {
       "id": "1027",
       "name": "Apple iPad mini",
-      "image": ".data/categories/1027-apple-ipad-mini-1659018210-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1027/apple-ipad-mini-1659018210-1.png"
+      "image": ".data/categories/category-022.png"
     },
     {
       "id": "1278",
       "name": "Keyboards - Apple iPad",
-      "image": ".data/categories/1278-apple-ipad-keyboards-1659018270-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1278/apple-ipad-keyboards-1659018270-1.png"
+      "image": ".data/categories/category-177.png"
     },
     {
       "id": "1277",
       "name": "Apple Pencil",
-      "image": ".data/categories/1277-apple-pencil-1659010163-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1277/apple-pencil-1659010163-1.png"
+      "image": ".data/categories/category-176.png"
     },
     {
       "id": "1296",
       "name": "Cases - Apple iPad",
-      "image": ".data/categories/1296-apple-original-cases-1659095753-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1296/apple-original-cases-1659095753-1.png"
+      "image": ".data/categories/category-186.png"
     },
     {
       "id": "1367",
       "name": "Screen Protection - Apple iPad",
-      "image": ".data/categories/1367-ipad-screen-protection-1677840341-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1367/ipad-screen-protection-1677840341-1.png"
+      "image": ".data/categories/category-203.png"
     },
     {
       "id": "1029",
       "name": "Android Tablets",
-      "image": ".data/categories/1029-android-tablets-1646663758-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1029/android-tablets-1646663758-1.png"
+      "image": ".data/categories/category-023.png"
     },
     {
       "id": "1369",
       "name": "Tablet Screen Protectors",
-      "image": ".data/categories/1369-tablet-screen-protectors-1677841799-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1369/tablet-screen-protectors-1677841799-1.png"
+      "image": ".data/categories/category-205.png"
     },
     {
       "id": "1370",
       "name": "Tablet Cases & Covers",
-      "image": ".data/categories/1370-tablet-cases-covers-1677842809-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1370/tablet-cases-covers-1677842809-1.png"
+      "image": ".data/categories/category-206.png"
     },
     {
       "id": "1462",
       "name": "Apple Watch SE 3",
-      "image": ".data/categories/1462-apple-watch-se-3-1758266557-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1462/apple-watch-se-3-1758266557-1.png"
+      "image": ".data/categories/category-217.png"
     },
     {
       "id": "1320",
       "name": "Apple Watch Ultra",
-      "image": ".data/categories/1320-apple-watch-ultra-1663079807-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1320/apple-watch-ultra-1663079807-1.png"
+      "image": ".data/categories/category-187.png"
     },
     {
       "id": "1398",
       "name": "Apple Watch Series 9",
-      "image": ".data/categories/1398-apple-watch-series-9-1694623884-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1398/apple-watch-series-9-1694623884-1.png"
+      "image": ".data/categories/category-212.png"
     },
     {
       "id": "1321",
       "name": "Apple Watch Series 8",
-      "image": ".data/categories/1321-apple-watch-series-8-1663079845-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1321/apple-watch-series-8-1663079845-1.png"
+      "image": ".data/categories/category-188.png"
     },
     {
       "id": "1322",
       "name": "Apple Watch SE",
-      "image": ".data/categories/1322-apple-watch-se-1663079914-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1322/apple-watch-se-1663079914-1.png"
+      "image": ".data/categories/category-189.png"
     },
     {
       "id": "1325",
       "name": "Apple Watch Bands",
-      "image": ".data/categories/1325-apple-watch-bands-1664279857-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1325/apple-watch-bands-1664279857-1.png"
+      "image": ".data/categories/category-192.png"
     },
     {
       "id": "1346",
       "name": "Apple Watch Screen Protection",
-      "image": ".data/categories/1346-apple-watch-screen-protection-1674652837-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1346/apple-watch-screen-protection-1674652837-1.png"
+      "image": ".data/categories/category-193.png"
     },
     {
       "id": "1366",
       "name": "Apple Watch Cases",
-      "image": ".data/categories/1366-apple-watch-cases-1677838864-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1366/apple-watch-cases-1677838864-1.png"
+      "image": ".data/categories/category-202.png"
     },
     {
       "id": "1033",
       "name": "Samsung Smartwear",
-      "image": ".data/categories/1033-samsung-smartwear-1646663450-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1033/samsung-smartwear-1646663450-1.png"
+      "image": ".data/categories/category-026.png"
     },
     {
       "id": "1035",
       "name": "Xiaomi Smartwear",
-      "image": ".data/categories/1035-xiaomi-smartwear-1646662904-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1035/xiaomi-smartwear-1646662904-1.png"
+      "image": ".data/categories/category-027.png"
     },
     {
       "id": "1353",
       "name": "Google Pixel Watch",
-      "image": ".data/categories/1353-google-pixel-watch-1675862059-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1353/google-pixel-watch-1675862059-1.png"
+      "image": ".data/categories/category-197.png"
     },
     {
       "id": "1268",
       "name": "Other Smartwear",
-      "image": ".data/categories/1268-other-smartwear-1658909713-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1268/other-smartwear-1658909713-1.png"
+      "image": ".data/categories/category-171.png"
     },
     {
       "id": "1352",
       "name": "Smart Wear Screen Protection",
-      "image": ".data/categories/1352-smart-wear-screen-protection-1675431837-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1352/smart-wear-screen-protection-1675431837-1.png"
+      "image": ".data/categories/category-196.png"
     },
     {
       "id": "1372",
       "name": "Smart Wear Cases & Chargers",
-      "image": ".data/categories/1372-smart-wear-cases-chargers-1678808662-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1372/smart-wear-cases-chargers-1678808662-1.png"
+      "image": ".data/categories/category-207.png"
     },
     {
       "id": "1050",
       "name": "Audio",
-      "image": ".data/categories/1050-audio-1646662213-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1050/audio-1646662213-1.png"
+      "image": ".data/categories/category-032.png"
     },
     {
       "id": "1056",
       "name": "Components",
-      "image": ".data/categories/1056-components-1646662235-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1056/components-1646662235-1.png"
+      "image": ".data/categories/category-037.png"
     },
     {
       "id": "1070",
       "name": "Graphics Tablets",
-      "image": ".data/categories/1070-graphics-tablets-1646662273-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1070/graphics-tablets-1646662273-1.png"
+      "image": ".data/categories/category-051.png"
     },
     {
       "id": "1071",
       "name": "Monitors",
-      "image": ".data/categories/1071-monitors-1646662367-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1071/monitors-1646662367-1.png"
+      "image": ".data/categories/category-052.png"
     },
     {
       "id": "1087",
       "name": "Printers",
-      "image": ".data/categories/1087-printers-1646662612-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1087/printers-1646662612-1.png"
+      "image": ".data/categories/category-067.png"
     },
     {
       "id": "1085",
       "name": "Peripherals",
-      "image": ".data/categories/1085-peripherals-1659087750-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1085/peripherals-1659087750-1.png"
+      "image": ".data/categories/category-066.png"
     },
     {
       "id": "1076",
       "name": "Networking",
-      "image": ".data/categories/1076-networking-1646662541-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1076/networking-1646662541-1.png"
+      "image": ".data/categories/category-057.png"
     },
     {
       "id": "1102",
       "name": "Storage",
-      "image": ".data/categories/1102-storage-1646668794-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1102/storage-1646668794-1.png"
+      "image": ".data/categories/category-080.png"
     },
     {
       "id": "1114",
       "name": "Software & OS",
-      "image": ".data/categories/1114-software-os-1646668871-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1114/software-os-1646668871-1.png"
+      "image": ".data/categories/category-090.png"
     },
     {
       "id": "1261",
       "name": "AirPods",
-      "image": ".data/categories/1261-airpods-1659082820-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1261/airpods-1659082820-1.png"
+      "image": ".data/categories/category-170.png"
     },
     {
       "id": "1051",
       "name": "Bose Products",
-      "image": ".data/categories/1051-bose-products-1646662012-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1051/bose-products-1646662012-1.png"
+      "image": ".data/categories/category-033.png"
     },
     {
       "id": "1053",
       "name": "Headphones",
-      "image": ".data/categories/1053-headphones-1646662028-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1053/headphones-1646662028-1.png"
+      "image": ".data/categories/category-034.png"
     },
     {
       "id": "1220",
       "name": "Earphones",
-      "image": ".data/categories/1220-earphones-1659082801-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1220/earphones-1659082801-1.png"
+      "image": ".data/categories/category-157.png"
     },
     {
       "id": "1054",
       "name": "Microphones",
-      "image": ".data/categories/1054-microphones-1646662073-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1054/microphones-1646662073-1.png"
+      "image": ".data/categories/category-035.png"
     },
     {
       "id": "1055",
       "name": "Speakers",
-      "image": ".data/categories/1055-speakers-1646662092-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1055/speakers-1646662092-1.png"
+      "image": ".data/categories/category-036.png"
     },
     {
       "id": "1229",
       "name": "Soundbars",
-      "image": ".data/categories/1229-soundbars-1659081810-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1229/soundbars-1659081810-1.png"
+      "image": ".data/categories/category-163.png"
     },
     {
       "id": "1286",
       "name": "Radios",
-      "image": ".data/categories/1286-radios-1659083671-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1286/radios-1659083671-1.png"
+      "image": ".data/categories/category-184.png"
     },
     {
       "id": "1057",
       "name": "Computer Cases",
-      "image": ".data/categories/1057-computer-cases-1646661882-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1057/computer-cases-1646661882-1.png"
+      "image": ".data/categories/category-038.png"
     },
     {
       "id": "1058",
       "name": "Cooling",
-      "image": ".data/categories/1058-cooling-1646661890-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1058/cooling-1646661890-1.png"
+      "image": ".data/categories/category-039.png"
     },
     {
       "id": "1059",
       "name": "CPUs",
-      "image": ".data/categories/1059-cpus-1646661898-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1059/cpus-1646661898-1.png"
+      "image": ".data/categories/category-040.png"
     },
     {
       "id": "1060",
       "name": "Ethernet/WiFi Cards",
-      "image": ".data/categories/1060-ethernetwifi-cards-1646661907-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1060/ethernetwifi-cards-1646661907-1.png"
+      "image": ".data/categories/category-041.png"
     },
     {
       "id": "1061",
       "name": "Graphics Cards",
-      "image": ".data/categories/1061-graphics-cards-1646661915-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1061/graphics-cards-1646661915-1.png"
+      "image": ".data/categories/category-042.png"
     },
     {
       "id": "1062",
       "name": "I/O Cards",
-      "image": ".data/categories/1062-io-cards-1646661923-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1062/io-cards-1646661923-1.png"
+      "image": ".data/categories/category-043.png"
     },
     {
       "id": "1063",
       "name": "Harddisks (HDD)",
-      "image": ".data/categories/1063-harddisks-hdd-1646661934-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1063/harddisks-hdd-1646661934-1.png"
+      "image": ".data/categories/category-044.png"
     },
     {
       "id": "1064",
       "name": "Solid State Drives (SSD)",
-      "image": ".data/categories/1064-solid-state-drives-ssd-1646661944-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1064/solid-state-drives-ssd-1646661944-1.png"
+      "image": ".data/categories/category-045.png"
     },
     {
       "id": "1065",
       "name": "Motherboards",
-      "image": ".data/categories/1065-motherboards-1646661953-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1065/motherboards-1646661953-1.png"
+      "image": ".data/categories/category-046.png"
     },
     {
       "id": "1066",
       "name": "Optical Drives",
-      "image": ".data/categories/1066-optical-drives-1646661964-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1066/optical-drives-1646661964-1.png"
+      "image": ".data/categories/category-047.png"
     },
     {
       "id": "1067",
       "name": "Power Supplies",
-      "image": ".data/categories/1067-power-supplies-1646661973-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1067/power-supplies-1646661973-1.png"
+      "image": ".data/categories/category-048.png"
     },
     {
       "id": "1068",
       "name": "RAM",
-      "image": ".data/categories/1068-ram-1646661983-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1068/ram-1646661983-1.png"
+      "image": ".data/categories/category-049.png"
     },
     {
       "id": "1069",
       "name": "Soundcards",
-      "image": ".data/categories/1069-soundcards-1646661991-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1069/soundcards-1646661991-1.png"
+      "image": ".data/categories/category-050.png"
     },
     {
       "id": "1089",
       "name": "UPS",
-      "image": ".data/categories/1089-ups-1646661377-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1089/ups-1646661377-1.png"
+      "image": ".data/categories/category-068.png"
     },
     {
       "id": "1090",
       "name": "Keyboards",
-      "image": ".data/categories/1090-keyboards-1646661387-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1090/keyboards-1646661387-1.png"
+      "image": ".data/categories/category-069.png"
     },
     {
       "id": "1091",
       "name": "Mice",
-      "image": ".data/categories/1091-mice-1646661398-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1091/mice-1646661398-1.png"
+      "image": ".data/categories/category-070.png"
     },
     {
       "id": "1092",
       "name": "Keyboards & Mouse Bundles",
-      "image": ".data/categories/1092-keyboards-mouse-bundles-1646661407-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1092/keyboards-mouse-bundles-1646661407-1.png"
+      "image": ".data/categories/category-071.png"
     },
     {
       "id": "1093",
       "name": "External Storage",
-      "image": ".data/categories/1093-external-storage-1646661418-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1093/external-storage-1646661418-1.png"
+      "image": ".data/categories/category-072.png"
     },
     {
       "id": "1095",
       "name": "Speakers",
-      "image": ".data/categories/1095-speakers-1646661435-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1095/speakers-1646661435-1.png"
+      "image": ".data/categories/category-073.png"
     },
     {
       "id": "1096",
       "name": "KVM Switches",
-      "image": ".data/categories/1096-kvm-switches-1646661444-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1096/kvm-switches-1646661444-1.png"
+      "image": ".data/categories/category-074.png"
     },
     {
       "id": "1097",
       "name": "USB Hubs",
-      "image": ".data/categories/1097-usb-hubs-1646661453-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1097/usb-hubs-1646661453-1.png"
+      "image": ".data/categories/category-075.png"
     },
     {
       "id": "1098",
       "name": "Docking Stations",
-      "image": ".data/categories/1098-docking-stations-1646668899-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1098/docking-stations-1646668899-1.png"
+      "image": ".data/categories/category-076.png"
     },
     {
       "id": "1099",
       "name": "Webcams",
-      "image": ".data/categories/1099-webcams-1646661537-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1099/webcams-1646661537-1.png"
+      "image": ".data/categories/category-077.png"
     },
     {
       "id": "1100",
       "name": "Wireless Presenters",
-      "image": ".data/categories/1100-wireless-presenters-1646661547-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1100/wireless-presenters-1646661547-1.png"
+      "image": ".data/categories/category-078.png"
     },
     {
       "id": "1101",
       "name": "Mousemats & Wristrests",
-      "image": ".data/categories/1101-mousemats-wristrests-1646668776-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1101/mousemats-wristrests-1646668776-1.png"
+      "image": ".data/categories/category-079.png"
     },
     {
       "id": "1103",
       "name": "SD/MicroSD/CF Cards",
-      "image": ".data/categories/1103-sdmicrosdcf-cards-1646661043-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1103/sdmicrosdcf-cards-1646661043-1.png"
+      "image": ".data/categories/category-081.png"
     },
     {
       "id": "1104",
       "name": "Card Readers",
-      "image": ".data/categories/1104-card-readers-1646668812-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1104/card-readers-1646668812-1.png"
+      "image": ".data/categories/category-082.png"
     },
     {
       "id": "1105",
       "name": "Internal Storage",
-      "image": ".data/categories/1105-internal-storage-1646661083-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1105/internal-storage-1646661083-1.png"
+      "image": ".data/categories/category-083.png"
     },
     {
       "id": "1109",
       "name": "External Storage",
-      "image": ".data/categories/1109-external-storage-1646661182-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1109/external-storage-1646661182-1.png"
+      "image": ".data/categories/category-086.png"
     },
     {
       "id": "1240",
       "name": "Enclosures",
-      "image": ".data/categories/1240-enclosures-1659017082-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1240/enclosures-1659017082-1.png"
+      "image": ".data/categories/category-169.png"
     },
     {
       "id": "1295",
       "name": "Optical Drives",
-      "image": ".data/categories/1295-optical-drives-1659084526-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1295/optical-drives-1659084526-1.png"
+      "image": ".data/categories/category-185.png"
     },
     {
       "id": "1106",
       "name": "Internal Harddisks",
-      "image": ".data/categories/1106-internal-harddisks-1646660365-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1106/internal-harddisks-1646660365-1.png"
+      "image": ".data/categories/category-084.png"
     },
     {
       "id": "1107",
       "name": "Internal Solid State Drives (SSD)",
-      "image": ".data/categories/1107-internal-solid-state-drives-ssd-1646668750-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1107/internal-solid-state-drives-ssd-1646668750-1.png"
+      "image": ".data/categories/category-085.png"
     },
     {
       "id": "1110",
       "name": "External Harddisks",
-      "image": ".data/categories/1110-external-harddisks-1646668934-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1110/external-harddisks-1646668934-1.png"
+      "image": ".data/categories/category-087.png"
     },
     {
       "id": "1111",
       "name": "External Solid State Drives (SSD)",
-      "image": ".data/categories/1111-external-solid-state-drives-ssd-1646661619-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1111/external-solid-state-drives-ssd-1646661619-1.png"
+      "image": ".data/categories/category-088.png"
     },
     {
       "id": "1113",
       "name": "USB Drives",
-      "image": ".data/categories/1113-usb-drives-1646660264-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1113/usb-drives-1646660264-1.png"
+      "image": ".data/categories/category-089.png"
     },
     {
       "id": "1116",
       "name": "PlayStation",
-      "image": ".data/categories/1116-playstation-1646659957-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1116/playstation-1646659957-1.png"
+      "image": ".data/categories/category-091.png"
     },
     {
       "id": "1130",
       "name": "Nintendo",
-      "image": ".data/categories/1130-nintendo-1646659967-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1130/nintendo-1646659967-1.png"
+      "image": ".data/categories/category-101.png"
     },
     {
       "id": "1125",
       "name": "Xbox",
-      "image": ".data/categories/1125-xbox-1646659990-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1125/xbox-1646659990-1.png"
+      "image": ".data/categories/category-098.png"
     },
     {
       "id": "1121",
       "name": "PC",
-      "image": ".data/categories/1121-pc-1646660001-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1121/pc-1646660001-1.png"
+      "image": ".data/categories/category-095.png"
     },
     {
       "id": "1274",
       "name": "Virtual Reality",
-      "image": ".data/categories/1274-pc-virtual-reality-1658995976-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1274/pc-virtual-reality-1658995976-1.png"
+      "image": ".data/categories/category-173.png"
     },
     {
       "id": "1231",
       "name": "Gaming Laptops",
-      "image": ".data/categories/1231-gaming-laptops-1646660023-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1231/gaming-laptops-1646660023-1.png"
+      "image": ".data/categories/category-164.png"
     },
     {
       "id": "1135",
       "name": "Gaming Chairs & Tables",
-      "image": ".data/categories/1135-gaming-chairs-tables-1646660034-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1135/gaming-chairs-tables-1646660034-1.png"
+      "image": ".data/categories/category-106.png"
     },
     {
       "id": "1136",
       "name": "Razer Products",
-      "image": ".data/categories/1136-razer-products-1646660043-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1136/razer-products-1646660043-1.png"
+      "image": ".data/categories/category-107.png"
     },
     {
       "id": "1194",
       "name": "Games - PlayStation 5",
-      "image": ".data/categories/1194-playstation-5-games-1646659918-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1194/playstation-5-games-1646659918-1.png"
+      "image": ".data/categories/category-150.png"
     },
     {
       "id": "1118",
       "name": "PlayStation 5 Consoles",
-      "image": ".data/categories/1118-playstation-consoles-1646659926-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1118/playstation-consoles-1646659926-1.png"
+      "image": ".data/categories/category-092.png"
     },
     {
       "id": "1119",
       "name": "PlayStation Controllers",
-      "image": ".data/categories/1119-playstation-controllers-1646659935-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1119/playstation-controllers-1646659935-1.png"
+      "image": ".data/categories/category-093.png"
     },
     {
       "id": "1120",
       "name": "PlayStation Accessories",
-      "image": ".data/categories/1120-playstation-accessories-1646659943-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1120/playstation-accessories-1646659943-1.png"
+      "image": ".data/categories/category-094.png"
     },
     {
       "id": "1131",
       "name": "Games - Nintendo Switch",
-      "image": ".data/categories/1131-nintendo-switch-games-1646659014-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1131/nintendo-switch-games-1646659014-1.png"
+      "image": ".data/categories/category-102.png"
     },
     {
       "id": "1454",
       "name": "Games - Nintendo Switch 2",
-      "image": ".data/categories/1454-games---nintendo-switch-2-1750845178-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1454/games---nintendo-switch-2-1750845178-1.png"
+      "image": ".data/categories/category-214.png"
     },
     {
       "id": "1132",
       "name": "Nintendo Switch Consoles",
-      "image": ".data/categories/1132-nintendo-consoles-1646659040-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1132/nintendo-consoles-1646659040-1.png"
+      "image": ".data/categories/category-103.png"
     },
     {
       "id": "1133",
       "name": "Nintendo Controllers",
-      "image": ".data/categories/1133-nintendo-controllers-1646659981-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1133/nintendo-controllers-1646659981-1.png"
+      "image": ".data/categories/category-104.png"
     },
     {
       "id": "1134",
       "name": "Nintendo Accessories",
-      "image": ".data/categories/1134-nintendo-accessories-1646659091-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1134/nintendo-accessories-1646659091-1.png"
+      "image": ".data/categories/category-105.png"
     },
     {
       "id": "1128",
       "name": "Xbox Controllers",
-      "image": ".data/categories/1128-xbox-controllers-1646659715-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1128/xbox-controllers-1646659715-1.png"
+      "image": ".data/categories/category-099.png"
     },
     {
       "id": "1129",
       "name": "Xbox Accessories",
-      "image": ".data/categories/1129-xbox-accessories-1646659722-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1129/xbox-accessories-1646659722-1.png"
+      "image": ".data/categories/category-100.png"
     },
     {
       "id": "1123",
       "name": "PC Controllers",
-      "image": ".data/categories/1123-pc-controllers-1646659746-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1123/pc-controllers-1646659746-1.png"
+      "image": ".data/categories/category-096.png"
     },
     {
       "id": "1124",
       "name": "PC Gaming Headphones",
-      "image": ".data/categories/1124-pc-headphones-1646659794-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1124/pc-headphones-1646659794-1.png"
+      "image": ".data/categories/category-097.png"
     },
     {
       "id": "1272",
       "name": "PC Gaming Mice",
-      "image": ".data/categories/1272-pc-gaming-mice-1658993663-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1272/pc-gaming-mice-1658993663-1.png"
+      "image": ".data/categories/category-172.png"
     },
     {
       "id": "1232",
       "name": "PC Gaming Keyboards",
-      "image": ".data/categories/1232-pc-keyboards-1646659811-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1232/pc-keyboards-1646659811-1.png"
+      "image": ".data/categories/category-165.png"
     },
     {
       "id": "1141",
       "name": "Home Appliances",
-      "image": ".data/categories/1141-home-appliances-1646658895-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1141/home-appliances-1646658895-1.png"
+      "image": ".data/categories/category-111.png"
     },
     {
       "id": "1153",
       "name": "Robot Vacuum Cleaners",
-      "image": ".data/categories/1153-robot-vacuum-cleaners-1646658964-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1153/robot-vacuum-cleaners-1646658964-1.png"
+      "image": ".data/categories/category-122.png"
     },
     {
       "id": "1140",
       "name": "GPS & Tracking",
-      "image": ".data/categories/1140-gps-tracking-1646658882-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1140/gps-tracking-1646658882-1.png"
+      "image": ".data/categories/category-110.png"
     },
     {
       "id": "1284",
       "name": "TV, Radio & Entertainment",
-      "image": ".data/categories/1284-tv-entertainment-1659081668-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1284/tv-entertainment-1659081668-1.png"
+      "image": ".data/categories/category-182.png"
     },
     {
       "id": "1142",
       "name": "Smart Home Automation",
-      "image": ".data/categories/1142-home-automation-1646658905-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1142/home-automation-1646658905-1.png"
+      "image": ".data/categories/category-112.png"
     },
     {
       "id": "1145",
       "name": "Video & Photography",
-      "image": ".data/categories/1145-video-photography-1646658938-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1145/video-photography-1646658938-1.png"
+      "image": ".data/categories/category-114.png"
     },
     {
       "id": "1139",
       "name": "Sport & Action",
-      "image": ".data/categories/1139-sport-action-1646658834-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1139/sport-action-1646658834-1.png"
+      "image": ".data/categories/category-109.png"
     },
     {
       "id": "1377",
       "name": "BBQ Barbecue",
-      "image": ".data/categories/1377-bbq-barbecue-1681915762-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1377/bbq-barbecue-1681915762-1.png"
+      "image": ".data/categories/category-209.png"
     },
     {
       "id": "1323",
       "name": "Office Equipment",
-      "image": ".data/categories/1323-office-furniture-1668175250-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1323/office-furniture-1668175250-1.png"
+      "image": ".data/categories/category-190.png"
     },
     {
       "id": "1378",
       "name": "Portable Power Stations & Solar Generators",
-      "image": ".data/categories/1378-portable-power-stations-solar-generators-1681916132-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1378/portable-power-stations-solar-generators-1681916132-1.png"
+      "image": ".data/categories/category-210.png"
     },
     {
       "id": "1455",
       "name": "Submersible Scooter",
-      "image": ".data/categories/1455-submersible-scooter-1754295031-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1455/submersible-scooter-1754295031-1.png"
+      "image": ".data/categories/category-215.png"
     },
     {
       "id": "1285",
       "name": "Soundbars",
-      "image": ".data/categories/1285-soundbars-1659081842-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1285/soundbars-1659081842-1.png"
+      "image": ".data/categories/category-183.png"
     },
     {
       "id": "1152",
       "name": "Radios",
-      "image": ".data/categories/1152-radios-1646658955-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1152/radios-1646658955-1.png"
+      "image": ".data/categories/category-121.png"
     },
     {
       "id": "1151",
       "name": "Projectors & Screens",
-      "image": ".data/categories/1151-projectors-screens-1659082143-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1151/projectors-screens-1659082143-1.png"
+      "image": ".data/categories/category-120.png"
     },
     {
       "id": "1154",
       "name": "Streaming, Casting & Remotes",
-      "image": ".data/categories/1154-streamingcasting-1646658978-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1154/streamingcasting-1646658978-1.png"
+      "image": ".data/categories/category-123.png"
     },
     {
       "id": "1155",
       "name": "Televisions",
-      "image": ".data/categories/1155-televisions-1646658987-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1155/televisions-1646658987-1.png"
+      "image": ".data/categories/category-124.png"
     },
     {
       "id": "1146",
       "name": "Digital Cameras",
-      "image": ".data/categories/1146-digital-cameras-1646658366-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1146/digital-cameras-1646658366-1.png"
+      "image": ".data/categories/category-115.png"
     },
     {
       "id": "1225",
       "name": "Instant Cameras",
-      "image": ".data/categories/1225-instant-cameras-1659014939-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1225/instant-cameras-1659014939-1.png"
+      "image": ".data/categories/category-159.png"
     },
     {
       "id": "1226",
       "name": "Home & Surveillance Cameras",
-      "image": ".data/categories/1226-home-surveillance-cameras-1646658438-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1226/home-surveillance-cameras-1646658438-1.png"
+      "image": ".data/categories/category-160.png"
     },
     {
       "id": "1150",
       "name": "Dash Cameras",
-      "image": ".data/categories/1150-dash-cameras-1659015098-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1150/dash-cameras-1659015098-1.png"
+      "image": ".data/categories/category-119.png"
     },
     {
       "id": "1147",
       "name": "Camera Bags & Accessories",
-      "image": ".data/categories/1147-camera-bags-accessories-1646658451-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1147/camera-bags-accessories-1646658451-1.png"
+      "image": ".data/categories/category-116.png"
     },
     {
       "id": "1148",
       "name": "SD/MicroSD/CF Cards",
-      "image": ".data/categories/1148-sdmicrosdcf-cards-1646658463-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1148/sdmicrosdcf-cards-1646658463-1.png"
+      "image": ".data/categories/category-117.png"
     },
     {
       "id": "1149",
       "name": "Card Readers",
-      "image": ".data/categories/1149-card-readers-1646668852-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1149/card-readers-1646668852-1.png"
+      "image": ".data/categories/category-118.png"
     },
     {
       "id": "1138",
       "name": "Drones",
-      "image": ".data/categories/1138-drones-1646658752-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1138/drones-1646658752-1.png"
+      "image": ".data/categories/category-108.png"
     },
     {
       "id": "1227",
       "name": "Action Cameras",
-      "image": ".data/categories/1227-action-cameras-1646658850-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1227/action-cameras-1646658850-1.png"
+      "image": ".data/categories/category-161.png"
     },
     {
       "id": "1228",
       "name": "Gimbals",
-      "image": ".data/categories/1228-gimbals-1659018543-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1228/gimbals-1659018543-1.png"
+      "image": ".data/categories/category-162.png"
     },
     {
       "id": "1380",
       "name": "360° Cameras",
-      "image": ".data/categories/1380-360-C2-B0-cameras-1682586763-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1380/360°-cameras-1682586763-1.png"
+      "image": ".data/categories/category-211.png"
     },
     {
       "id": "1276",
       "name": "Cable & Desk Management",
-      "image": ".data/categories/1276-cable-desk-management-1658997334-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1276/cable-desk-management-1658997334-1.png"
+      "image": ".data/categories/category-175.png"
     },
     {
       "id": "1157",
       "name": "Batteries & Chargers",
-      "image": ".data/categories/1157-batteries-chargers-1646658001-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1157/batteries-chargers-1646658001-1.png"
+      "image": ".data/categories/category-125.png"
     },
     {
       "id": "1158",
       "name": "Cables & Adapters",
-      "image": ".data/categories/1158-cables-adapters-1646658025-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1158/cables-adapters-1646658025-1.png"
+      "image": ".data/categories/category-126.png"
     },
     {
       "id": "1172",
       "name": "CD/DVD Accessories",
-      "image": ".data/categories/1172-cddvd-accessories-1646668836-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1172/cddvd-accessories-1646668836-1.png"
+      "image": ".data/categories/category-140.png"
     },
     {
       "id": "1173",
       "name": "Cleaning Products",
-      "image": ".data/categories/1173-cleaning-products-1646658106-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1173/cleaning-products-1646658106-1.png"
+      "image": ".data/categories/category-141.png"
     },
     {
       "id": "1174",
       "name": "Consumables",
-      "image": ".data/categories/1174-consumables-1646658184-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1174/consumables-1646658184-1.png"
+      "image": ".data/categories/category-142.png"
     },
     {
       "id": "1178",
       "name": "Paper",
-      "image": ".data/categories/1178-paper-1646658205-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1178/paper-1646658205-1.png"
+      "image": ".data/categories/category-145.png"
     },
     {
       "id": "1179",
       "name": "Power Strips & Surge Protectors",
-      "image": ".data/categories/1179-power-strips-surge-protectors-1646658216-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1179/power-strips-surge-protectors-1646658216-1.png"
+      "image": ".data/categories/category-146.png"
     },
     {
       "id": "1180",
       "name": "Stands & Wall Mounts",
-      "image": ".data/categories/1180-stands-wall-mounts-1646658232-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1180/stands-wall-mounts-1646658232-1.png"
+      "image": ".data/categories/category-147.png"
     },
     {
       "id": "1181",
       "name": "USB Accessories",
-      "image": ".data/categories/1181-usb-accessories-1646658244-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1181/usb-accessories-1646658244-1.png"
+      "image": ".data/categories/category-148.png"
     },
     {
       "id": "1159",
       "name": "Apple",
-      "image": ".data/categories/1159-apple-1646657634-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1159/apple-1646657634-1.png"
+      "image": ".data/categories/category-127.png"
     },
     {
       "id": "1160",
       "name": "Antenna, Sat & TV",
-      "image": ".data/categories/1160-antenna-sat-tv-1646657647-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1160/antenna-sat-tv-1646657647-1.png"
+      "image": ".data/categories/category-128.png"
     },
     {
       "id": "1161",
       "name": "AV Converters",
-      "image": ".data/categories/1161-av-converters-1646657660-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1161/av-converters-1646657660-1.png"
+      "image": ".data/categories/category-129.png"
     },
     {
       "id": "1162",
       "name": "Computer Internal",
-      "image": ".data/categories/1162-computer-internal-1646657780-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1162/computer-internal-1646657780-1.png"
+      "image": ".data/categories/category-130.png"
     },
     {
       "id": "1163",
       "name": "Firewire",
-      "image": ".data/categories/1163-firewire-1646657805-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1163/firewire-1646657805-1.png"
+      "image": ".data/categories/category-131.png"
     },
     {
       "id": "1164",
       "name": "HDMI, DVI, DisplayPort",
-      "image": ".data/categories/1164-hdmi-dvi-displayport-1646657819-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1164/hdmi-dvi-displayport-1646657819-1.png"
+      "image": ".data/categories/category-132.png"
     },
     {
       "id": "1165",
       "name": "Network & Telephone",
-      "image": ".data/categories/1165-network-telephone-1646657830-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1165/network-telephone-1646657830-1.png"
+      "image": ".data/categories/category-133.png"
     },
     {
       "id": "1166",
       "name": "Optical Audio (TOSLINK)",
-      "image": ".data/categories/1166-optical-audio-toslink-1646657841-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1166/optical-audio-toslink-1646657841-1.png"
+      "image": ".data/categories/category-134.png"
     },
     {
       "id": "1167",
       "name": "PS2, Serial, Parallel",
-      "image": ".data/categories/1167-ps2-serial-parallel-1646657852-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1167/ps2-serial-parallel-1646657852-1.png"
+      "image": ".data/categories/category-135.png"
     },
     {
       "id": "1168",
       "name": "SCART, Jack, RCA",
-      "image": ".data/categories/1168-scart-jack-rca-1646657948-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1168/scart-jack-rca-1646657948-1.png"
+      "image": ".data/categories/category-136.png"
     },
     {
       "id": "1169",
       "name": "Power",
-      "image": ".data/categories/1169-power-1646657961-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1169/power-1646657961-1.png"
+      "image": ".data/categories/category-137.png"
     },
     {
       "id": "1170",
       "name": "USB",
-      "image": ".data/categories/1170-usb-1646657973-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1170/usb-1646657973-1.png"
+      "image": ".data/categories/category-138.png"
     },
     {
       "id": "1171",
       "name": "VGA",
-      "image": ".data/categories/1171-vga-1646657989-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1171/vga-1646657989-1.png"
+      "image": ".data/categories/category-139.png"
     },
     {
       "id": "1355",
       "name": "Electric Vehicle Chargers",
-      "image": ".data/categories/1355-electric-vehicle-chargers-1676538192-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1355/electric-vehicle-chargers-1676538192-1.png"
+      "image": ".data/categories/category-198.png"
     },
     {
       "id": "1175",
       "name": "Inkjet Cartridges",
-      "image": ".data/categories/1175-inkjet-cartridges-1646657584-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1175/inkjet-cartridges-1646657584-1.png"
+      "image": ".data/categories/category-143.png"
     },
     {
       "id": "1176",
       "name": "Laser Cartridges",
-      "image": ".data/categories/1176-laser-cartridges-1646657597-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1176/laser-cartridges-1646657597-1.png"
+      "image": ".data/categories/category-144.png"
     },
     {
       "id": "1043",
       "name": "Wireless Chargers & Docks",
-      "image": ".data/categories/1043-wireless-chargers-docks-1646662772-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1043/wireless-chargers-docks-1646662772-1.png"
+      "image": ".data/categories/category-030.png"
     },
     {
       "id": "1351",
       "name": "Smartphone Screen Protectors",
-      "image": ".data/categories/1351-smartphone-screen-protectors-1675431649-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1351/smartphone-screen-protectors-1675431649-1.png"
+      "image": ".data/categories/category-195.png"
     },
     {
       "id": "1072",
       "name": "21-22 inch Monitors",
-      "image": ".data/categories/1072-21-22-inch-monitors-1646661805-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1072/21-22-inch-monitors-1646661805-1.png"
+      "image": ".data/categories/category-053.png"
     },
     {
       "id": "1073",
       "name": "23-25 inch Monitors",
-      "image": ".data/categories/1073-23-25-inch-monitors-1646661815-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1073/23-25-inch-monitors-1646661815-1.png"
+      "image": ".data/categories/category-054.png"
     },
     {
       "id": "1074",
       "name": "27-28 inch Monitors",
-      "image": ".data/categories/1074-27-28-inch-monitors-1646661822-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1074/27-28-inch-monitors-1646661822-1.png"
+      "image": ".data/categories/category-055.png"
     },
     {
       "id": "1075",
       "name": "29-49 inch Monitors",
-      "image": ".data/categories/1075-29-49-inch-monitors-1646661835-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1075/29-49-inch-monitors-1646661835-1.png"
+      "image": ".data/categories/category-056.png"
     },
     {
       "id": "1221",
       "name": "InkJet Printers",
-      "image": ".data/categories/1221-inkjet-printers-1646661344-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1221/inkjet-printers-1646661344-1.png"
+      "image": ".data/categories/category-158.png"
     },
     {
       "id": "1077",
       "name": "Ubiquiti Products",
-      "image": ".data/categories/1077-ubiquiti-products-1646661644-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1077/ubiquiti-products-1646661644-1.png"
+      "image": ".data/categories/category-058.png"
     },
     {
       "id": "1078",
       "name": "Bluetooth",
-      "image": ".data/categories/1078-bluetooth-1646661653-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1078/bluetooth-1646661653-1.png"
+      "image": ".data/categories/category-059.png"
     },
     {
       "id": "1079",
       "name": "Routers",
-      "image": ".data/categories/1079-routers-1646661662-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1079/routers-1646661662-1.png"
+      "image": ".data/categories/category-060.png"
     },
     {
       "id": "1080",
       "name": "Switches/Hubs",
-      "image": ".data/categories/1080-switcheshubs-1646661702-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1080/switcheshubs-1646661702-1.png"
+      "image": ".data/categories/category-061.png"
     },
     {
       "id": "1081",
       "name": "Access Points & Repeaters",
-      "image": ".data/categories/1081-access-points-repeaters-1646661713-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1081/access-points-repeaters-1646661713-1.png"
+      "image": ".data/categories/category-062.png"
     },
     {
       "id": "1082",
       "name": "Ethernet/WiFi Adapters",
-      "image": ".data/categories/1082-ethernetwifi-adapters-1646661726-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1082/ethernetwifi-adapters-1646661726-1.png"
+      "image": ".data/categories/category-063.png"
     },
     {
       "id": "1083",
       "name": "Ethernet/WiFi Cards",
-      "image": ".data/categories/1083-ethernetwifi-cards-1646661745-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1083/ethernetwifi-cards-1646661745-1.png"
+      "image": ".data/categories/category-064.png"
     },
     {
       "id": "1084",
       "name": "Network & Telephone Cables",
-      "image": ".data/categories/1084-network-telephone-cables-1646661780-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1084/network-telephone-cables-1646661780-1.png"
+      "image": ".data/categories/category-065.png"
     },
     {
       "id": "1198",
       "name": "Cleaning",
-      "image": ".data/categories/1198-cleaning-1649851162-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1198/cleaning-1649851162-1.png"
+      "image": ".data/categories/category-151.png"
     },
     {
       "id": "1376",
       "name": "Pet Accessories",
-      "image": ".data/categories/1376-pet-accessories-1681139383-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1376/pet-accessories-1681139383-1.png"
+      "image": ".data/categories/category-208.png"
     },
     {
       "id": "1144",
       "name": "Paper Shredders",
-      "image": ".data/categories/1144-paper-shredders-1646658930-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1144/paper-shredders-1646658930-1.png"
+      "image": ".data/categories/category-113.png"
     },
     {
       "id": "1324",
       "name": "Gaming Chairs & Tables",
-      "image": ".data/categories/1324-gaming-chairs-tables-1663331387-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/category/1324/gaming-chairs-tables-1663331387-1.png"
+      "image": ".data/categories/category-191.png"
     }
   ],
   "marketingAssets": [
     {
       "name": "cfe KLIKK LIFE WEBSITE BANNER 1776X332 240726",
-      "image": ".data/banners/wide/2026-07-27-cfe-KLIKK_LIFE_WEBSITE_BANNER_1776X332_240726.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2026-07-27/cfe-KLIKK_LIFE_WEBSITE_BANNER_1776X332_240726.jpg",
+      "image": ".data/banners/wide/banner-wide-011.jpg",
       "kind": "desktop-wide-banner",
       "dimensions": {
         "width": 1776,
@@ -2380,8 +2044,7 @@
     },
     {
       "name": "702 Summer Sale 1776X332 250626",
-      "image": ".data/banners/wide/2026-06-25-702-Summer_Sale_1776X332_250626.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2026-06-25/702-Summer_Sale_1776X332_250626.png",
+      "image": ".data/banners/wide/banner-wide-010.png",
       "kind": "desktop-wide-banner",
       "dimensions": {
         "width": 1776,
@@ -2390,8 +2053,7 @@
     },
     {
       "name": "852 laptops",
-      "image": ".data/banners/other/2023-08-24-852-laptops.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/852-laptops.png",
+      "image": ".data/banners/other/banner-008.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 250,
@@ -2400,8 +2062,7 @@
     },
     {
       "name": "4f8 smartphones",
-      "image": ".data/banners/other/2023-08-24-4f8-smartphones.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/4f8-smartphones.png",
+      "image": ".data/banners/other/banner-004.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 250,
@@ -2410,8 +2071,7 @@
     },
     {
       "name": "4e7 Tablets",
-      "image": ".data/banners/other/2023-08-24-4e7-Tablets.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/4e7-Tablets.png",
+      "image": ".data/banners/other/banner-002.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 250,
@@ -2420,8 +2080,7 @@
     },
     {
       "name": "ece kindle",
-      "image": ".data/banners/other/2023-08-24-ece-kindle.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/ece-kindle.png",
+      "image": ".data/banners/other/banner-013.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 250,
@@ -2430,8 +2089,7 @@
     },
     {
       "name": "6aa smartwear",
-      "image": ".data/banners/other/2023-08-24-6aa-smartwear.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/6aa-smartwear.png",
+      "image": ".data/banners/other/banner-006.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 250,
@@ -2440,8 +2098,7 @@
     },
     {
       "name": "b90 monitors",
-      "image": ".data/banners/other/2023-08-24-b90-monitors.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/b90-monitors.png",
+      "image": ".data/banners/other/banner-010.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 250,
@@ -2450,8 +2107,7 @@
     },
     {
       "name": "23f Printers",
-      "image": ".data/banners/other/2023-08-24-23f-Printers.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/23f-Printers.png",
+      "image": ".data/banners/other/banner-001.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 250,
@@ -2460,8 +2116,7 @@
     },
     {
       "name": "b3e headphones",
-      "image": ".data/banners/other/2023-08-24-b3e-headphones.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/b3e-headphones.png",
+      "image": ".data/banners/other/banner-009.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 250,
@@ -2470,8 +2125,7 @@
     },
     {
       "name": "d84 cleaning",
-      "image": ".data/banners/other/2023-08-24-d84-cleaning.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/d84-cleaning.png",
+      "image": ".data/banners/other/banner-012.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 250,
@@ -2480,8 +2134,7 @@
     },
     {
       "name": "f41 Kitchen",
-      "image": ".data/banners/other/2023-08-24-f41-Kitchen.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/f41-Kitchen.png",
+      "image": ".data/banners/other/banner-015.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 250,
@@ -2490,8 +2143,7 @@
     },
     {
       "name": "4f4 Smart Home",
-      "image": ".data/banners/other/2023-08-24-4f4-Smart-Home.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/4f4-Smart-Home.png",
+      "image": ".data/banners/other/banner-003.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 250,
@@ -2500,8 +2152,7 @@
     },
     {
       "name": "cb0 Personal Care",
-      "image": ".data/banners/other/2023-08-24-cb0-Personal-Care.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/cb0-Personal-Care.png",
+      "image": ".data/banners/other/banner-011.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 250,
@@ -2510,8 +2161,7 @@
     },
     {
       "name": "631 components",
-      "image": ".data/banners/other/2023-08-24-631-components.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/631-components.png",
+      "image": ".data/banners/other/banner-005.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 250,
@@ -2520,8 +2170,7 @@
     },
     {
       "name": "f1e power stations",
-      "image": ".data/banners/other/2023-08-24-f1e-power-stations.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/f1e-power-stations.png",
+      "image": ".data/banners/other/banner-014.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 250,
@@ -2530,8 +2179,7 @@
     },
     {
       "name": "772 playstation",
-      "image": ".data/banners/other/2023-08-24-772-playstation.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/772-playstation.png",
+      "image": ".data/banners/other/banner-007.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 250,
@@ -2540,8 +2188,7 @@
     },
     {
       "name": "f67 nintendo switch",
-      "image": ".data/banners/other/2023-08-24-f67-nintendo-switch.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/f67-nintendo-switch.png",
+      "image": ".data/banners/other/banner-016.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 250,
@@ -2550,8 +2197,7 @@
     },
     {
       "name": "600 KLIKK PROMISE WEBSITE BANNER 250825",
-      "image": ".data/banners/wide/2025-08-25-600-KLIKK_PROMISE_WEBSITE_BANNER_250825.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2025-08-25/600-KLIKK_PROMISE_WEBSITE_BANNER_250825.jpg",
+      "image": ".data/banners/wide/banner-wide-001.jpg",
       "kind": "desktop-wide-banner",
       "dimensions": {
         "width": 1776,
@@ -2560,8 +2206,7 @@
     },
     {
       "name": "774 KLIKK AQARA DESKTOP 171225",
-      "image": ".data/banners/wide/2025-12-17-774-KLIKK_AQARA_DESKTOP_171225.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2025-12-17/774-KLIKK_AQARA_DESKTOP_171225.jpg",
+      "image": ".data/banners/wide/banner-wide-002.jpg",
       "kind": "desktop-wide-banner",
       "dimensions": {
         "width": 1776,
@@ -2570,8 +2215,7 @@
     },
     {
       "name": "ea9 XIAOMI 20TV MAIN 030326",
-      "image": ".data/banners/wide/2026-03-04-ea9-XIAOMI-20TV_MAIN_030326.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2026-03-04/ea9-XIAOMI TV_MAIN_030326.jpg",
+      "image": ".data/banners/wide/banner-wide-008.jpg",
       "kind": "desktop-wide-banner",
       "dimensions": {
         "width": 1776,
@@ -2580,8 +2224,7 @@
     },
     {
       "name": "7b9 AIRSTYLE 20PRO MAIN 030326",
-      "image": ".data/banners/wide/2026-03-04-7b9-AIRSTYLE-20PRO_MAIN_030326.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2026-03-04/7b9-AIRSTYLE PRO_MAIN_030326.jpg",
+      "image": ".data/banners/wide/banner-wide-006.jpg",
       "kind": "desktop-wide-banner",
       "dimensions": {
         "width": 1776,
@@ -2590,8 +2233,7 @@
     },
     {
       "name": "c5f SAMSUNG 20FS26 MAIN 030326",
-      "image": ".data/banners/wide/2026-03-04-c5f-SAMSUNG-20FS26_MAIN_030326.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2026-03-04/c5f-SAMSUNG FS26_MAIN_030326.jpg",
+      "image": ".data/banners/wide/banner-wide-007.jpg",
       "kind": "desktop-wide-banner",
       "dimensions": {
         "width": 1776,
@@ -2600,8 +2242,7 @@
     },
     {
       "name": "5c3 MOMCOZY MAIN 030326",
-      "image": ".data/banners/wide/2026-03-04-5c3-MOMCOZY_MAIN_030326.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2026-03-04/5c3-MOMCOZY_MAIN_030326.jpg",
+      "image": ".data/banners/wide/banner-wide-005.jpg",
       "kind": "desktop-wide-banner",
       "dimensions": {
         "width": 1776,
@@ -2610,8 +2251,7 @@
     },
     {
       "name": "f91 DYSON MAIN 030326",
-      "image": ".data/banners/wide/2026-03-04-f91-DYSON_MAIN_030326.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2026-03-04/f91-DYSON_MAIN_030326.jpg",
+      "image": ".data/banners/wide/banner-wide-009.jpg",
       "kind": "desktop-wide-banner",
       "dimensions": {
         "width": 1776,
@@ -2620,8 +2260,7 @@
     },
     {
       "name": "29f DJI MAIN 030326",
-      "image": ".data/banners/wide/2026-03-04-29f-DJI_MAIN_030326.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2026-03-04/29f-DJI_MAIN_030326.jpg",
+      "image": ".data/banners/wide/banner-wide-004.jpg",
       "kind": "desktop-wide-banner",
       "dimensions": {
         "width": 1776,
@@ -2630,8 +2269,7 @@
     },
     {
       "name": "085 PHILIPS 20TV MAIN 030326",
-      "image": ".data/banners/wide/2026-03-04-085-PHILIPS-20TV_MAIN_030326.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2026-03-04/085-PHILIPS TV_MAIN_030326.jpg",
+      "image": ".data/banners/wide/banner-wide-003.jpg",
       "kind": "desktop-wide-banner",
       "dimensions": {
         "width": 1776,
@@ -2640,8 +2278,7 @@
     },
     {
       "name": "5b1 3474ee9b bb5f 418f 888c ecc687d96e2a 20 1 ",
-      "image": ".data/banners/other/2023-08-25-5b1-3474ee9b-bb5f-418f-888c-ecc687d96e2a-20-1-.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-25/5b1-3474ee9b-bb5f-418f-888c-ecc687d96e2a (1).jpg",
+      "image": ".data/banners/other/banner-017.jpg",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 1347,
@@ -2650,8 +2287,7 @@
     },
     {
       "name": "3bf dyson hair care small banner",
-      "image": ".data/banners/other/2024-05-15-3bf-dyson-hair-care-small-banner.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2024-05-15/3bf-dyson-hair-care-small-banner.png",
+      "image": ".data/banners/other/banner-018.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 876,
@@ -2660,8 +2296,7 @@
     },
     {
       "name": "451 roborock cleaners",
-      "image": ".data/banners/other/2024-05-15-451-roborock-cleaners.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2024-05-15/451-roborock-cleaners.png",
+      "image": ".data/banners/other/banner-019.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 876,
@@ -2670,8 +2305,7 @@
     },
     {
       "name": "ac6 vacancies",
-      "image": ".data/banners/other/2024-05-15-ac6-vacancies.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2024-05-15/ac6-vacancies.png",
+      "image": ".data/banners/other/banner-021.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 876,
@@ -2680,8 +2314,7 @@
     },
     {
       "name": "8a3 super deals banner",
-      "image": ".data/banners/other/2024-05-15-8a3-super-deals-banner.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2024-05-15/8a3-super-deals-banner.png",
+      "image": ".data/banners/other/banner-020.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 876,
@@ -2690,8 +2323,7 @@
     },
     {
       "name": "d5e KLIKK LIFE WEBSITE BANNER 800X600 240726",
-      "image": ".data/banners/other/2026-07-27-d5e-KLIKK_LIFE_WEBSITE_BANNER_800X600_240726.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2026-07-27/d5e-KLIKK_LIFE_WEBSITE_BANNER_800X600_240726.jpg",
+      "image": ".data/banners/other/banner-032.jpg",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 800,
@@ -2700,8 +2332,7 @@
     },
     {
       "name": "40f Summer Sale 800X600 250626",
-      "image": ".data/banners/other/2026-06-25-40f-Summer_Sale_800X600_250626.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2026-06-25/40f-Summer_Sale_800X600_250626.png",
+      "image": ".data/banners/other/banner-031.png",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 800,
@@ -2710,8 +2341,7 @@
     },
     {
       "name": "233 KLIKK PROMISE MOBILE BANNER 250825",
-      "image": ".data/banners/other/2025-08-25-233-KLIKK_PROMISE_MOBILE_BANNER_250825.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2025-08-25/233-KLIKK_PROMISE_MOBILE_BANNER_250825.jpg",
+      "image": ".data/banners/other/banner-022.jpg",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 800,
@@ -2720,8 +2350,7 @@
     },
     {
       "name": "37c KLIKK AQARA MOBILE 171225",
-      "image": ".data/banners/other/2025-12-17-37c-KLIKK_AQARA_MOBILE_171225.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2025-12-17/37c-KLIKK_AQARA_MOBILE_171225.jpg",
+      "image": ".data/banners/other/banner-023.jpg",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 800,
@@ -2730,8 +2359,7 @@
     },
     {
       "name": "9f9 XIAOMI 20TV MOBILE 030326",
-      "image": ".data/banners/other/2026-03-04-9f9-XIAOMI-20TV_MOBILE_030326.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2026-03-04/9f9-XIAOMI TV_MOBILE_030326.jpg",
+      "image": ".data/banners/other/banner-029.jpg",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 800,
@@ -2740,8 +2368,7 @@
     },
     {
       "name": "313 AIRSTYLE 20PRO MOBILE 030326",
-      "image": ".data/banners/other/2026-03-04-313-AIRSTYLE-20PRO_MOBILE_030326.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2026-03-04/313-AIRSTYLE PRO_MOBILE_030326.jpg",
+      "image": ".data/banners/other/banner-024.jpg",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 800,
@@ -2750,8 +2377,7 @@
     },
     {
       "name": "e3b SAMSUNG 20FS26 MOBILE 030326",
-      "image": ".data/banners/other/2026-03-04-e3b-SAMSUNG-20FS26_MOBILE_030326.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2026-03-04/e3b-SAMSUNG FS26_MOBILE_030326.jpg",
+      "image": ".data/banners/other/banner-030.jpg",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 800,
@@ -2760,8 +2386,7 @@
     },
     {
       "name": "45f MOMCOZY MOBILE 030326",
-      "image": ".data/banners/other/2026-03-04-45f-MOMCOZY_MOBILE_030326.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2026-03-04/45f-MOMCOZY_MOBILE_030326.jpg",
+      "image": ".data/banners/other/banner-025.jpg",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 800,
@@ -2770,8 +2395,7 @@
     },
     {
       "name": "681 DYSON MOBILE 030326",
-      "image": ".data/banners/other/2026-03-04-681-DYSON_MOBILE_030326.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2026-03-04/681-DYSON_MOBILE_030326.jpg",
+      "image": ".data/banners/other/banner-027.jpg",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 800,
@@ -2780,8 +2404,7 @@
     },
     {
       "name": "834 DJI MOBILE 030326",
-      "image": ".data/banners/other/2026-03-04-834-DJI_MOBILE_030326.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2026-03-04/834-DJI_MOBILE_030326.jpg",
+      "image": ".data/banners/other/banner-028.jpg",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 800,
@@ -2790,8 +2413,7 @@
     },
     {
       "name": "58e PHILIPS 20TV MOBILE 030326",
-      "image": ".data/banners/other/2026-03-04-58e-PHILIPS-20TV_MOBILE_030326.jpg",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2026-03-04/58e-PHILIPS TV_MOBILE_030326.jpg",
+      "image": ".data/banners/other/banner-026.jpg",
       "kind": "other-homepage-art",
       "dimensions": {
         "width": 800,
@@ -2802,175 +2424,146 @@
   "overlays": [
     {
       "name": "195-energy-lable-a-1758142579-1",
-      "image": ".data/overlays/195-energy-lable-a-1758142579-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/overlaygroup/195/energy-lable-a-1758142579-1.png"
+      "image": ".data/overlays/overlay-002.png"
     },
     {
       "name": "168-energy-lable-b-1754311274-1",
-      "image": ".data/overlays/168-energy-lable-b-1754311274-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/overlaygroup/168/energy-lable-b-1754311274-1.png"
+      "image": ".data/overlays/overlay-001.png"
     },
     {
       "name": "33-clearance-1668086005-1",
-      "image": ".data/overlays/33-clearance-1668086005-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/overlaygroup/33/clearance-1668086005-1.png"
+      "image": ".data/overlays/overlay-004.png"
     },
     {
       "name": "213-2026-summersale-1782386326-1",
-      "image": ".data/overlays/213-2026-summersale-1782386326-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/overlaygroup/213/2026-summersale-1782386326-1.png"
+      "image": ".data/overlays/overlay-003.png"
     }
   ],
   "branding": [
     {
       "name": "Klikk logo",
-      "image": ".data/brand-assets/klikk-logo-2025.png",
-      "sourceImage": "https://klikk.com.mt/images/klikk_logo_2025.png"
+      "image": ".data/brand-assets/klikk-logo-2025.png"
     }
   ],
   "brandLogos": [
     {
       "name": "Apple",
       "query": "apple",
-      "image": ".data/brand-assets/logos/2023-08-24-c00-apple.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/c00-apple.png"
+      "image": ".data/brand-assets/logos/brand-019.png"
     },
     {
       "name": "Roborock",
       "query": "roborock",
-      "image": ".data/brand-assets/logos/2023-08-24-38a-roborock.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/38a-roborock.png"
+      "image": ".data/brand-assets/logos/brand-008.png"
     },
     {
       "name": "Samsung",
       "query": "samsung",
-      "image": ".data/brand-assets/logos/2023-08-24-525-samsung.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/525-samsung.png"
+      "image": ".data/brand-assets/logos/brand-011.png"
     },
     {
       "name": "Xiaomi",
       "query": "xiaomi",
-      "image": ".data/brand-assets/logos/2023-08-24-1b3-xiaomi.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/1b3-xiaomi.png"
+      "image": ".data/brand-assets/logos/brand-002.png"
     },
     {
       "name": "iiyama",
       "query": "iiyama",
-      "image": ".data/brand-assets/logos/2025-05-13-8a0-iiyama.png",
-      "sourceImage": " https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2025-05-13/8a0-iiyama.png"
+      "image": ".data/brand-assets/logos/brand-023.png"
     },
     {
       "name": "Gigabyte",
       "query": "gigabyte",
-      "image": ".data/brand-assets/logos/2023-08-24-813-gigabyte.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/813-gigabyte.png"
+      "image": ".data/brand-assets/logos/brand-013.png"
     },
     {
       "name": "Lenovo",
       "query": "lenovo",
-      "image": ".data/brand-assets/logos/2023-08-24-fb7-lenovo.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/fb7-lenovo.png"
+      "image": ".data/brand-assets/logos/brand-022.png"
     },
     {
       "name": "Razer",
       "query": "razer",
-      "image": ".data/brand-assets/logos/2023-08-24-442-razer.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/442-razer.png"
+      "image": ".data/brand-assets/logos/brand-010.png"
     },
     {
       "name": "Microsoft",
       "query": "microsoft",
-      "image": ".data/brand-assets/logos/2023-08-24-2bd-microsoft.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/2bd-microsoft.png"
+      "image": ".data/brand-assets/logos/brand-004.png"
     },
     {
       "name": "realme",
       "query": "realme",
-      "image": ".data/brand-assets/logos/2023-08-24-dd4-realme.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/dd4-realme.png"
+      "image": ".data/brand-assets/logos/brand-021.png"
     },
     {
       "name": "OnePlus",
       "query": "oneplus",
-      "image": ".data/brand-assets/logos/2023-08-24-a39-oneplus.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/a39-oneplus.png"
+      "image": ".data/brand-assets/logos/brand-016.png"
     },
     {
       "name": "OPPO",
       "query": "oppo",
-      "image": ".data/brand-assets/logos/2023-08-24-d48-oppo.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/d48-oppo.png"
+      "image": ".data/brand-assets/logos/brand-020.png"
     },
     {
       "name": "Google Pixel",
       "query": "google-pixel",
-      "image": ".data/brand-assets/logos/2023-08-24-038-google-pixel.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/038-google-pixel.png"
+      "image": ".data/brand-assets/logos/brand-001.png"
     },
     {
       "name": "Philips",
       "query": "philips",
-      "image": ".data/brand-assets/logos/2023-08-24-3b1-philips.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/3b1-philips.png"
+      "image": ".data/brand-assets/logos/brand-009.png"
     },
     {
       "name": "Dyson",
       "query": "dyson",
-      "image": ".data/brand-assets/logos/2023-08-24-9e2-dyson.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/9e2-dyson.png"
+      "image": ".data/brand-assets/logos/brand-015.png"
     },
     {
       "name": "Spigen",
       "query": "spigen",
-      "image": ".data/brand-assets/logos/2023-08-24-337-spigen.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/337-spigen.png"
+      "image": ".data/brand-assets/logos/brand-005.png"
     },
     {
       "name": "3mk",
       "query": "3mk",
-      "image": ".data/brand-assets/logos/2023-08-24-344-3mk.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/344-3mk.png"
+      "image": ".data/brand-assets/logos/brand-006.png"
     },
     {
       "name": "Nintendo",
       "query": "nintendo",
-      "image": ".data/brand-assets/logos/2023-08-24-28d-nintendo.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/28d-nintendo.png"
+      "image": ".data/brand-assets/logos/brand-003.png"
     },
     {
       "name": "Acer",
       "query": "acer",
-      "image": ".data/brand-assets/logos/2023-08-24-a72-acer.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/a72-acer.png"
+      "image": ".data/brand-assets/logos/brand-017.png"
     },
     {
       "name": "HP",
       "query": "hp",
-      "image": ".data/brand-assets/logos/2023-08-24-987-hp.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/987-hp.png"
+      "image": ".data/brand-assets/logos/brand-014.png"
     },
     {
       "name": "Anker",
       "query": "anker",
-      "image": ".data/brand-assets/logos/2023-08-24-b81-anker.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/b81-anker.png"
+      "image": ".data/brand-assets/logos/brand-018.png"
     },
     {
       "name": "Green Cell",
       "query": "green-cell",
-      "image": ".data/brand-assets/logos/2023-08-24-5d9-green-cell.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/5d9-green-cell.png"
+      "image": ".data/brand-assets/logos/brand-012.png"
     },
     {
       "name": "DJI",
       "query": "dji",
-      "image": ".data/brand-assets/logos/2023-08-24-361-dji.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2023-08-24/361-dji.png"
+      "image": ".data/brand-assets/logos/brand-007.png"
     }
   ],
   "brandSectionArtwork": {
     "name": "Brand list section heading",
-    "image": ".data/brand-assets/section-art/2025-10-03-2f6-brand_list_title_image.png",
-    "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/files/2025-10-03/2f6-brand_list_title_image.png"
+    "image": ".data/brand-assets/section-art/brand-heading-024.png"
   }
 }

@@ -5,12 +5,12 @@
 ## Current snapshot
 
 - **Last updated:** 2026-08-06
-- **Active phase:** Phase 0 — Product definition and visual direction
+- **Active phase:** Phase 2 — Browse and discovery (ready to begin)
 - **Project goal:** Redesign Klikk as a realistic, responsive Next.js storefront demo.
 - **Commerce boundary:** Presentation/demo only. No live Klikk inventory, prices, customer accounts, order systems, payments, fulfilment, or transactional email.
 - **Runtime:** Next.js `16.3.0`, React `19.2.8`, TypeScript, Tailwind CSS 4, Biome, Bun `1.3.14`.
-- **Data source:** Captured public Klikk homepage content, normalised and cached locally under `.data`. Treat all data as reference/sample content, not live commerce data.
-- **Application implementation:** No storefront UI has been implemented yet; the repository remains at the starter-app stage.
+- **Data source:** Captured public Klikk homepage content, normalised and cached locally under `.data` with concise local asset names. Treat all data as reference/sample content, not live commerce data.
+- **Application implementation:** Phase 1 foundation is implemented: typed local catalogue adapter, local public asset copies, shared EUR formatters, responsive shell, and minimal product/category resolution routes.
 - **Documentation location:** All project Markdown files are kept under `.docs`; `.docs/AGENTS.md` contains the agent operating protocol.
 
 ### Available local retail data
@@ -19,37 +19,52 @@
 | -------------------------- | --------------------------------- | ----: | ---------------------------------------------------------------------------------- |
 | Showcase product seed data | `.data/products.json`             |    24 | Curated entries for focused sections.                                              |
 | Complete product manifest  | `.data/catalogue.json`            |   116 | Includes local paths, original source references, product/category/asset metadata. |
-| Product imagery            | `.data/products/`                 |   116 | Public source images cached locally.                                               |
-| Category imagery           | `.data/categories/`               |   219 | Public source images cached locally.                                               |
-| Wide desktop banners       | `.data/banners/wide/`             |    11 | Verified `1776 × 332` campaign images.                                             |
-| Other homepage visuals     | `.data/banners/other/`            |    32 | Category tiles, mobile campaigns, and feature artwork.                             |
-| Brand logos                | `.data/brand-assets/logos/`       |    23 | See `.data/brands.json`.                                                           |
-| Brand heading artwork      | `.data/brand-assets/section-art/` |     1 | Original source artwork.                                                           |
-| Sale/energy overlays       | `.data/overlays/`                 |     4 | Original source badges.                                                            |
+| Product imagery            | `.data/products/`                 |   140 | `product-<id>` catalogue images plus `showcase-<id>` curated images.               |
+| Category imagery           | `.data/categories/`               |   219 | `category-<nnn>` sequence.                                                         |
+| Wide desktop banners       | `.data/banners/wide/`             |    11 | `banner-wide-<nnn>` sequence; verified `1776 × 332` campaign images.               |
+| Other homepage visuals     | `.data/banners/other/`            |    32 | `banner-<nnn>` sequence.                                                           |
+| Brand logos                | `.data/brand-assets/logos/`       |    23 | `brand-<nnn>` sequence; see `.data/brands.json`.                                   |
+| Brand heading artwork      | `.data/brand-assets/section-art/` |    44 | `brand-heading-<nnn>` sequence; one selected record is manifest-referenced.        |
+| Sale/energy overlays       | `.data/overlays/`                 |     4 | `overlay-<nnn>` sequence.                                                          |
 
 ### Design and implementation direction
 
-- The agreed implementation plan is `.docs/REDESIGN-ROADMAP.md`.
-- The first implementation phase is **Phase 0**, followed by data adapter/foundation, discovery, product/basket, demo checkout, and quality validation.
+- The agreed implementation plan is `.docs/REDESIGN-ROADMAP.md`; Phase 0 decisions are recorded in `.docs/PHASE-0-DESIGN-SPEC.md`.
 - The basket must be client-side/local only. A demo checkout may generate a synthetic reference but must never send an order or collect payment details.
-- Use local cached images in the UI; do not expose or depend on the original CDN URLs at runtime.
-- Before changing application code, read the applicable local Next.js 16 guidance under `node_modules/next/dist/docs/`.
+- All UI image paths are mapped from the private `.data` source paths to copied local static assets under `public/assets/`; manifests contain concise local paths only and no original CDN `sourceImage` fields.
+- The installed Next.js package does not contain the referenced `dist/docs/` directory. `node_modules/next/AGENTS.md` was reviewed; use the generated route types and current package declarations where applicable.
 
 ### Outstanding work
 
-1. Review `.design` assets/material and decide the concrete visual direction for Phase 0.
-2. Define a concise primary-navigation category set and homepage content selection from the captured assets.
-3. Implement Phase 1 only after the Phase 0 design decisions are recorded here.
-4. Decide the final local-asset serving/import strategy compatible with Next.js 16 before implementing image components.
+1. Begin Phase 2: build local-asset-backed homepage campaign, product-card and discovery sections.
+2. Implement `/shop`, `/search`, and `/brands` with shareable URL search/filter/sort state.
+3. Revisit brand/category inference if richer captured metadata becomes available; the full catalogue records do not include these fields.
+4. Add a bundled local Archivo font only if licensing/source files are supplied; do not introduce an external runtime font request.
 
 ### Known limitations and validation state
 
 - Product/asset data is a captured snapshot, not a live feed. Prices, promotions, and availability can be stale or inaccurate.
 - No dedicated brand-media route was found on the public Klikk site; the 23 original brand tiles were identified in the homepage’s `upload/files` asset collection.
-- There is no current user-interface, test suite, or production build validation for storefront behavior because no application implementation has started.
-- Asset validation completed: all 407 unique manifest-referenced cached files existed locally and were non-empty at the time of validation.
+- No automated test suite exists yet. Validation for the Phase 1 foundation is recorded in the newest change-log entry.
+- Asset validation completed: all 431 unique manifest-referenced cached files resolve in both `.data` and `public/assets`. The cached set contains 474 local image files, including intentionally retained unreferenced artwork.
 
 ## Change log
+
+### 2026-08-06 — Local asset names and manifests simplified
+
+- **Phase:** Phase 1 — Data adapter and foundation
+- **Summary:** Renamed cached and public image copies to concise deterministic names, such as `product-<id>`, `showcase-<id>`, `category-<nnn>`, and `banner-<nnn>`. Updated every JSON manifest image path and removed original CDN `sourceImage` fields, including category, campaign, brand, and selected artwork records.
+- **Files changed:** `.data/catalogue.json`, `.data/products.json`, `.data/brands.json`, `.data/products/`, `.data/categories/`, `.data/banners/`, `.data/brand-assets/`, `.data/overlays/`, `public/assets/`, `.docs/HANDOFF.md`
+- **Validation:** Recursive verification found 455 manifest image references (431 unique), all resolving in both private and public local paths; no `sourceImage` fields remain in JSON manifests. `bun run lint` and `bun run build` passed.
+- **Next step / blocker:** Continue Phase 2 browse and discovery using concise public asset paths. Do not reintroduce source CDN URL fields.
+
+### 2026-08-06 — Phases 0 and 1 completed
+
+- **Phase:** Phase 0 — Product definition and visual direction; Phase 1 — Data adapter and foundation
+- **Summary:** Recorded the modernist design direction, page wireframes, content rules, primary navigation, local-demo language, and mock delivery rules. Added a typed catalogue repository with normalisation, filtering, sorting and related-product helpers; copied local image assets into `public/assets`; and replaced the starter UI with an accessible responsive shell and product/category slug-resolution routes.
+- **Files changed:** `.docs/PHASE-0-DESIGN-SPEC.md`, `.docs/HANDOFF.md`, `biome.json`, `public/assets/`, `src/lib/catalog/`, `src/components/layout/`, `src/app/layout.tsx`, `src/app/globals.css`, `src/app/page.tsx`, `src/app/product/[slug]/page.tsx`, `src/app/shop/[category]/page.tsx`
+- **Validation:** `bun run lint` passed (11 application/config files checked). `bun run build` passed; `/` is static and product/category dynamic routes compiled. Biome scope intentionally excludes preserved `.design` and captured `.data` reference archives, which contain legacy lint/format issues unrelated to the app source.
+- **Next step / blocker:** Begin Phase 2 browse and discovery work. The full captured catalogue has no native brand/category metadata, so current labels are intentionally inferred by the repository.
 
 ### 2026-08-06 — Documentation consolidated under `.docs`
 

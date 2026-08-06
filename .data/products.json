@@ -15,8 +15,7 @@
       "brand": "Gigabyte",
       "category": "Laptops",
       "price": 2479,
-      "image": "/.data/products/gigabyte-gaming-a18-pro.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39716/gigabytegaminga18pro18inchqhd165hzu7240h32gb1tbrtx5070tiw11-1781760075-1.png",
+      "image": "/.data/products/showcase-39716.png",
       "specification": "18-inch QHD+ 165Hz · Core Ultra 7 · 32GB · 1TB · RTX 5070 Ti"
     },
     {
@@ -26,8 +25,7 @@
       "brand": "Lenovo",
       "category": "Laptops",
       "price": 1499,
-      "image": "/.data/products/lenovo-thinkpad-e14-g7.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39747/lenovothinkpade14g714inchfhdu7255h16gb512gbw11plaptop3yw-1781860857-1.png",
+      "image": "/.data/products/showcase-39747.png",
       "specification": "14-inch FHD · Core Ultra 7 · 16GB · 512GB · Windows 11 Pro"
     },
     {
@@ -37,8 +35,7 @@
       "brand": "Apple",
       "category": "Laptops",
       "price": 5199,
-      "image": "/.data/products/apple-macbook-pro-16-m5-max.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/38770/applemacbookpro16inchm5max1832core36gb2tbspaceblack-1776671115-1.png",
+      "image": "/.data/products/showcase-38770.png",
       "specification": "M5 Max · 36GB · 2TB · Space Black"
     },
     {
@@ -48,8 +45,7 @@
       "brand": "Rock",
       "category": "Desktop PCs",
       "price": 1675.6,
-      "image": "/.data/products/rock-7-ultra-desktop-pc.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/33041/rock7ultradesktoppccustomisable-1742560724-1.png",
+      "image": "/.data/products/showcase-33041.png",
       "specification": "Customisable desktop PC"
     },
     {
@@ -59,8 +55,7 @@
       "brand": "Apple",
       "category": "Smartphones",
       "price": 1499,
-      "image": "/.data/products/apple-iphone-17-pro-max-256gb.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/35528/appleiphone17promax256gbcosmicorange-1757456752-1.png",
+      "image": "/.data/products/showcase-35528.png",
       "specification": "256GB · Cosmic Orange"
     },
     {
@@ -70,8 +65,7 @@
       "brand": "Xiaomi",
       "category": "Smartphones",
       "price": 649,
-      "image": "/.data/products/xiaomi-17t-pro-512gb.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40110/xiaomi17tprods12gb512gbdeepblue-1785759802-4.png",
+      "image": "/.data/products/showcase-40110.png",
       "specification": "12GB RAM · 512GB · Deep Blue"
     },
     {
@@ -81,8 +75,7 @@
       "brand": "Apple",
       "category": "Tablets",
       "price": 1039,
-      "image": "/.data/products/apple-ipad-air-13-m4.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/38791/appleipadair13inchm4wifi128gbstarlight-1776680037-1.png",
+      "image": "/.data/products/showcase-38791.png",
       "specification": "Wi‑Fi · 128GB · Starlight"
     },
     {
@@ -92,8 +85,7 @@
       "brand": "Microsoft",
       "category": "Tablets",
       "price": 2099,
-      "image": "/.data/products/microsoft-surface-pro-11.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39751/microsoftsurfacepro1113inchu716gb512gbw11pplatinum-1781875374-1.png",
+      "image": "/.data/products/showcase-39751.png",
       "specification": "13-inch · Core Ultra 7 · 16GB · 512GB · Platinum"
     },
     {
@@ -103,8 +95,7 @@
       "brand": "Samsung",
       "category": "Wearables",
       "price": 449,
-      "image": "/.data/products/samsung-galaxy-watch-ultra.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39624/samsunggalaxywatchultra2025lte47mmtitaniumbluewblueband-1780907876-1.png",
+      "image": "/.data/products/showcase-39624.png",
       "specification": "2025 · LTE · 47mm · Titanium Blue"
     },
     {
@@ -114,8 +105,7 @@
       "brand": "Apple",
       "category": "Audio",
       "price": 599,
-      "image": "/.data/products/apple-airpods-max-2-blue.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39086/appleairpodsmax2blue-1777449104-1.png",
+      "image": "/.data/products/showcase-39086.png",
       "specification": "Blue"
     },
     {
@@ -125,8 +115,7 @@
       "brand": "Bose",
       "category": "Audio",
       "price": 899,
-      "image": "/.data/products/bose-lifestyle-ultra-subwoofer.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40128/boselifestyleultrasubwooferblack-1785831365-1.png",
+      "image": "/.data/products/showcase-40128.png",
       "specification": "Black"
     },
     {
@@ -136,8 +125,7 @@
       "brand": "Philips",
       "category": "TV & Home Entertainment",
       "price": 799,
-      "image": "/.data/products/philips-65-titan-qled-ambilight.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40116/philips65inchtitan4kqledambilightsmarttv-1785822653-1.png",
+      "image": "/.data/products/showcase-40116.png",
       "specification": "4K · Smart TV"
     },
     {
@@ -147,8 +135,7 @@
       "brand": "Gigabyte",
       "category": "Gaming",
       "price": 229,
-      "image": "/.data/products/gigabyte-gs27q-x-gaming-monitor.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39635/gigabytegs27qxek27inchqhd250hz1msipsledgamingmonitor-1780912251-1.png",
+      "image": "/.data/products/showcase-39635.png",
       "specification": "27-inch QHD · 250Hz · 1ms · IPS"
     },
     {
@@ -158,8 +145,7 @@
       "brand": "Nintendo",
       "category": "Gaming",
       "price": 569,
-      "image": "/.data/products/nintendo-switch-2-pokemon-pokopia-bundle.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39864/nintendoswitch2consolepokemonpokopiabundle-1784095392-1.png",
+      "image": "/.data/products/showcase-39864.png",
       "specification": "Console bundle"
     },
     {
@@ -169,8 +155,7 @@
       "brand": "Razer",
       "category": "Gaming",
       "price": 169,
-      "image": "/.data/products/razer-blackwidow-v4-tenkeyless.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39943/razerblackwidowv4tenkeylesshyperspeedorangeswitchuklayout-1784870380-3.png",
+      "image": "/.data/products/showcase-39943.png",
       "specification": "Orange Switch · UK layout"
     },
     {
@@ -180,8 +165,7 @@
       "brand": "DJI",
       "category": "Cameras & Drones",
       "price": 399,
-      "image": "/.data/products/dji-neo-2-fly-more-combo.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39184/djineo2flymorecombo-1777987442-1.png",
+      "image": "/.data/products/showcase-39184.png",
       "specification": "Fly More Combo"
     },
     {
@@ -191,8 +175,7 @@
       "brand": "Fujifilm",
       "category": "Cameras & Drones",
       "price": 104,
-      "image": "/.data/products/fujifilm-instax-mini-13.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40122/fujifilminstaxmini13cameraclaywhite-1785828091-2.png",
+      "image": "/.data/products/showcase-40122.png",
       "specification": "Clay White"
     },
     {
@@ -202,8 +185,7 @@
       "brand": "Ubiquiti",
       "category": "Networking",
       "price": 259,
-      "image": "/.data/products/ubiquiti-unifi-lite-16-port-poe-switch.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/40005/ubiquitiunifilite16portpoeswitch45w-1785306309-2.png",
+      "image": "/.data/products/showcase-40005.png",
       "specification": "16-port · PoE · 45W"
     },
     {
@@ -213,8 +195,7 @@
       "brand": "Synology",
       "category": "Storage & Networking",
       "price": 309,
-      "image": "/.data/products/synology-ds223-nas.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39609/synologyds2232baynasenclosure-1780660316-1.png",
+      "image": "/.data/products/showcase-39609.png",
       "specification": "2-bay NAS enclosure"
     },
     {
@@ -224,8 +205,7 @@
       "brand": "Crucial",
       "category": "Storage & Networking",
       "price": 279,
-      "image": "/.data/products/crucial-x9-2tb-external-ssd.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39106/crucialx92tbusb32gen2externalssd-1777465700-1.png",
+      "image": "/.data/products/showcase-39106.png",
       "specification": "2TB · USB 3.2 Gen 2"
     },
     {
@@ -235,8 +215,7 @@
       "brand": "Ninja",
       "category": "Home & Life",
       "price": 419,
-      "image": "/.data/products/ninja-creami-swirl-13-in-1.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39722/ninjacreamiswirl13in10481licecreammakergrey-1781771500-1.png",
+      "image": "/.data/products/showcase-39722.png",
       "specification": "0.481L ice cream maker · Grey"
     },
     {
@@ -246,8 +225,7 @@
       "brand": "Hoover",
       "category": "Home & Life",
       "price": 249,
-      "image": "/.data/products/hoover-hf500-cordless-vacuum-cleaner.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39793/hooverhf500cordlessvacuumcleanerredblack-1782211166-1.png",
+      "image": "/.data/products/showcase-39793.png",
       "specification": "Red & Black · Clearance"
     },
     {
@@ -257,8 +235,7 @@
       "brand": "Canon",
       "category": "Cameras & Drones",
       "price": 129,
-      "image": "/.data/products/canon-zoemini-2-instant-camera-printer.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/37980/canonzoemini2instantcameraprinterpearlwhite-1769783791-1.png",
+      "image": "/.data/products/showcase-37980.png",
       "specification": "Pearl White"
     },
     {
@@ -268,8 +245,7 @@
       "brand": "Acer",
       "category": "Gaming",
       "price": 89,
-      "image": "/.data/products/acer-predator-galea-370-gaming-headset.png",
-      "sourceImage": "https://klikk-bucket.fra1.cdn.digitaloceanspaces.com/upload/product/39829/acerpredatorgalea370phw350usbgamingheadset-1782460743-1.png",
+      "image": "/.data/products/showcase-39829.png",
       "specification": "USB gaming headset"
     }
   ]
