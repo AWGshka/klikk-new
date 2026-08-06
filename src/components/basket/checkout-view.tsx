@@ -32,7 +32,7 @@ export function CheckoutView({ products }: { products: Product[] }) {
     return (
       <section className="page-container checkout-page">
         <div className="empty-basket">
-          <h1>Your basket is empty</h1>
+          <h1>Your cart is empty</h1>
           <p>Add a product before checking out.</p>
         </div>
       </section>
@@ -48,6 +48,14 @@ export function CheckoutView({ products }: { products: Product[] }) {
       return;
     }
     const reference = createDemoReference();
+    void fetch("/api/account", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        action: "order",
+        order: { reference, total: totals.total },
+      }),
+    });
     window.sessionStorage.setItem(
       "klikk-demo-order",
       JSON.stringify({
@@ -141,6 +149,7 @@ export function CheckoutView({ products }: { products: Product[] }) {
           products={products}
           deliveryMethod={form.delivery}
           compact
+          readOnly
         />
         <p className="summary-total">
           <span>Total</span>

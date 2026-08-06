@@ -194,7 +194,7 @@ export function getFeaturedProducts(limit = 8) {
     .filter((product) => product.price >= 25)
     .slice(0, limit);
 }
-export function getCampaigns(limit = 2) {
+export function getCampaigns(limit = 12) {
   return catalogueData.marketingAssets
     .filter((asset) => asset.kind === "desktop-wide-banner")
     .slice(0, limit)
@@ -202,6 +202,55 @@ export function getCampaigns(limit = 2) {
       name: asset.name,
       image: publicAssetPath(asset.image),
     }));
+}
+
+export function getCampaignGroups() {
+  const campaigns = getCampaigns();
+  return [
+    campaigns.slice(0, 4),
+    campaigns.slice(4, 8),
+    campaigns.slice(8, 12),
+  ].filter((group) => group.length > 0);
+}
+
+const discoveryTileLabels = [
+  "Laptops",
+  "Smartphones",
+  "Tablets",
+  "Kindle",
+  "Smartwear",
+  "Monitors",
+  "Printers",
+  "Headphones",
+  "Cleaning",
+  "Kitchen",
+  "Smart home",
+  "Personal care",
+  "Components",
+  "Power stations",
+  "PlayStation",
+  "Nintendo Switch",
+];
+
+export function getDiscoveryTiles() {
+  return catalogueData.marketingAssets
+    .filter((asset) => asset.kind === "other-homepage-art")
+    .slice(0, 16)
+    .map((asset, index) => ({
+      name: discoveryTileLabels[index] ?? asset.name,
+      image: publicAssetPath(asset.image),
+      href: `/shop?q=${encodeURIComponent(discoveryTileLabels[index] ?? asset.name)}`,
+    }));
+}
+
+export function getEndcapPromos() {
+  return ["banner-020.png", "banner-021.png"].map((filename) => {
+    const asset = catalogueData.marketingAssets.find((item) =>
+      item.image.endsWith(filename),
+    );
+    if (!asset) throw new Error(`Missing homepage endcap asset: ${filename}`);
+    return { name: asset.name, image: publicAssetPath(asset.image) };
+  });
 }
 
 export function getRelatedProducts(product: Product, limit = 4) {

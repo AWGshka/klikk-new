@@ -1,5 +1,13 @@
+"use client";
+
 import Link from "next/link";
-import { getBrands, getCategories } from "@/lib/catalog/repository";
+import { useMemo, useState } from "react";
+import {
+  getBrands,
+  getCategories,
+  getProducts,
+  toSlug,
+} from "@/lib/catalog/repository";
 import type { ProductQuery, ProductSort } from "@/lib/catalog/types";
 
 const sorts: Array<{ value: ProductSort; label: string }> = [
@@ -14,30 +22,87 @@ type CatalogFiltersProps = { action: string; query: ProductQuery };
 export function CatalogFilters({ action, query }: CatalogFiltersProps) {
   const categories = getCategories();
   const brands = getBrands();
+  const allProducts = useMemo(() => getProducts(), []);
+  const [category, setCategory] = useState(query.category ?? "");
+  const [brand, setBrand] = useState(query.brand ?? "");
+  const availableBrands = new Set(
+    allProducts
+      .filter(
+        (product) => !category || product.categorySlug === toSlug(category),
+      )
+      .map((product) => toSlug(product.brand)),
+  );
+  const availableCategories = new Set(
+    allProducts
+      .filter((product) => !brand || toSlug(product.brand) === toSlug(brand))
+      .map((product) => product.categorySlug),
+  );
 
   return (
     <form className="catalog-filters" action={action}>
       {query.search && <input type="hidden" name="q" value={query.search} />}
+      <h2>Filter products</h2>
       <label>
         <span>Category</span>
-        <select name="category" defaultValue={query.category ?? ""}>
+        <select
+          name="category"
+          value={category}
+          onChange={(event) => {
+            const next = event.target.value;
+            setCategory(next);
+            if (
+              brand &&
+              !allProducts.some(
+                (product) =>
+                  product.categorySlug === toSlug(next) &&
+                  toSlug(product.brand) === toSlug(brand),
+              )
+            )
+              setBrand("");
+          }}
+        >
           <option value="">All categories</option>
-          {categories.map((category) => (
-            <option key={category.slug} value={category.slug}>
-              {category.name}
-            </option>
-          ))}
+          {categories
+            .filter(
+              (item) =>
+                availableCategories.has(item.slug) || item.slug === category,
+            )
+            .map((item) => (
+              <option key={item.slug} value={item.slug}>
+                {item.name}
+              </option>
+            ))}
         </select>
       </label>
       <label>
         <span>Brand</span>
-        <select name="brand" defaultValue={query.brand ?? ""}>
+        <select
+          name="brand"
+          value={brand}
+          onChange={(event) => {
+            const next = event.target.value;
+            setBrand(next);
+            if (
+              category &&
+              !allProducts.some(
+                (product) =>
+                  product.categorySlug === toSlug(category) &&
+                  toSlug(product.brand) === toSlug(next),
+              )
+            )
+              setCategory("");
+          }}
+        >
           <option value="">All brands</option>
-          {brands.map((brand) => (
-            <option key={brand.slug} value={brand.slug}>
-              {brand.name}
-            </option>
-          ))}
+          {brands
+            .filter(
+              (item) => availableBrands.has(item.slug) || item.slug === brand,
+            )
+            .map((item) => (
+              <option key={item.slug} value={item.slug}>
+                {item.name}
+              </option>
+            ))}
         </select>
       </label>
       <label>
@@ -50,8 +115,8 @@ export function CatalogFilters({ action, query }: CatalogFiltersProps) {
           ))}
         </select>
       </label>
-      <button type="submit">Apply</button>
-      <Link href={action}>Clear filters</Link>
+      <button type="submit">Apply filters</button>
+      <Link href={action}>Clear all</Link>
     </form>
   );
 }

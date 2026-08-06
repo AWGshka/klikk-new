@@ -33,8 +33,12 @@ export default async function ShopPage({
         {products.length} products to explore across technology, home and
         gaming.
       </p>
-      <CatalogFilters action="/shop" query={filters} />
-      <ProductGrid products={products} />
+      <div className="catalog-layout">
+        <CatalogFilters action="/shop" query={filters} />
+        <div className="catalog-results">
+          <ProductGrid products={products} />
+        </div>
+      </div>
     </section>
   );
 }

@@ -2,15 +2,18 @@ import Image from "next/image";
 import Link from "next/link";
 import { ProductGrid } from "@/components/catalog/product-grid";
 import { BrandRail } from "@/components/home/brand-rail";
+import { CampaignCarousel } from "@/components/home/campaign-carousel";
 import {
-  getCampaigns,
-  getCategories,
+  getCampaignGroups,
+  getDiscoveryTiles,
+  getEndcapPromos,
   getFeaturedProducts,
 } from "@/lib/catalog/repository";
 
 export default function Home() {
-  const categories = getCategories();
-  const campaigns = getCampaigns();
+  const campaignGroups = getCampaignGroups();
+  const discoveryTiles = getDiscoveryTiles();
+  const endcapPromos = getEndcapPromos();
   const featuredProducts = getFeaturedProducts(4);
 
   return (
@@ -27,27 +30,16 @@ export default function Home() {
             Browse the catalogue
           </Link>
         </div>
-        {campaigns[0] ? (
-          <div className="hero-image">
-            <Image
-              src={campaigns[0].image}
-              alt=""
-              fill
-              priority
-              sizes="(max-width: 900px) 100vw, 50vw"
-            />
-          </div>
-        ) : (
-          <div className="hero-panel" aria-hidden="true">
-            <span>01 / Discovery</span>
-            <strong>
-              Clear products.
-              <br />
-              Clear decisions.
-            </strong>
-          </div>
-        )}
+        <div className="hero-panel" aria-hidden="true">
+          <span>01 / Discovery</span>
+          <strong>
+            Clear products.
+            <br />
+            Clear decisions.
+          </strong>
+        </div>
       </section>
+      <CampaignCarousel campaigns={campaignGroups[0] ?? []} />
       <section
         className="trust-strip page-container"
         aria-label="Store reassurance"
@@ -75,45 +67,20 @@ export default function Home() {
             All products →
           </Link>
         </div>
-        <div className="category-grid">
-          {categories.map((category, index) => (
-            <Link
-              className="category-card"
-              href={`/shop/${category.slug}`}
-              key={category.slug}
-            >
-              {category.image && (
-                <Image
-                  src={category.image}
-                  alt=""
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 25vw"
-                />
-              )}
-              <span>0{index + 1}</span>
-              <strong>{category.name}</strong>
-              <small>{category.count} products</small>
+        <div className="category-grid category-art-grid">
+          {discoveryTiles.map((tile) => (
+            <Link className="category-card" href={tile.href} key={tile.name}>
+              <Image
+                src={tile.image}
+                alt={tile.name}
+                fill
+                sizes="(max-width: 640px) 50vw, (max-width: 900px) 33vw, 25vw"
+              />
             </Link>
           ))}
         </div>
       </section>
-      {campaigns[1] && (
-        <section className="page-container campaign">
-          <Image
-            src={campaigns[1].image}
-            alt="Featured campaign"
-            fill
-            sizes="100vw"
-          />
-          <div>
-            <p className="eyebrow">Local catalogue</p>
-            <h2>Find your next everyday essential.</h2>
-            <Link className="button" href="/shop">
-              Shop all products
-            </Link>
-          </div>
-        </section>
-      )}
+      <CampaignCarousel campaigns={campaignGroups[1] ?? []} />
       <section
         className="page-container section-block"
         aria-labelledby="featured-title"
@@ -130,6 +97,22 @@ export default function Home() {
         <ProductGrid products={featuredProducts} />
       </section>
       <BrandRail />
+      <CampaignCarousel campaigns={campaignGroups[2] ?? []} />
+      <section
+        className="page-container endcap-promos"
+        aria-label="More from Klikk"
+      >
+        {endcapPromos.map((promo) => (
+          <div key={promo.image}>
+            <Image
+              src={promo.image}
+              alt={promo.name}
+              fill
+              sizes="(max-width: 900px) 100vw, 50vw"
+            />
+          </div>
+        ))}
+      </section>
     </>
   );
 }

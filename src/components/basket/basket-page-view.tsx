@@ -13,7 +13,7 @@ export function BasketPageView({ products }: { products: Product[] }) {
     <section className="page-container basket-page">
       <div>
         <p className="eyebrow">Your selections</p>
-        <h1>Your basket</h1>
+        <h1>Your cart</h1>
         <BasketLines products={products} />
       </div>
       {lines.length > 0 && (
@@ -39,7 +39,7 @@ export function BasketPageView({ products }: { products: Product[] }) {
             Proceed to checkout
           </Link>
           <button className="text-button" type="button" onClick={clear}>
-            Clear basket
+            Clear cart
           </button>
         </aside>
       )}

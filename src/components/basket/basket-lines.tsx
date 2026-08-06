@@ -15,10 +15,12 @@ export function BasketLines({
   products,
   deliveryMethod = "delivery",
   compact = false,
+  readOnly = false,
 }: {
   products: Product[];
   deliveryMethod?: DeliveryMethod;
   compact?: boolean;
+  readOnly?: boolean;
 }) {
   const { lines, updateQuantity, remove } = useBasket();
   const items = lines.flatMap((line) => {
@@ -29,7 +31,7 @@ export function BasketLines({
   if (items.length === 0)
     return (
       <div className="empty-basket">
-        <h2>Your basket is empty</h2>
+        <h2>Your cart is empty</h2>
         <p>Discover technology for work, play and home.</p>
         <Link className="button" href="/shop">
           Continue shopping
@@ -50,23 +52,27 @@ export function BasketLines({
             </h3>
             <strong>{formatPrice(product.price)}</strong>
           </div>
-          <div className="quantity-control">
-            <label>
-              <span className="sr-only">Quantity for {product.name}</span>
-              <input
-                type="number"
-                min="1"
-                max={BASKET_LIMIT}
-                value={quantity}
-                onChange={(event) =>
-                  updateQuantity(product.id, Number(event.target.value))
-                }
-              />
-            </label>
-            <button type="button" onClick={() => remove(product.id)}>
-              Remove
-            </button>
-          </div>
+          {readOnly ? (
+            <span className="line-quantity">Qty {quantity}</span>
+          ) : (
+            <div className="quantity-control">
+              <label>
+                <span className="sr-only">Quantity for {product.name}</span>
+                <input
+                  type="number"
+                  min="1"
+                  max={BASKET_LIMIT}
+                  value={quantity}
+                  onChange={(event) =>
+                    updateQuantity(product.id, Number(event.target.value))
+                  }
+                />
+              </label>
+              <button type="button" onClick={() => remove(product.id)}>
+                Remove
+              </button>
+            </div>
+          )}
         </article>
       ))}
       <div className="basket-total">

@@ -33,11 +33,15 @@ export default async function SearchPage({
       <p className="eyebrow">Search</p>
       <h1>{label}</h1>
       <p className="listing-summary">{products.length} matching products</p>
-      <CatalogFilters action="/search" query={filters} />
-      <ProductGrid
-        products={products}
-        emptyMessage="Try a different product, brand or category."
-      />
+      <div className="catalog-layout">
+        <CatalogFilters action="/search" query={filters} />
+        <div className="catalog-results">
+          <ProductGrid
+            products={products}
+            emptyMessage="Try a different product, brand or category."
+          />
+        </div>
+      </div>
     </section>
   );
 }

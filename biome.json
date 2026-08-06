@@ -3,6 +3,9 @@
   "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
   "files": { "ignoreUnknown": true, "includes": ["src/**", "biome.json"] },
   "formatter": { "enabled": true, "indentStyle": "space", "indentWidth": 2 },
+  "javascript": {
+    "formatter": { "quoteStyle": "double", "jsxQuoteStyle": "double" }
+  },
   "css": { "parser": { "tailwindDirectives": true } },
   "linter": {
     "enabled": true,

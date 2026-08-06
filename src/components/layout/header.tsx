@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { BasketDrawer } from "@/components/basket/basket-drawer";
 import { getCategories, getProducts } from "@/lib/catalog/repository";
@@ -7,48 +8,40 @@ export function Header() {
   const products = getProducts();
 
   return (
-    <header className="site-header">
-      <div className="utility-bar">
-        <div className="page-container utility-content">
-          <span>Klikk Computers · Malta</span>
-          <span>Technology, service and support</span>
+    <header className='site-header'>
+      <div className='utility-bar'>
+        <div className='page-container utility-content'>
+          <span>Birkirkara & Żejtun - Mon to Sat, 09:00 till 19:00</span>
+          <span>Island-wide delivery, next working day</span>
         </div>
       </div>
-      <div className="page-container header-main">
-        <Link className="wordmark" href="/" aria-label="Klikk home">
-          KLIKK
-          <span aria-hidden="true" />
+      <div className='page-container header-main'>
+        <Link className='brand-logo' href='/' aria-label='Klikk home'>
+          <Image src='/assets/brand-assets/klikk-logo-2025.png' alt='Klikk' width={185} height={61} style={{ width: "auto", height: "auto" }} priority />
         </Link>
-        <form className="site-search" action="/search">
-          <label className="sr-only" htmlFor="site-search">
+        <form className='site-search' action='/search'>
+          <label className='sr-only' htmlFor='site-search'>
             Search the catalogue
           </label>
-          <input
-            id="site-search"
-            name="q"
-            type="search"
-            placeholder="Search laptops, phones, gaming and more"
-          />
-          <button type="submit">Search</button>
+          <input id='site-search' name='q' type='search' placeholder='Search laptops, phones, gaming and more' />
+          <button type='submit'>Search</button>
         </form>
-        <nav className="header-actions" aria-label="Utility navigation">
-          <Link href="/about">Service</Link>
+        <nav className='header-actions' aria-label='Utility navigation'>
+          <Link href='/about'>Service</Link>
+          <Link href='/account'>Account</Link>
           <BasketDrawer products={products} />
         </nav>
       </div>
-      <nav
-        className="primary-nav page-container"
-        aria-label="Product categories"
-      >
+      <nav className='primary-nav page-container' aria-label='Product categories'>
         {categories.map((category) => (
           <Link key={category.slug} href={`/shop/${category.slug}`}>
             {category.name}
           </Link>
         ))}
       </nav>
-      <details className="mobile-nav page-container">
+      <details className='mobile-nav page-container'>
         <summary>Browse categories</summary>
-        <nav aria-label="Mobile product categories">
+        <nav aria-label='Mobile product categories'>
           {categories.map((category) => (
             <Link key={category.slug} href={`/shop/${category.slug}`}>
               {category.name}

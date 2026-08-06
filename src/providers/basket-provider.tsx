@@ -11,37 +11,65 @@ type BasketContextValue = {
   remove: (productId: string) => void;
   clear: () => void;
 };
-
 const BasketContext = createContext<BasketContextValue | null>(null);
-const storageKey = "klikk-basket";
+const storageKey = "klikk-cart";
+const legacyStorageKey = "klikk-basket";
+
+function validLines(value: unknown): BasketLine[] {
+  return Array.isArray(value)
+    ? value.filter(
+        (line): line is BasketLine =>
+          typeof line?.productId === "string" &&
+          Number.isInteger(line?.quantity) &&
+          line.quantity > 0 &&
+          line.quantity <= BASKET_LIMIT,
+      )
+    : [];
+}
 
 export function BasketProvider({ children }: { children: React.ReactNode }) {
   const [lines, setLines] = useState<BasketLine[]>([]);
   const [hasHydrated, setHasHydrated] = useState(false);
+  const [hasSyncedAccount, setHasSyncedAccount] = useState(false);
 
   useEffect(() => {
     try {
-      const saved = JSON.parse(window.localStorage.getItem(storageKey) ?? "[]");
-      if (Array.isArray(saved))
-        setLines(
-          saved.filter(
-            (line): line is BasketLine =>
-              typeof line?.productId === "string" &&
-              Number.isInteger(line?.quantity) &&
-              line.quantity > 0 &&
-              line.quantity <= BASKET_LIMIT,
+      setLines(
+        validLines(
+          JSON.parse(
+            window.localStorage.getItem(storageKey) ??
+              window.localStorage.getItem(legacyStorageKey) ??
+              "[]",
           ),
-        );
+        ),
+      );
     } catch {
       window.localStorage.removeItem(storageKey);
     }
+    window.localStorage.removeItem(legacyStorageKey);
     setHasHydrated(true);
   }, []);
-
   useEffect(() => {
-    if (hasHydrated)
-      window.localStorage.setItem(storageKey, JSON.stringify(lines));
+    if (!hasHydrated) return;
+    window.localStorage.setItem(storageKey, JSON.stringify(lines));
   }, [hasHydrated, lines]);
+  useEffect(() => {
+    if (!hasHydrated) return;
+    fetch("/api/cart")
+      .then(async (response) => (response.ok ? response.json() : null))
+      .then((result) => {
+        if (result?.lines?.length) setLines(validLines(result.lines));
+      })
+      .finally(() => setHasSyncedAccount(true));
+  }, [hasHydrated]);
+  useEffect(() => {
+    if (!hasHydrated || !hasSyncedAccount) return;
+    void fetch("/api/cart", {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ lines }),
+    });
+  }, [hasHydrated, hasSyncedAccount, lines]);
 
   const value = useMemo<BasketContextValue>(
     () => ({
@@ -87,12 +115,10 @@ export function BasketProvider({ children }: { children: React.ReactNode }) {
     }),
     [lines],
   );
-
   return (
     <BasketContext.Provider value={value}>{children}</BasketContext.Provider>
   );
 }
-
 export function useBasket() {
   const context = useContext(BasketContext);
   if (!context) throw new Error("useBasket must be used within BasketProvider");

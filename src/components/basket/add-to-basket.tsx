@@ -12,10 +12,10 @@ export function AddToBasket({ productId }: { productId: string }) {
         type="button"
         onClick={() => {
           add(productId);
-          setMessage("Added to basket");
+          setMessage("Added to cart");
         }}
       >
-        Add to basket
+        Add to cart
       </button>
       <span className="sr-only" aria-live="polite">
         {message}

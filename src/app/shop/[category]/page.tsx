@@ -40,8 +40,12 @@ export default async function CategoryPage({
       <p className="eyebrow">Catalogue</p>
       <h1>{category.name}</h1>
       <p className="listing-summary">{products.length} products to explore</p>
-      <CatalogFilters action={`/shop/${category.slug}`} query={filters} />
-      <ProductGrid products={products} />
+      <div className="catalog-layout">
+        <CatalogFilters action={`/shop/${category.slug}`} query={filters} />
+        <div className="catalog-results">
+          <ProductGrid products={products} />
+        </div>
+      </div>
     </section>
   );
 }

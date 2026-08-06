@@ -7,10 +7,10 @@
 - **Last updated:** 2026-08-06
 - **Active phase:** Phases 0–5 complete — presentation readiness review
 - **Project goal:** Redesign Klikk as a realistic, responsive Next.js storefront demo.
-- **Commerce boundary:** Presentation/demo only. No live Klikk inventory, prices, customer accounts, order systems, payments, fulfilment, or transactional email.
+- **Commerce boundary:** Presentation/demo only. No live Klikk inventory, prices, payments, fulfilment, or transactional email. User-authorised local demo accounts, profiles, addresses, sessions, and server-synchronised carts are stored only in `.data/app-state.json` for the running local app.
 - **Runtime:** Next.js `16.3.0`, React `19.2.8`, TypeScript, Tailwind CSS 4, Biome, Bun `1.3.14`.
 - **Data source:** Captured public Klikk homepage content, normalised and cached locally under `.data` with concise local asset names. Treat all data as reference/sample content, not live commerce data.
-- **Application implementation:** Phases 1–5 are implemented: typed local catalogue adapter, responsive discovery, product detail, local persistent basket/drawer, checkout simulation, confirmation, service/stores page, quality states, and focused commerce tests. Visitor-facing demo language is limited to the final checkout action and confirmation.
+- **Application implementation:** Phases 1–5 are implemented: typed local catalogue adapter, responsive discovery, product detail, local persistent and account-synchronised cart/dropdown, checkout simulation, confirmation, service/stores/legal/company pages, quality states, and focused commerce tests. The header uses the captured original Klikk logo; the homepage contains three separate full-width campaign carousels (4, 4, and 3 slides) that auto-advance seamlessly, compact image-first discovery tiles, and an uncropped split endcap. Visitor-facing demo language is limited to the final checkout action and confirmation.
 - **Documentation location:** All project Markdown files are kept under `.docs`; `.docs/AGENTS.md` contains the agent operating protocol.
 
 ### Available local retail data
@@ -37,9 +37,9 @@
 ### Outstanding work
 
 1. Perform a manual mobile and desktop browser review before a presentation.
-2. Revisit brand/category inference if richer captured metadata becomes available; the full catalogue records do not include these fields.
-3. Add a bundled local Archivo font only if licensing/source files are supplied; do not introduce an external runtime font request.
-4. Replace local catalogue and checkout adapters behind their interfaces only when an explicitly authorised backend is available.
+2. Replace `.data/app-state.json` with a transactional database and a production authentication service before deploying accounts/cart sync; local filesystem persistence is not suitable for serverless or multi-instance hosting.
+3. Revisit brand/category inference if richer captured metadata becomes available; the full catalogue records do not include these fields.
+4. Add a bundled local font only if licensing/source files are supplied; current compact UI uses the Aptos/Segoe UI system stack.
 
 ### Known limitations and validation state
 
@@ -49,6 +49,46 @@
 - Asset validation completed: all 431 unique manifest-referenced cached files resolve in both `.data` and `public/assets`. The cached set contains 474 local image files, including intentionally retained unreferenced artwork.
 
 ## Change log
+
+### 2026-08-06 — Accounts, server cart sync and public footer routes added
+
+- **Phase:** Account and content expansion
+- **Summary:** Added local JSON-backed registration/login, password hashing, HTTP-only sessions, profile addresses, account cart synchronisation, and synthetic order history. Guest carts continue in `localStorage` and reconcile with a signed-in account cart; successful demo checkout saves only the local account’s synthetic reference, timestamp, and total. Added public-content-based Terms, Privacy, Cookie Policy, Careers, and Investor Relations routes and linked the footer to them. Standardised Biome formatting on double quotes, removed category locking/disabled filter options, converted the cart modal to a dropdown, added Motion loading UI, and resolved logo/LCP image configuration.
+- **Files changed:** `.data/app-state.json`, `src/app/api/`, `src/app/account/`, `src/app/terms/`, `src/app/privacy-policy/`, `src/app/cookie-policy/`, `src/app/careers/`, `src/app/investor-relations/`, `src/app/cart/`, `src/lib/server/account-store.ts`, `src/providers/basket-provider.tsx`, `src/components/basket/`, `src/components/catalog/catalog-filters.tsx`, `src/components/home/campaign-carousel.tsx`, `src/components/layout/`, `src/app/loading.tsx`, `src/app/globals.css`, `biome.json`, `.docs/HANDOFF.md`
+- **Validation:** `bun run test` passed (3 tests); `bun run lint` passed (44 application/config files checked); `bun run build` passed with all account, API, cart, footer and browse routes after the synthetic order-history integration.
+- **Next step / blocker:** The account/cart system is local-demo infrastructure only. Cross-device cart availability works when both devices reach the same persistent local app instance and sign in to the same account; it is not deployable as-is on ephemeral/serverless filesystems.
+
+### 2026-08-06 — Cart, filters, typography and campaign behaviour refined
+
+- **Phase:** Presentation and interaction refinement
+- **Summary:** Renamed the customer-facing basket route and labels to Cart. Replaced the modal cart with an anchored header dropdown containing cart items and direct Cart/Checkout actions. Added a left-side advanced filter panel with category/brand compatibility constraints, so invalid combinations are disabled and cleared. Changed campaign galleries to arrow-free, reduced-motion-aware auto-scroll with seamless forward wrapping. Updated compact UI text to the Aptos/Segoe UI system stack and fixed the logo image aspect-ratio diagnostic.
+- **Files changed:** `src/app/cart/`, `src/components/basket/`, `src/components/catalog/catalog-filters.tsx`, `src/components/home/campaign-carousel.tsx`, `src/components/layout/header.tsx`, `src/components/layout/footer.tsx`, `src/app/shop/page.tsx`, `src/app/search/page.tsx`, `src/app/shop/[category]/page.tsx`, `src/app/globals.css`, `.docs/HANDOFF.md`
+- **Validation:** `bun run test` passed (3 tests); `bun run lint` passed (35 application/config files checked); `bun run build` passed. Header diagnostics are clean.
+- **Next step / blocker:** Perform the documented browser review, with particular attention to the auto-scroll cadence, cart dropdown placement, and left filter rail at desktop/mobile breakpoints.
+
+### 2026-08-06 — Homepage banner structure corrected
+
+- **Phase:** Presentation refinement
+- **Summary:** Replaced the multi-ad rail with three separate single-banner carousels, positioned between homepage sections. Each carousel advances smoothly through its own 3–4 wide campaign images with no overlaid copy. Reduced the 16 captured category tiles to a compact eight-column desktop grid and changed the final paired banners to preserve their full artwork using contained responsive images.
+- **Files changed:** `src/components/home/campaign-carousel.tsx`, `src/app/page.tsx`, `src/lib/catalog/repository.ts`, `src/app/globals.css`, `.docs/HANDOFF.md`
+- **Validation:** `bun run lint` passed (35 application/config files checked). `bun run build` passed.
+- **Next step / blocker:** Perform the documented visual browser review of the corrected homepage layout.
+
+### 2026-08-06 — Homepage campaign and category imagery aligned to source assets
+
+- **Phase:** Presentation refinement
+- **Summary:** Replaced the single large campaign treatment with a no-copy, smooth four-at-a-time wide-banner rail that advances by four ads. Replaced category text treatments with the first sixteen captured `other/banner` category images, and added `banner-020` and `banner-021` as a paired endcap before the footer. Updated the shared orange token to the original Klikk logo orange, `#f16626`.
+- **Files changed:** `src/components/home/campaign-carousel.tsx`, `src/app/page.tsx`, `src/lib/catalog/repository.ts`, `src/app/globals.css`, `.docs/HANDOFF.md`
+- **Validation:** `bun run lint` passed (35 application/config files checked). `bun run build` passed.
+- **Next step / blocker:** Complete the documented visual browser review, particularly the desktop four-up rail and small-screen two-up rail.
+
+### 2026-08-06 — Klikk identity, campaign gallery and footer refined
+
+- **Phase:** Presentation refinement
+- **Summary:** Replaced the text-built header mark with the captured original Klikk logo. Reworked the footer around Klikk’s public Help & Support, Company, Account, and WhatsApp contact groupings. Replaced static wide-banner use with an accessible four-slide local campaign gallery with previous/next controls, and increased the small action-link type scale for readable calls to action.
+- **Files changed:** `src/components/layout/header.tsx`, `src/components/layout/footer.tsx`, `src/components/home/campaign-carousel.tsx`, `src/app/page.tsx`, `src/lib/catalog/repository.ts`, `src/app/globals.css`, `.docs/HANDOFF.md`
+- **Validation:** `bun run lint` passed (35 application/config files checked). `bun run build` passed.
+- **Next step / blocker:** Perform the documented manual mobile/desktop browser review; adjust campaign captions or footer destinations if the project receives approved production content/URLs.
 
 ### 2026-08-06 — Phases 3–5 completed
 
