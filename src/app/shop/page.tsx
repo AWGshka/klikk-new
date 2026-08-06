@@ -1,14 +1,19 @@
 import type { Metadata } from "next";
-import { CatalogFilters } from "@/components/catalog/catalog-filters";
-import { ProductGrid } from "@/components/catalog/product-grid";
+import {
+  filterByStore,
+  type ListingQuery,
+  ListingView,
+} from "@/components/catalog/listing-view";
 import { getProducts } from "@/lib/catalog/repository";
-import type { ProductQuery, ProductSort } from "@/lib/catalog/types";
+import type { ProductSort } from "@/lib/catalog/types";
 
 export const metadata: Metadata = { title: "Shop" };
+
 type SearchParams = Promise<{
   q?: string;
   category?: string;
   brand?: string;
+  store?: string;
   sort?: ProductSort;
 }>;
 
@@ -18,27 +23,22 @@ export default async function ShopPage({
   searchParams: SearchParams;
 }) {
   const query = await searchParams;
-  const filters: ProductQuery = {
+  const filters: ListingQuery = {
     search: query.q,
     category: query.category,
     brand: query.brand,
+    store: query.store,
     sort: query.sort,
   };
-  const products = getProducts(filters);
+  const products = filterByStore(getProducts(filters), filters.store);
+
   return (
-    <section className="page-container listing-page">
-      <p className="eyebrow">Browse the range</p>
-      <h1>Shop all products</h1>
-      <p className="listing-summary">
-        {products.length} products to explore across technology, home and
-        gaming.
-      </p>
-      <div className="catalog-layout">
-        <CatalogFilters action="/shop" query={filters} />
-        <div className="catalog-results">
-          <ProductGrid products={products} />
-        </div>
-      </div>
-    </section>
+    <ListingView
+      action="/shop"
+      title="Everything we stock"
+      crumb="Shop"
+      query={filters}
+      products={products}
+    />
   );
 }

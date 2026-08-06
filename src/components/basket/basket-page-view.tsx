@@ -1,6 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import { formatPrice } from "@/lib/catalog/format";
+import { PHONE } from "@/lib/catalog/stores";
 import type { Product } from "@/lib/catalog/types";
 import { getBasketTotals } from "@/lib/commerce";
 import { useBasket } from "@/providers/basket-provider";
@@ -9,40 +11,73 @@ import { BasketLines } from "./basket-lines";
 export function BasketPageView({ products }: { products: Product[] }) {
   const { lines, clear } = useBasket();
   const totals = getBasketTotals(lines, products);
+  const vat = totals.total - totals.total / 1.18;
+  const itemCount = lines.reduce((sum, line) => sum + line.quantity, 0);
+
   return (
     <section className="page-container basket-page">
-      <div>
-        <p className="eyebrow">Your selections</p>
-        <h1>Your cart</h1>
-        <BasketLines products={products} />
+      <div className="step-bar">
+        <ol>
+          <li aria-current="step">01 — Basket</li>
+          <li>02 — Delivery</li>
+          <li>03 — Payment</li>
+        </ol>
+        <span>Stuck? Call Birkirkara — {PHONE}</span>
       </div>
-      {lines.length > 0 && (
-        <aside className="order-summary">
-          <h2>Order summary</h2>
+
+      <div className="basket-layout">
+        <div className="basket-lines">
+          <h1>Your basket</h1>
           <p>
-            <span>Subtotal</span>
-            <strong>€{totals.subtotal.toFixed(2)}</strong>
+            {itemCount === 0
+              ? "Nothing selected yet."
+              : `${itemCount} ${itemCount === 1 ? "item" : "items"} — held here while you decide.`}
           </p>
-          <p>
-            <span>Estimated delivery</span>
-            <strong>
-              {totals.delivery === 0
-                ? "Free"
-                : `€${totals.delivery.toFixed(2)}`}
-            </strong>
-          </p>
-          <p className="summary-total">
-            <span>Total</span>
-            <strong>€{totals.total.toFixed(2)}</strong>
-          </p>
-          <Link className="button" href="/checkout">
-            Proceed to checkout
-          </Link>
-          <button className="text-button" type="button" onClick={clear}>
-            Clear cart
-          </button>
-        </aside>
-      )}
+          <BasketLines products={products} />
+        </div>
+
+        {lines.length > 0 && (
+          <aside className="order-summary">
+            <h2>Order summary</h2>
+            <p className="summary-row">
+              <span>Subtotal</span>
+              <strong>{formatPrice(totals.subtotal)}</strong>
+            </p>
+            <p className="summary-row">
+              <span>Estimated delivery</span>
+              <strong>
+                {totals.delivery === 0 ? "Free" : formatPrice(totals.delivery)}
+              </strong>
+            </p>
+            <p className="summary-row">
+              <span>Of which VAT (18%)</span>
+              <span className="vat">{formatPrice(Math.round(vat))}</span>
+            </p>
+            <p className="summary-total">
+              <span>Total</span>
+              <strong>{formatPrice(totals.total)}</strong>
+            </p>
+            <Link className="button button-block" href="/checkout">
+              Continue to payment ◢
+            </Link>
+            <p>
+              Card, bank transfer, or pay in store on collection. 14-day returns
+              on unopened items. Warranty is handled here, not by a brand
+              hotline abroad.
+            </p>
+            <div className="collection-note">
+              <strong>Collecting from Birkirkara</strong>
+              <p>
+                Triq Dun Karm, BKR 4019. Ready in 30 minutes, Mon–Sat
+                09:00–19:00. Bring ID matching the card.
+              </p>
+            </div>
+            <button className="text-button" type="button" onClick={clear}>
+              Clear basket
+            </button>
+          </aside>
+        )}
+      </div>
     </section>
   );
 }

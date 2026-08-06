@@ -3,23 +3,35 @@
 import { useState } from "react";
 import { useBasket } from "@/providers/basket-provider";
 
-export function AddToBasket({ productId }: { productId: string }) {
+type AddToBasketProps = {
+  productId: string;
+  label?: string;
+  className?: string;
+};
+
+export function AddToBasket({
+  productId,
+  label = "Add to basket",
+  className = "add-to-basket",
+}: AddToBasketProps) {
   const { add } = useBasket();
   const [message, setMessage] = useState("");
+
   return (
-    <div className="add-to-basket">
+    <>
       <button
         type="button"
+        className={className}
         onClick={() => {
           add(productId);
-          setMessage("Added to cart");
+          setMessage("Added to basket");
         }}
       >
-        Add to cart
+        {message || label}
       </button>
       <span className="sr-only" aria-live="polite">
         {message}
       </span>
-    </div>
+    </>
   );
 }

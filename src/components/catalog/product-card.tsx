@@ -2,11 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { AddToBasket } from "@/components/basket/add-to-basket";
 import { formatPrice } from "@/lib/catalog/format";
+import { getStock, stockSummary, totalUnits } from "@/lib/catalog/stores";
 import type { Product } from "@/lib/catalog/types";
 
-type ProductCardProps = { product: Product };
+type ProductCardProps = { product: Product; badge?: string };
 
-export function ProductCard({ product }: ProductCardProps) {
+export function ProductCard({ product, badge }: ProductCardProps) {
+  const stock = getStock(product);
+  const held = totalUnits(stock) > 0;
+
   return (
     <article className="product-card">
       <Link className="product-image" href={`/product/${product.slug}`}>
@@ -14,8 +18,10 @@ export function ProductCard({ product }: ProductCardProps) {
           src={product.image}
           alt=""
           fill
-          sizes="(max-width: 640px) 50vw, (max-width: 960px) 33vw, 25vw"
+          sizes="(max-width: 640px) 100vw, (max-width: 1100px) 50vw, 25vw"
         />
+        {badge && <span className="product-badge">{badge}</span>}
+        {!badge && held && <span className="product-badge">In stock</span>}
       </Link>
       <div className="product-card-body">
         <p className="eyebrow">{product.brand}</p>
@@ -26,10 +32,11 @@ export function ProductCard({ product }: ProductCardProps) {
           <p className="product-card-spec">{product.specification}</p>
         )}
         <div className="product-card-footer">
-          <strong>{formatPrice(product.price)}</strong>
-          <AddToBasket productId={product.id} />
+          <span className="price">{formatPrice(product.price)}</span>
+          <span className="stock">{stockSummary(stock)}</span>
         </div>
       </div>
+      <AddToBasket productId={product.id} />
     </article>
   );
 }

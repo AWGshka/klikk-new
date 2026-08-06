@@ -10,7 +10,7 @@ export function ProductGrid({
   if (products.length === 0)
     return <p className="empty-state">{emptyMessage}</p>;
   return (
-    <div className="product-grid">
+    <div className="rule-grid product-grid">
       {products.map((product) => (
         <ProductCard key={product.id} product={product} />
       ))}

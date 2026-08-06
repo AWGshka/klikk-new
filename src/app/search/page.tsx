@@ -1,14 +1,19 @@
 import type { Metadata } from "next";
-import { CatalogFilters } from "@/components/catalog/catalog-filters";
-import { ProductGrid } from "@/components/catalog/product-grid";
+import {
+  filterByStore,
+  type ListingQuery,
+  ListingView,
+} from "@/components/catalog/listing-view";
 import { getProducts } from "@/lib/catalog/repository";
-import type { ProductQuery, ProductSort } from "@/lib/catalog/types";
+import type { ProductSort } from "@/lib/catalog/types";
 
 export const metadata: Metadata = { title: "Search" };
+
 type SearchParams = Promise<{
   q?: string;
   category?: string;
   brand?: string;
+  store?: string;
   sort?: ProductSort;
 }>;
 
@@ -18,30 +23,23 @@ export default async function SearchPage({
   searchParams: SearchParams;
 }) {
   const query = await searchParams;
-  const filters: ProductQuery = {
+  const filters: ListingQuery = {
     search: query.q,
     category: query.category,
     brand: query.brand,
+    store: query.store,
     sort: query.sort,
   };
-  const products = getProducts(filters);
-  const label = query.q?.trim()
-    ? `Results for “${query.q.trim()}”`
-    : "Search the catalogue";
+  const products = filterByStore(getProducts(filters), filters.store);
+  const term = query.q?.trim();
+
   return (
-    <section className="page-container listing-page">
-      <p className="eyebrow">Search</p>
-      <h1>{label}</h1>
-      <p className="listing-summary">{products.length} matching products</p>
-      <div className="catalog-layout">
-        <CatalogFilters action="/search" query={filters} />
-        <div className="catalog-results">
-          <ProductGrid
-            products={products}
-            emptyMessage="Try a different product, brand or category."
-          />
-        </div>
-      </div>
-    </section>
+    <ListingView
+      action="/search"
+      title={term ? `Results for “${term}”` : "Search the catalogue"}
+      crumb="Search"
+      query={filters}
+      products={products}
+    />
   );
 }

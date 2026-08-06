@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { formatPrice } from "@/lib/catalog/format";
+import { getStock, stockSummary } from "@/lib/catalog/stores";
 import type { Product } from "@/lib/catalog/types";
 import {
   BASKET_LIMIT,
@@ -28,51 +29,74 @@ export function BasketLines({
     return product ? [{ product, quantity: line.quantity }] : [];
   });
   const totals = getBasketTotals(lines, products, deliveryMethod);
+
   if (items.length === 0)
     return (
       <div className="empty-basket">
-        <h2>Your cart is empty</h2>
-        <p>Discover technology for work, play and home.</p>
+        <h2>Nothing in here yet.</h2>
+        <p>
+          Two shops, one service centre, and everything on the shelf is on the
+          site.
+        </p>
         <Link className="button" href="/shop">
-          Continue shopping
+          Browse the catalogue
         </Link>
       </div>
     );
+
   return (
-    <div className={compact ? "basket-lines compact" : "basket-lines"}>
+    <div className={compact ? "basket-line-list compact" : "basket-line-list"}>
       {items.map(({ product, quantity }) => (
         <article className="basket-line" key={product.id}>
           <div className="basket-line-image">
-            <Image src={product.image} alt="" fill sizes="96px" />
+            <Image src={product.image} alt="" fill sizes="128px" />
           </div>
           <div>
-            <p className="eyebrow">{product.brand}</p>
             <h3>
               <Link href={`/product/${product.slug}`}>{product.name}</Link>
             </h3>
-            <strong>{formatPrice(product.price)}</strong>
+            <p className="spec">
+              {product.specification ??
+                `${product.brand} · ${product.category}`}
+            </p>
+            <p className="stock">{stockSummary(getStock(product))}</p>
           </div>
-          {readOnly ? (
-            <span className="line-quantity">Qty {quantity}</span>
-          ) : (
-            <div className="quantity-control">
-              <label>
-                <span className="sr-only">Quantity for {product.name}</span>
-                <input
-                  type="number"
-                  min="1"
-                  max={BASKET_LIMIT}
-                  value={quantity}
-                  onChange={(event) =>
-                    updateQuantity(product.id, Number(event.target.value))
-                  }
-                />
-              </label>
-              <button type="button" onClick={() => remove(product.id)}>
-                Remove
-              </button>
-            </div>
-          )}
+          <div className="basket-line-actions">
+            <p className="line-total">
+              {formatPrice(product.price * quantity)}
+            </p>
+            {readOnly ? (
+              <p className="line-quantity">
+                <span className="qty">Qty {quantity}</span>
+              </p>
+            ) : (
+              <div className="line-quantity">
+                <button
+                  type="button"
+                  aria-label={`Decrease quantity of ${product.name}`}
+                  onClick={() => updateQuantity(product.id, quantity - 1)}
+                >
+                  –
+                </button>
+                <span className="qty">{quantity}</span>
+                <button
+                  type="button"
+                  aria-label={`Increase quantity of ${product.name}`}
+                  disabled={quantity >= BASKET_LIMIT}
+                  onClick={() => updateQuantity(product.id, quantity + 1)}
+                >
+                  +
+                </button>
+                <button
+                  type="button"
+                  className="remove"
+                  onClick={() => remove(product.id)}
+                >
+                  Remove
+                </button>
+              </div>
+            )}
+          </div>
         </article>
       ))}
       <div className="basket-total">

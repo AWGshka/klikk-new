@@ -10,14 +10,14 @@ export function BrandRail() {
     >
       <div className="section-heading">
         <div>
-          <p className="eyebrow">Trusted names</p>
+          <p className="eyebrow">Authorised and stocked</p>
           <h2 id="brands-title">Explore by brand</h2>
         </div>
-        <Link className="text-link" href="/brands">
-          All brands →
+        <Link className="text-link arrow" href="/brands">
+          All brands
         </Link>
       </div>
-      <div className="brand-grid">
+      <div className="rule-grid brand-grid">
         {getBrands()
           .slice(0, 8)
           .map((brand) => (

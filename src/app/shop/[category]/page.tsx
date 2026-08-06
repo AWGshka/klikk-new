@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CatalogFilters } from "@/components/catalog/catalog-filters";
-import { ProductGrid } from "@/components/catalog/product-grid";
+import {
+  filterByStore,
+  type ListingQuery,
+  ListingView,
+} from "@/components/catalog/listing-view";
 import { getCategoryBySlug, getProducts } from "@/lib/catalog/repository";
 import type { ProductSort } from "@/lib/catalog/types";
 
 type CategoryPageProps = {
   params: Promise<{ category: string }>;
-  searchParams: Promise<{ brand?: string; sort?: ProductSort }>;
+  searchParams: Promise<{ brand?: string; store?: string; sort?: ProductSort }>;
 };
 
 export async function generateMetadata({
@@ -26,26 +28,22 @@ export default async function CategoryPage({
   const [{ category: slug }, query] = await Promise.all([params, searchParams]);
   const category = getCategoryBySlug(slug);
   if (!category) notFound();
-  const filters = {
+
+  const filters: ListingQuery = {
     category: category.slug,
     brand: query.brand,
+    store: query.store,
     sort: query.sort,
   };
-  const products = getProducts(filters);
+  const products = filterByStore(getProducts(filters), filters.store);
+
   return (
-    <section className="page-container listing-page">
-      <Link className="back-link" href="/shop">
-        ← Shop all products
-      </Link>
-      <p className="eyebrow">Catalogue</p>
-      <h1>{category.name}</h1>
-      <p className="listing-summary">{products.length} products to explore</p>
-      <div className="catalog-layout">
-        <CatalogFilters action={`/shop/${category.slug}`} query={filters} />
-        <div className="catalog-results">
-          <ProductGrid products={products} />
-        </div>
-      </div>
-    </section>
+    <ListingView
+      action={`/shop/${category.slug}`}
+      title={category.name}
+      crumb={category.name}
+      query={filters}
+      products={products}
+    />
   );
 }

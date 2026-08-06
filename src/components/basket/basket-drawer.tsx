@@ -34,12 +34,15 @@ export function BasketDrawer({ products }: { products: Product[] }) {
         aria-controls="cart-dropdown"
         onClick={() => setIsOpen((open) => !open)}
       >
-        Cart ({itemCount})
+        Basket
+        <span className="chip-skew">
+          <span>{itemCount}</span>
+        </span>
       </button>
       {isOpen && (
         <div className="basket-drawer" id="cart-dropdown">
           <div className="drawer-header">
-            <h2>Your cart</h2>
+            <h2>Your basket</h2>
             <button type="button" onClick={() => setIsOpen(false)}>
               Close
             </button>
@@ -47,18 +50,18 @@ export function BasketDrawer({ products }: { products: Product[] }) {
           <BasketLines products={products} compact />
           <div className="drawer-actions">
             <Link
-              className="text-link"
-              href="/cart"
-              onClick={() => setIsOpen(false)}
-            >
-              View cart
-            </Link>
-            <Link
-              className="button"
+              className="button button-block"
               href="/checkout"
               onClick={() => setIsOpen(false)}
             >
-              Go to checkout
+              Continue to payment ◢
+            </Link>
+            <Link
+              className="button-light button-block"
+              href="/cart"
+              onClick={() => setIsOpen(false)}
+            >
+              View basket
             </Link>
           </div>
         </div>
