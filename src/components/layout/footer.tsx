@@ -13,9 +13,8 @@ export function Footer() {
           <Link href="/brands">Brands</Link>
           <Link href="/about">Service & stores</Link>
         </nav>
-        <p className="demo-notice">
-          Demo store — product data is a local reference snapshot. No orders are
-          sent or payments taken.
+        <p className="footer-assurance">
+          Helpful advice, straightforward shopping and local support.
         </p>
       </div>
     </footer>

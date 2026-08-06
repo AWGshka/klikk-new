@@ -1,34 +1,47 @@
+import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
-import { formatPrice } from "@/lib/catalog/format";
+import { CatalogFilters } from "@/components/catalog/catalog-filters";
+import { ProductGrid } from "@/components/catalog/product-grid";
 import { getCategoryBySlug, getProducts } from "@/lib/catalog/repository";
+import type { ProductSort } from "@/lib/catalog/types";
 
-type CategoryPageProps = { params: Promise<{ category: string }> };
+type CategoryPageProps = {
+  params: Promise<{ category: string }>;
+  searchParams: Promise<{ brand?: string; sort?: ProductSort }>;
+};
 
-export default async function CategoryPage({ params }: CategoryPageProps) {
+export async function generateMetadata({
+  params,
+}: Pick<CategoryPageProps, "params">): Promise<Metadata> {
   const { category: slug } = await params;
   const category = getCategoryBySlug(slug);
-  if (!category) notFound();
-  const products = getProducts({ category: category.slug });
+  return category ? { title: category.name } : {};
+}
 
+export default async function CategoryPage({
+  params,
+  searchParams,
+}: CategoryPageProps) {
+  const [{ category: slug }, query] = await Promise.all([params, searchParams]);
+  const category = getCategoryBySlug(slug);
+  if (!category) notFound();
+  const filters = {
+    category: category.slug,
+    brand: query.brand,
+    sort: query.sort,
+  };
+  const products = getProducts(filters);
   return (
     <section className="page-container listing-page">
+      <Link className="back-link" href="/shop">
+        ← Shop all products
+      </Link>
       <p className="eyebrow">Catalogue</p>
       <h1>{category.name}</h1>
-      <p className="listing-summary">
-        {category.count} locally captured reference products
-      </p>
-      <div className="product-list">
-        {products.map((product) => (
-          <article className="product-row" key={product.id}>
-            <div>
-              <p className="eyebrow">{product.brand}</p>
-              <h2>{product.name}</h2>
-              {product.specification && <p>{product.specification}</p>}
-            </div>
-            <strong>{formatPrice(product.price)}</strong>
-          </article>
-        ))}
-      </div>
+      <p className="listing-summary">{products.length} products to explore</p>
+      <CatalogFilters action={`/shop/${category.slug}`} query={filters} />
+      <ProductGrid products={products} />
     </section>
   );
 }

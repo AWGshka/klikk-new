@@ -1,15 +1,17 @@
 import Link from "next/link";
-import { getCategories } from "@/lib/catalog/repository";
+import { BasketDrawer } from "@/components/basket/basket-drawer";
+import { getCategories, getProducts } from "@/lib/catalog/repository";
 
 export function Header() {
   const categories = getCategories();
+  const products = getProducts();
 
   return (
     <header className="site-header">
       <div className="utility-bar">
         <div className="page-container utility-content">
           <span>Klikk Computers · Malta</span>
-          <span>Demo storefront — local sample catalogue</span>
+          <span>Technology, service and support</span>
         </div>
       </div>
       <div className="page-container header-main">
@@ -31,7 +33,7 @@ export function Header() {
         </form>
         <nav className="header-actions" aria-label="Utility navigation">
           <Link href="/about">Service</Link>
-          <Link href="/basket">Basket (0)</Link>
+          <BasketDrawer products={products} />
         </nav>
       </div>
       <nav

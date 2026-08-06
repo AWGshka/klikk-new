@@ -8,19 +8,19 @@ Use `Archivo, Arial, Helvetica, sans-serif` as the display and body stack. Archi
 
 ## Tokens
 
-| Token | Value / rule |
-| --- | --- |
-| Canvas | `#f3f2f2` |
-| Paper | `#ffffff` |
-| Ink | `#201e1d` |
-| Accent | `#ec3013`; dark hover `#ae1800` |
-| Supporting accent | `#ffe0d9` |
-| Rules | 1px internal / 2px major boundaries |
-| Radius | None |
-| Shadows | None; hierarchy comes from scale, rules and contrast |
-| Spacing | 8px base, with 16px, 24px, 32px, 48px, 64px and 96px steps |
-| Focus | 3px red-orange outline with 3px offset |
-| Motion | No essential animation; respect reduced-motion preferences |
+| Token             | Value / rule                                               |
+| ----------------- | ---------------------------------------------------------- |
+| Canvas            | `#f3f2f2`                                                  |
+| Paper             | `#ffffff`                                                  |
+| Ink               | `#201e1d`                                                  |
+| Accent            | `#ec3013`; dark hover `#ae1800`                            |
+| Supporting accent | `#ffe0d9`                                                  |
+| Rules             | 1px internal / 2px major boundaries                        |
+| Radius            | None                                                       |
+| Shadows           | None; hierarchy comes from scale, rules and contrast       |
+| Spacing           | 8px base, with 16px, 24px, 32px, 48px, 64px and 96px steps |
+| Focus             | 3px red-orange outline with 3px offset                     |
+| Motion            | No essential animation; respect reduced-motion preferences |
 
 ## Navigation and catalogue rules
 
@@ -39,7 +39,7 @@ The header contains the wordmark, search entry point, service link and basket co
 
 Product cards and details use: brand eyebrow, unmodified captured product name, optional derived short specification, and `en-MT` EUR formatting. No stock, sale percentage, financing, warranty duration or promotion claim is shown unless a future mock record explicitly carries it.
 
-The local catalogue is reference/sample content. It must be described as non-live where it can influence a decision, and must never expose source CDN links in the UI.
+The storefront should read as a polished retail experience. Keep the local catalogue and source-data boundary internal to the implementation, never expose source CDN links, and reserve explicit demo-store language for the checkout confirmation step only.
 
 ## Home content shortlist
 

@@ -35,6 +35,19 @@ const NAVIGATION_CATEGORIES = [
   "Home & Smart",
   "Computing & Accessories",
 ] as const;
+const CATEGORY_ASSET_KEYWORDS: Record<
+  (typeof NAVIGATION_CATEGORIES)[number],
+  RegExp
+> = {
+  Laptops: /laptop/i,
+  "Desktop PCs": /desktop/i,
+  Phones: /smartphone|phone/i,
+  "Tablets & Wearables": /tablet|watch/i,
+  Gaming: /gaming/i,
+  "TV & Audio": /tv|audio|headphone/i,
+  "Home & Smart": /smart home|cleaning|kitchen/i,
+  "Computing & Accessories": /components|printer|accessor/i,
+};
 
 const knownBrandNames = brandData.brands.map((brand) => brand.name);
 const extraBrandNames = [
@@ -97,7 +110,6 @@ function inferSpecification(name: string) {
 
 const products: Product[] = catalogueData.products.map((item) => {
   const category = inferCategory(item.name);
-
   return {
     id: item.id,
     slug: toSlug(item.slug || item.name),
@@ -129,7 +141,7 @@ function compareProducts(sort: ProductSort) {
         first.name.localeCompare(second.name);
     default:
       return (first: Product, second: Product) =>
-        first.name.localeCompare(second.name);
+        first.id.localeCompare(second.id, undefined, { numeric: true });
   }
 }
 
@@ -137,7 +149,6 @@ export function getProducts(query: ProductQuery = {}) {
   const search = query.search?.trim().toLocaleLowerCase();
   const category = query.category ? toSlug(query.category) : undefined;
   const brand = query.brand ? toSlug(query.brand) : undefined;
-
   return products
     .filter((product) => {
       const matchesSearch =
@@ -145,10 +156,11 @@ export function getProducts(query: ProductQuery = {}) {
         [product.name, product.brand, product.category, product.specification]
           .filter((value): value is string => value !== null)
           .some((value) => value.toLocaleLowerCase().includes(search));
-      const matchesCategory = !category || product.categorySlug === category;
-      const matchesBrand = !brand || toSlug(product.brand) === brand;
-
-      return matchesSearch && matchesCategory && matchesBrand;
+      return (
+        matchesSearch &&
+        (!category || product.categorySlug === category) &&
+        (!brand || toSlug(product.brand) === brand)
+      );
     })
     .sort(compareProducts(query.sort ?? "featured"));
 }
@@ -158,19 +170,38 @@ export function getProductBySlug(slug: string) {
 }
 
 export function getCategories() {
-  return NAVIGATION_CATEGORIES.map((name) => ({
-    name,
-    slug: toSlug(name),
-    count: products.filter((product) => product.category === name).length,
-  })).filter((category) => category.count > 0) as Category[];
+  return NAVIGATION_CATEGORIES.map((name) => {
+    const asset = catalogueData.categories.find((category) =>
+      CATEGORY_ASSET_KEYWORDS[name].test(category.name),
+    );
+    return {
+      name,
+      slug: toSlug(name),
+      count: products.filter((product) => product.category === name).length,
+      image: asset ? publicAssetPath(asset.image) : null,
+    };
+  }).filter((category) => category.count > 0) as Category[];
 }
 
 export function getCategoryBySlug(slug: string) {
   return getCategories().find((category) => category.slug === toSlug(slug));
 }
-
 export function getBrands() {
   return brands;
+}
+export function getFeaturedProducts(limit = 8) {
+  return getProducts()
+    .filter((product) => product.price >= 25)
+    .slice(0, limit);
+}
+export function getCampaigns(limit = 2) {
+  return catalogueData.marketingAssets
+    .filter((asset) => asset.kind === "desktop-wide-banner")
+    .slice(0, limit)
+    .map((asset) => ({
+      name: asset.name,
+      image: publicAssetPath(asset.image),
+    }));
 }
 
 export function getRelatedProducts(product: Product, limit = 4) {

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
+import { BasketProvider } from "@/providers/basket-provider";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -8,7 +9,8 @@ export const metadata: Metadata = {
     default: "Klikk — Technology for everyday life",
     template: "%s | Klikk",
   },
-  description: "A local-data demonstration storefront for Klikk Malta.",
+  description:
+    "Discover technology, home, gaming and support from Klikk Malta.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -18,11 +20,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <a className="skip-link" href="#main-content">
           Skip to content
         </a>
-        <Header />
-        <main id="main-content" className="site-main">
-          {children}
-        </main>
-        <Footer />
+        <BasketProvider>
+          <Header />
+          <main id="main-content" className="site-main">
+            {children}
+          </main>
+          <Footer />
+        </BasketProvider>
       </body>
     </html>
   );
